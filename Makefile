@@ -1,5 +1,6 @@
 PACKAGE = elementsofstyle
 
+.PHONY: ChangeLog
 ChangeLog:
 	svn log -rHEAD:0 -v > ChangeLog
 	# For real ChangeLog style, try svn2cl.xsl at http://tiefighter.et.tudelft.nl/~arthur/svn2cl/
