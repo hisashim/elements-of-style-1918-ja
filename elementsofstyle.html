@@ -1,0 +1,3280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>Strunk, William. 1918. The Elements of Style.</title>
+ <style type="text/css">
+  h1 {
+   border: medium outset;
+   padding: 0.5em;
+   page-break-before: right;
+   page-break-after: avoid;
+  }
+  h2 {
+   border-left: thick solid;
+   padding-left: 0.3em;
+   page-break-before: always;
+   page-break-after: avoid;
+  }
+  h3 {
+   page-break-after: avoid;
+  }
+  <!-- these styles are not supported or do not fit to today's browsers
+  h4 {
+   display: run-in;
+   page-break-after: avoid;
+  }
+  h4:after {content: ": ";}
+  kbd {font-family: "Courier New", "Courier", monospace; font-weight: bolder;}
+   -->
+  .chapters > li {
+   list-style-type: upper-roman;
+   counter-reset: rule;  <!-- counter does not work in mozilla or in msie for now -->
+  }
+  .chapters > li {
+   list-style-type: upper-roman;    <!-- list-style-type needs to be written twice.  mozilla's bug? -->
+  }
+  .rules > li:before {
+   content: counter(rule) ".";
+   counter-increment: rule;
+  }
+  .bib > p.h, .toc > p.h {
+   font-family: sans-serif;
+   font-weight: bolder;
+   font-size: larger;
+   border-left: thick solid;
+   padding-left: 0.3em;
+  }
+  .example {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 0.25em 0.25em;
+    border: thin dashed black;
+  }
+  .example p {
+    margin: 0.25em 0.25em 0.25mm 0.25mm;
+    padding: 0em 0em;
+  }
+  .set {
+    border: thin dotted gray;
+    margin: 0.25em 0.25em 0.25em 0.25em;
+    padding: 0em 0em 0em 0em;
+    clear: both;
+    width: 99%;
+  }
+  .example .set .auth {  <!-- a > b selector does not work in msie -->
+    margin: 0em 0em 0em 0em;
+    padding: 0em 2em 0em 0.5em;
+    display: compact;
+    width: 45%;
+    float: left;
+  }
+  .example .set .edit {
+    margin: 0.25em 0em;
+    padding: 0em 0.5em 0em 2em;
+    display: compact;
+    width: auto;
+  }
+  blockquote.example + * {
+    clear: both;
+  }
+  p + br {margin: 0em; padding; 0em;}
+ </style>
+ <!-- language specific style -->
+ <style type="text/css">
+  *[lang="ja"] { line-height: 1.5em; }
+ </style>
+ <style title="ja" type="text/css">
+  *[lang="en"] {display: none;}
+  *[lang="ja"] {display: compact;}
+  p span[lang="--"] + span[lang="ja"] {display: block;} <!-- insert line break between languages -->
+ </style>
+ <style title="en" type="text/css">
+  *[lang="en"] {display: compact;}
+  *[lang="ja"] {display: none;}
+  p span[lang="--"] + span[lang="en"] {display: block;} <!-- insert line break between languages -->
+ </style>
+ <style title="en+ja" type="text/css">
+  *[lang="en"] {display: compact;}
+  *[lang="ja"] {display: compact;}
+  h1 span[lang] + span[lang], 
+  h2 span[lang] + span[lang], 
+  h3 span[lang] + span[lang], 
+  p span[lang] + span[lang] {display: block;} <!-- insert line break between languages -->
+  <!-- p span[lang] + span[lang] + * {display: run-in;} --><!-- run-in is not supported yet -->
+ </style>
+</head>
+<body>
+
+<h1>The Elements of Style</h1>
+
+<p>
+<span lang="--">By William Strunk, Jr.</span>
+<span lang="ja"><br />森田尚 訳 (Japanese translation by Hisashi MORITA, 2005.  This Japanese translation is in public domain; it is provided on an as-is basis and the translator disclaims any responsibility.  Use it at your own risk.)</span>
+</p>
+
+<div class="bib">
+<p class="h"><span lang="en">Bibliographic Record</span>
+             <span lang="ja">書誌情報</span></p>
+<pre>
+           AUTHOR: <a href="http://www.columbia.edu/~svl2/strunk/">Strunk, William</a>, 1869-
+            TITLE: The elements of style/by William Strunk, jr. ...
+        PUBLISHED: Ithaca, N.Y.: Priv. print. [Geneva, N.Y.: Press of 
+                   W.P. Humphrey], 1918.
+ PHYSICAL DETAILS: 43 p. ; 19 cm.
+      ON-LINE ED.: <a href="http://www.columbia.edu/">Columbia University</a>, <a href="http://www.columbia.edu/acis/acistop.html">Academic Information Systems</a>
+                   (AcIS), <a href="http://www.columbia.edu/~svl2/">Project Bartleby</a> (publications@columbia.edu).
+                   Transcribed and released into the public domain, 
+                   May 1995. Markup, graphics, and added files
+                   &copy; copyright 1995 by the Trustees of Columbia 
+                   University in the City of New York.
+</pre>
+<p>
+<span lang="en">The original of this text may be found at <a href="http://www.columbia.edu/acis/bartleby/strunk/">http://www.columbia.edu/acis/bartleby/strunk/</a></span>
+<span lang="ja">原文：<a href="http://www.columbia.edu/acis/bartleby/strunk/">http://www.columbia.edu/acis/bartleby/strunk/</a></span>
+</p>
+</div>
+
+<div class="toc">
+<p class="h">
+<span lang="en">Contents</span>
+<span lang="ja">目次</span>
+</p>
+<ol class="chapters">
+<li><a href="#intro">
+    <span lang="en">Introductory</span>
+    <span lang="ja">序章</span></a></li>
+<li><a href="#usage">
+    <span lang="en">Elementary Rules of Usage</span>
+    <span lang="ja">基本的な用法の原則</span></a>
+    <ol class="rules">
+    <li><a href="#1">
+        <span lang="en">Form the possessive singular of nouns with <em>'s</em></span>
+        <span lang="ja">名詞の所有格単数を<em>'s</em>で作る</span></a></li>
+    <li><a href="#2">
+        <span lang="en">In a series of three or more terms with a single conjunction, use a comma after each term except the last</span>
+        <span lang="ja">単独の接続詞の後に3つかそれ以上の語句が連続する場合、末尾を除く各語句の後にカンマを置く</span></a></li>
+    <li><a href="#3">
+        <span lang="en">Enclose parenthetic expressions between commas</span>
+        <span lang="ja">カンマの間に説明的な表現を挿入する</span></a></li>
+    <li><a href="#4">
+        <span lang="en">Place a comma before <em>and</em> or <em>but</em> introducing an independent clause</span>
+        <span lang="ja">独立した節を導入する<em>and</em>や<em>but</em>の前にはカンマを置く</span></a></li>
+    <li><a href="#5">
+        <span lang="en">Do not join independent clauses by a comma</span>
+        <span lang="ja">独立した節をカンマで接続してはならない</span></a></li>
+    <li><a href="#6">
+        <span lang="en">Do not break sentences in two</span>
+        <span lang="ja">文を2つに分割してはならない</span></a></li>
+    <li><a href="#7">
+        <span lang="en">A participial phrase at the beginning of a sentence must refer to the grammatical subject</span>
+        <span lang="ja">文頭の分詞句は文法上の主語を受けていなければならない</span></a></li>
+    <li><a href="#8">
+        <span lang="en">Divide words at line-ends, in accordance with their formation and pronunciation</span>
+        <span lang="ja">語の構成と発音に従い、行末で語を分割する</span></a></li>
+    </ol>
+</li>
+<li><a href="#composition">
+    <span lang="en">Elementary Principles of Composition</span>
+    <span lang="ja">基本的な文章構成の原則</span></a>
+    <ol class="rules" start="9"><!-- start is obsolete, but mozilla and msie doesnot support counter -->
+    <li><a href="#9">
+        <span lang="en">Make the paragraph the unit of composition: one paragraph to each topic</span>
+        <span lang="ja">パラグラフを文章構成の単位にする: 各トピックにつき1パラグラフ</span></a></li>
+    <li><a href="#10">
+        <span lang="en">As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning</span>
+        <span lang="ja">原則として、パラグラフはトピックセンテンスで始める; 始まりと対応する形で終える</span></a></li>
+    <li><a href="#11">
+        <span lang="en">Use the active voice</span>
+        <span lang="ja">能動態を使う</span></a></li>
+    <li><a href="#12">
+        <span lang="en">Put statements in positive form</span>
+        <span lang="ja">肯定文で記述する</span></a></li>
+    <li><a href="#13">
+        <span lang="en">Omit needless words</span>
+        <span lang="ja">不要な語を省く</span></a></li>
+    <li><a href="#14">
+        <span lang="en">Avoid a succession of loose sentences</span>
+        <span lang="ja">締まりのない文が連続するのを避ける</span></a></li>
+    <li><a href="#15">
+        <span lang="en">Express co-ordinate ideas in similar form</span>
+        <span lang="ja">対等な複数の考えは同じ形で表現する</span></a></li>
+    <li><a href="#16">
+        <span lang="en">Keep related words together</span>
+        <span lang="ja">関係する語句は一緒にしておく</span></a></li>
+    <li><a href="#17">
+        <span lang="en">In summaries, keep to one tense</span>
+        <span lang="ja">サマリでは時制をひとつだけに</span></a></li>
+    <li><a href="#18">
+        <span lang="en">Place the emphatic words of a sentence at the end</span>
+        <span lang="ja">強調する語は一文の中で最後に置く</span></a></li>
+    </ol>
+</li>
+<li><a href="#form">
+    <span lang="en">Few Matters of Form</span>
+    <span lang="ja">形式に関するいくつかの問題</span></a></li>
+<li><a href="#words">
+    <span lang="en">Words and Expressions Commonly Misused</span>
+    <span lang="ja">単語と表現でよくある間違い</span></a></li>
+<li><a href="#spell">
+    <span lang="en">Words Commonly Misspelled</span>
+    <span lang="ja">よくある綴りの間違い</span></a></li>
+</ol>
+</div>
+
+<hr />
+
+<h2><a name="intro">I. 
+<span lang="en">Introductory</span>
+<span lang="ja">序章</span>
+</a></h2>
+
+<p>
+<span lang="en">This book is intended for use in English courses in which the practice of composition is combined with the study of literature. It aims to give in brief space the principal requirements of plain English style. It aims to lighten the task of instructor and student by concentrating attention (in Chapters II and III) on a few essentials, the rules of usage and principles of composition most commonly violated. The numbers of the sections may be used as references in correcting manuscript.</span>
+<span lang="ja">この本は、文章構成の練習と文学の研究とを兼ねた英語のコースで使われることを想定している。この本では、平易な英語のスタイルに関する一番大事な必要条件を、手短に示すつもりだ。この本では、いくつかの本質的要素、つまり最も間違えられることが多い語法のルールおよび文章構成の原則とに（第II章と第III章で）注意力を集中することにより、講師と生徒の負荷を軽減することをねらっている。セクションの番号は原稿を修正する際のリファレンスとして役に立つだろう。</span>
+</p>
+<p>
+<span lang="en">The book covers only a small portion of the field of English style, but the experience of its writer has been that once past the essentials, students profit most by individual instruction based on the problems of their own work, and that each instructor has his own body of theory, which he prefers to that offered by any textbook.</span>
+<span lang="ja">この本は英語のスタイルという分野のほんのわずかの部分をカバーするに過ぎない。だが筆者の経験では、いったん本質的な要素をものにしてしまえば、生徒にとって一番効果が高いのは自分が書いた文章の問題点に基づいて個別指導を受けることであり、講師はみなそれぞれ自分なりの理論体系を持っていて、どんな教科書で示されたものよりも自分の理論体系を好むものだ。</span>
+</p>
+<p>
+<span lang="en">The writer's colleagues in the Department of English in Cornell University have greatly helped him in the preparation of his manuscript. Mr. George McLane Wood has kindly consented to the inclusion under Rule 11 of some material from his <em>Suggestions to Authors.</em></span>
+<span lang="ja">Cornell大学の英語部門における筆者の同僚たちは、原稿を準備するにあたって多大な協力をしてくれた。George McLane Wood氏は親切にも、彼の「書き手への提言」（<em>Suggestions to Authors.</em>）に由来する材料の一部分をルール11の配下に含めることに同意してくれた。</span>
+</p>
+<p>
+<span lang="en">The following books are recommended for reference or further study: in connection with Chapters II and IV, F. Howard Collins, <em>Author and Printer</em> (Henry Frowde); Chicago University Press, <em>Manual of Style;</em> T. L. De Vinne <em>Correct Composition</em> (The Century Company); Horace Hart, <em>Rules for Compositors and Printers</em> (Oxford University Press); George McLane Wood, <em>Extracts from the Style-Book of the Government Printing Office</em> (United States Geological Survey); in connection with Chapters III and V, Sir Arthur Quiller-Couch, <em>The Art of Writing</em> (Putnams), especially the chapter, Interlude on Jargon; George McLane Wood, <em>Suggestions to Authors</em> (United States Geological Survey); John Leslie Hall, <em>English Usage</em> (Scott, Foresman and Co.); James P. Kelly, <em>Workmanship in Words</em> (Little, Brown and Co.).</span>
+<span lang="ja">次の書籍を、さらに進んで学ぶ際の資料として推奨する: 第II章と第IV章に関連して、F. Howard Collins, <em>Author and Printer</em> (Henry Frowde); Chicago University Press, <em>Manual of Style;</em> T. L. De Vinne <em>Correct Composition</em> (The Century Company); Horace Hart, <em>Rules for Compositors and Printers</em> (Oxford University Press); George McLane Wood, <em>Extracts from the Style-Book of the Government Printing Office</em> (United States Geological Survey); 第III章と第V章に関連して、Sir Arthur Quiller-Couch, <em>The Art of Writing</em> (Putnams), 特にInterlude on Jargonの章; George McLane Wood, <em>Suggestions to Authors</em> (United States Geological Survey); John Leslie Hall, <em>English Usage</em> (Scott, Foresman and Co.); James P. Kelly, <em>Workmanship in Words</em> (Little, Brown and Co.).</span>
+</p>
+<p>
+<span lang="en">It is an old observation that the best writers sometimes disregard the rules of rhetoric. When they do so, however, the reader will usually find in the sentence some compensating merit, attained at the cost of the violation. Unless he is certain of doing as well, he will probably do best to follow the rules. After he has learned, by their guidance, to write plain English adequate for everyday uses, let him look, for the secrets of style, to the study of the masters of literature.</span>
+<span lang="ja">この上なく優れた書き手は時にレトリックのルールを破ることがあると、古くから知られている。しかしながら彼らがそうするときはたいてい、その文にはルールを破るに値するメリットがあることが、読み手にも分かるものだ。同様にうまく書けるという確信がない限り、おそらく原則を守るのが最善だろう。優れた書き手の指導により、日常利用に適した簡素な英語を書くことを学んだその後で、スタイルの秘密を探求させ、文学の達人たちを研究することへと目を向けさせよう。</span>
+</p>
+
+<hr />
+
+<h2><a name="usage">II. 
+<span lang="en">Elementary Rules of Usage</span>
+<span lang="ja">基本的な用法の原則</span>
+</a></h2>
+
+<h3><a name="1">1. 
+<span lang="en">Form the possessive singular of nouns with 's</span>
+<span lang="ja">名詞の所有格単数を'sで作る</span>
+</a></h3>
+
+<p>
+<span lang="en">Follow this rule whatever the final consonant. Thus write,</span>
+<span lang="ja">最後の子音が何であれこのルールを守ること。したがって次のように書く。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Charles's friend
+</p>
+<p>
+Burns's poems
+</p>
+<p>
+the witch's malice
+</p>
+</blockquote>
+
+<p>
+<span lang="en">This is the usage of the United States Government Printing Office and of the Oxford University Press.</span>
+<span lang="ja">これがUnited States Government Printing OfficeおよびOxford University Pressでの用法である。</span>
+</p>
+<p>
+<span lang="en">Exceptions are the possessives of ancient proper names in <em>-es</em> and <em>-is,</em> the possessive <em>Jesus',</em> and such forms as <em>for conscience' sake, for righteousness' sake.</em> But such forms as <em>Achilles' heel, Moses' laws, Isis' temple</em> are commonly replaced by</span>
+<span lang="ja">例外は、古来の固有名詞で<em>-es</em>と<em>-is</em>で終わるものの場合だ。例えば所有格の<em>Jesus'</em>や、<em>for conscience' sake, for righteousness' sake</em>といった形式だ。しかし<em>Achilles' heel, Moses' laws, Isis' temple</em>といった形式は、たいてい次のように置き換えられる。</span>
+</p>
+
+<blockquote class="example">
+<p>the heel of Achilles</p>
+<p>the laws of Moses</p>
+<p>the temple of Isis</p>
+</blockquote>
+
+<p>
+<span lang="en">The pronominal possessives <em>hers, its, theirs, yours,</em> and <em>oneself</em> have no apostrophe.</span>
+<span lang="ja">代名詞の所有格である<em>hers, its, theirs, yours</em>および<em>oneself</em>にはアポストロフィを付けない。</span>
+</p>
+
+<h3><a name="2">2. 
+<span lang="en">In a series of three or more terms with a single conjunction, use a comma after each term except the last</span>
+<span lang="ja">単独の接続詞の後に3つかそれ以上の語句が連続する場合、末尾を除く各語句の後にカンマを置く</span>
+</a></h3>
+
+<p>
+<span lang="en">Thus write,</span>
+<span lang="ja">したがってこう書く。</span>
+</p>
+
+<blockquote class="example">
+<p>red, white, and blue</p>
+<p>honest, energetic, but headstrong</p>
+<p>He opened the letter, read it, and made a note of its contents.</p>
+</blockquote>
+
+<p>
+<span lang="en">This is also the usage of the Government Printing Office and of the Oxford University Press.</span>
+<span lang="ja">これもGovernment Printing OfficeおよびOxford University Pressでの用法である。</span>
+</p>
+<p>
+<span lang="en">In the names of business firms the last comma is omitted, as</span>
+<span lang="ja">企業の名称では、最後のカンマは次のように省略される。</span>
+</p>
+
+<blockquote class="example">
+<p>Brown, Shipley and Company</p>
+</blockquote>
+
+<p>
+<span lang="en">The abbreviation <em><a href="#15">etc</a>.,</em> even if only a single term comes before it, is always preceded by a comma.</span>
+<span lang="ja"><em><a href="#15">etc</a>.</em>という略語は、もしもその前にあるのが単独の語句だったとしても、常に直前にカンマを付ける。</span>
+</p>
+
+<h3><a name="3">3. 
+<span lang="en">Enclose parenthetic expressions between commas</span>
+<span lang="ja">カンマの間に挿入句的な表現を挿入する</span>
+</a></h3>
+
+<blockquote class="example">
+<p>
+The best way to see a country, unless you are pressed for time, is to travel on foot.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">This rule is difficult to apply; it is frequently hard to decide whether a single word, such as <em><a href="#21">however</a>,</em> or a brief phrase, is or is not parenthetic. If the interruption to the flow of the sentence is but slight, the writer may safely omit the commas. But whether the interruption be slight or considerable, he must never omit one comma and leave the other. Such punctuation as</span>
+<span lang="ja">このルールは適用するのが難しい。<em><a href="#21">however</a></em>のように単独の語や短い語句が、挿入句（parenthetic）なのかどうかは、見極めにくいことがよくある。もし文の流れにわずかしか割り込まないのであれば、カンマを省略しても問題ない。しかし割り込みがわずかであろうと相当であろうと、カンマを1つだけ略して他をそのままにするということは許されない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Marjorie's husband, Colonel Nelson paid us a visit yesterday,
+</p>
+</blockquote>
+
+<p>
+<span lang="en">or</span>
+<span lang="ja">あるいは</span>
+</p>
+
+<blockquote class="example">
+<p>
+My brother you will be pleased to hear, is now in perfect health,
+</p>
+</blockquote>
+
+<p>
+<span lang="en">is indefensible.</span>
+<span lang="ja">のような句読点の打ち方は、弁護の余地なく誤りだ。</span>
+</p>
+<p>
+<span lang="en">Non-restrictive relative clauses are, in accordance with this rule, set off by commas.</span>
+<span lang="ja">非制限的関係節（Non-restrictive relative clauses）は、このルールに従ってカンマで区切られる。</span>
+</p>
+
+<blockquote class="example">
+<p>
+The audience, which had at first been indifferent, became more and more interested.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Similar clauses introduced by <em>where</em> and <em>when</em> are similarly punctuated.</span>
+<span lang="ja"><em>where</em>および<em>when</em>によって導入される同様の節も、同様に句読点を打つ。</span>
+</p>
+
+<blockquote class="example">
+<p>
+In 1769, when Napoleon was born, Corsica had but recently been acquired by France.
+</p>
+<p>
+Nether Stowey, where Coleridge wrote <em>The Rime of the Ancient Mariner,</em> is a few miles from Bridgewater.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">In these sentences the clauses introduced by <em>which, when,</em> and <em>where</em> are non-restrictive; they do not limit the application of the words on which they depend, but add, parenthetically, statements supplementing those in the principal clauses. Each sentence is a combination of two statements which might have been made independently.</span>
+<span lang="ja">これらの文において、<em>which, when</em>および<em>where</em>によって導かれる節は非制限的だ。これらの節は従属している語の適用を制限せずに、挿入句的に平叙文（statements）を付け加えて主部を補う。各文はそれぞれ独立可能な2つの平叙文の組み合わせから成っている。</span>
+</p>
+
+<blockquote class="example">
+<p>
+The audience was at first indifferent. Later it became more and more interested.
+</p>
+<p>
+Napoleon was born in 1769. At that time Corsica had but recently been acquired by France.
+</p>
+<p>
+Coleridge wrote <em>The Rime of the Ancient Mariner</em> at Nether Stowey. Nether Stowey is only a few miles from Bridgewater.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Restrictive relative clauses are not set off by commas.</span>
+<span lang="ja">制限的な関係節（Restrictive relative clauses）はカンマで区切らない。</span>
+</p>
+
+<blockquote class="example">
+<p>The candidate who best meets these requirements will obtain the place.</p>
+</blockquote>
+<p>
+<span lang="en">In this sentence the relative clause restricts the application of the word <em>candidate</em> to a single person. Unlike those above, the sentence cannot be split into two independent statements.</span>
+<span lang="ja">この文では、単独の人物に対する<em>candidate</em>という語の適用を、関係節が制限している。これまでの例とは異なり、この文は2つの独立した平叙文に分離できない。</span>
+</p>
+<p>
+<span lang="en">The abbreviations <em><a href="#15">etc</a>.</em> and <em>jr.</em> are always preceded by a comma, and except at the end of a sentence, followed by one.</span>
+<span lang="ja"><em><a href="#15">etc</a>.</em>あるいは<em>jr.</em>という略称は、常に直前にカンマがくる。そして文末にあるときを除いて常に直後にカンマがくる。</span>
+</p>
+<p>
+<span lang="en">Similar in principle to the enclosing of parenthetic expressions between commas is the setting off by commas of phrases or dependent clauses preceding or following the main clause of a sentence. The sentences quoted in this section and under Rules <a href="#4">4</a>, <a href="#5">5</a>, <a href="#6">6</a>, <a href="#7">7</a>, <a href="#16">16</a>, and <a href="#18">18</a> should afford sufficient guidance.</span>
+<span lang="ja">挿入句的表現をカンマで囲むのと基本的には同様に、文の主部のすぐ前あるいはすぐ後にくる句または従属節は、カンマで区切る。このセクションのルール<a href="#4">4</a>, <a href="#5">5</a>, <a href="#6">6</a>, <a href="#7">7</a>, <a href="#16">16</a>および<a href="#18">18</a>で引用された文が十分な説明となるだろう。</span>
+</p>
+<p>
+<span lang="en">If a parenthetic expression is preceded by a conjunction, place the first comma before the conjunction, not after it.</span>
+<span lang="ja">もし挿入句的な表現の前に接続詞が置かれているなら、最初のカンマを接続詞の後ではなく前に置くこと。</span>
+</p>
+
+<blockquote class="example">
+<p>He saw us coming, and unaware that we had learned of his treachery, greeted us with a smile.</p>
+</blockquote>
+
+<h3><a name="4">4. 
+<span lang="en">Place a comma before <em>and</em> or <em>but</em> introducing an independent clause</span>
+<span lang="ja">独立した節を導入する<em>and</em>や<em>but</em>の前にはカンマを置く</span>
+</a></h3>
+
+<blockquote class="example">
+<p>
+The early records of the city have disappeared, and the story of its first years can no longer be reconstructed.
+</p>
+<p>
+The situation is perilous, but there is still one chance of escape.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Sentences of this type, isolated from their context, may seem to be in need of rewriting. As they make complete sense when the comma is reached, the second clause has the appearance of an after-thought. Further, <em>and,</em> is the least specific of connectives. Used between independent clauses, it indicates only that a relation exists between them without defining that relation. In the example above, the relation is that of cause and result. The two sentences might be rewritten:</span>
+<span lang="ja">この種の文は、文脈を別にすれば、書き直す必要があるかのように見えるかもしれない。これらの文はカンマに達したときに完全に意味を成すので、2番目の節は追加表現のように見える。そのうえ、<em>and</em>は接続詞のなかで最もあいまいなものだ。独立した節の間で使われた場合、2つの節に何らかの関係があることを示すが、その関係がどのようなものであるかをはっきり示さない。上記の例では、両者の関係は原因と結果だ。2つの文は次のように書き換えられる：</span>
+</p>
+
+<blockquote class="example">
+<p>
+As the early records of the city have disappeared, the story of its first years can no longer be reconstructed.
+</p>
+<p>
+Although the situation is perilous, there is still one chance of escape.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Or the subordinate clauses might be replaced by phrases:</span>
+<span lang="ja">もしくは、従属節を句で置き換えてもよい：</span>
+</p>
+
+<blockquote class="example">
+<p>
+Owing to the disappearance of the early records of the city, the story of its first years can no longer be reconstructed.
+</p>
+<p>
+In this perilous situation, there is still one chance of escape.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">But a writer may err by making his sentences too uniformly compact and periodic, and an occasional loose sentence prevents the style from becoming too formal and gives the reader a certain relief. Consequently, loose sentences of the type first quoted are common in easy, unstudied writing. But a writer should be careful not to construct too many of his sentences after this pattern (see Rule <a href="#14">14</a>).</span>
+<span lang="ja">しかし書き手は、文をあまりに満遍なく短く掉尾文調（periodic）にしてしまうという間違いを犯すかもしれないし、ところどころに緩い文があると文体が極端に堅苦しくはならず、読み手はそれなりの息抜きができる。よって、最初に引用したような緩い文は、気楽で自然体な書き物でよくみられる。しかし書き手は、あまり多くの文をこのパターンで書いてしまわないよう、注意しなければならない（ルール<a href="#14">14</a>を参照）。</span>
+</p>
+<p>
+<span lang="en">Two-part sentences of which the second member is introduced by <em>as</em> (in the sense of <em>because</em>), <em>for, or, nor,</em> and <em>while</em> (in the sense of <em>and at the same time</em>) likewise require a comma before the conjunction.</span>
+<span lang="ja">2つの部分から成り、2番目の部分が（becauseの意の）<em>as, for, or, nor</em>および（<em>and at the same time</em>の意の）<em>while</em>で始まる文も同様に、接続詞の前にカンマが必要となる。</span>
+</p>
+<p>
+<span lang="en">If a dependent clause, or an introductory phrase requiring to be set off by a comma, precedes the second independent clause, no comma is needed after the conjunction.</span>
+<span lang="ja">もし、従属節またはカンマで区切られるべき導入句が、2番目の独立した節（主節）の前にある場合は、接続詞の後にカンマは必要ない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+The situation is perilous, but if we are prepared to act promptly, there is still one chance of escape.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">For two-part sentences connected by an adverb, see the next section.</span>
+<span lang="ja">副詞で接続された、2つの部分から成る文については、次のセクションを参照。</span>
+</p>
+
+<h3><a name="5">5. 
+<span lang="en">Do not join independent clauses by a comma</span>
+<span lang="ja">独立した節をカンマで接続してはならない</span>
+</a></h3>
+
+<p>
+<span lang="en">If two or more clauses, grammatically complete and not joined by a conjunction, are to form a single compound sentence, the proper mark of punctuation is a semicolon.</span>
+<span lang="ja">もし、文法上完全でかつ接続詞で接続されていない2つ以上の節が、単一の複合文を構成するときは、句読点として正しい記号はセミコロンだ。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Stevenson's romances are entertaining; they are full of exciting adventures.
+</p>
+<p>
+It is nearly half past five; we cannot reach town before dark.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">It is of course equally correct to write the above as two sentences each, replacing the semicolons by periods.</span>
+<span lang="ja">もちろん上記を、セミコロンをピリオドに置き換えてそれぞれ2つの文として書くのも正しい。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Stevenson's romances are entertaining. They are full of exciting adventures.
+</p>
+<p>
+It is nearly half past five. We cannot reach town before dark.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">If a conjunction is inserted, the proper mark is a comma (Rule <a href="#4">4</a>).</span>
+<span lang="ja">もし接続詞が挿入されたなら、適切な記号はカンマとなる（ルール<a href="#4">4</a>）。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Stevenson's romances are entertaining, for they are full of exciting adventures.
+</p>
+<p>
+It is nearly half past five, and we cannot reach town before dark.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Note that if the second clause is preceded by an adverb, such as <em>accordingly, besides, so, then, therefore,</em> or <em>thus,</em> and not by a conjunction, the semicolon is still required.</span>
+<span lang="ja">ここで注意。もし2番目の節の前に、接続詞ではなく、<em>accordingly, besides, so, then, therefore</em>または<em>thus</em>といった副詞がきていたら、やはりセミコロンが必要になる。</span>
+</p>
+
+<blockquote class="example">
+<p>
+I had never been in the place before; so I had difficulty in finding my way about.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">In general, however, it is best, in writing, to avoid using <em>so</em> in this manner; there is danger that the writer who uses it at all may use it too often. A simple correction, usually serviceable, is to omit the word <em>so,</em> and begin the first clause with <em>as:</em></span>
+<span lang="ja">しかしながら一般的には、ライティングにおいてはこのようなやり方で<em>so</em>を使うことは避けるのが最善だ。危険なことに、それを少しでも使う書き手は、使いすぎの気がある。これを直すための、簡単でたいてい役に立つ方法は、<em>so</em>という単語を使わずに、最初の節を<em>as</em>で始めることだ：</span>
+</p>
+
+<blockquote class="example">
+<p>
+As I had never been in the place before, I had difficulty in finding my way about.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">If the clauses are very short, and are alike in form, a comma is usually permissible:</span>
+<span lang="ja">もし節がとても短くて、互いに形式が似ていたら、カンマでも通常は差し支えない：</span>
+</p>
+
+<blockquote class="example">
+<p>
+Man proposes, God disposes.
+</p>
+<p>
+The gate swung apart, the bridge fell, the portcullis was drawn up.
+</p>
+</blockquote>
+
+<h3><a name="6">6. 
+<span lang="en">Do not break sentences in two</span>
+<span lang="ja">文を2つに分割してはならない</span>
+</a></h3>
+
+<p>
+<span lang="en">In other words, do not use periods for commas.</span>
+<span lang="ja">別の言い方をすれば、カンマの代わりにピリオドを使ってはならない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+I met them on a Cunard liner several years ago. Coming home from Liverpool to New York.
+</p>
+<p>
+He was an interesting talker. A man who had traveled all over the world, and lived in half a dozen countries.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">In both these examples, the first period should be replaced by a comma, and the following word begun with a small letter.</span>
+<span lang="ja">これらの例のどちらにおいても、最初のピリオドはカンマで置き換えられるべきで、続く語は小文字で始まるべきだ。</span>
+</p>
+<p>
+<span lang="en">It is permissible to make an emphatic word or expression serve the purpose of a sentence and to punctuate it accordingly:</span>
+<span lang="ja">文の目的に合わせて語や表現を強調し、そのために句読点を打つことは許容される。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Again and again he called out. No reply.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The writer must, however, be certain that the emphasis is warranted, and that he will not be suspected of a mere blunder in punctuation.</span>
+<span lang="ja">しかしながら書き手は、その強調が正当なものであることに、そして単に句読点の打ち方を間違えているのではないかと疑われないことに、確信がなければならない。</span>
+</p>
+<p>
+<span lang="en">Rules <a href="#3">3</a>, <a href="#4">4</a>, <a href="#5">5</a>, and <a href="#6">6</a> cover the most important principles in the punctuation of ordinary sentences; they should be so thoroughly mastered that their application becomes second nature.</span>
+<span lang="ja">ルール<a href="#3">3</a>, <a href="#4">4</a>, <a href="#5">5</a>および<a href="#6">6</a>は、通常の文の句読法における最も重要な原則をカバーする。これらの原則は完全にマスターし、第二の天性のように習慣として使いこなせなければならない。</span>
+</p>
+
+<h3><a name="7">7. 
+<span lang="en">A participial phrase at the beginning of a sentence must refer to the grammatical subject</span>
+<span lang="ja">文頭の分詞句は文法上の主語を受けていなければならない</span>
+</a></h3>
+
+<blockquote class="example">
+<p>
+Walking slowly down the road, he saw a woman accompanied by two children.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The word <em>walking</em> refers to the subject of the sentence, not to the woman. If the writer wishes to make it refer to the woman, he must recast the sentence:</span>
+<span lang="ja"><em>walking</em>という語は文の主語を受けており、womanを受けてはいない。もし書き手がそれでwomanを受けるようにしたいのであれば、文を書き直さなければならない：</span>
+</p>
+
+<blockquote class="example">
+<p>
+He saw a woman, accompanied by two children, walking slowly down the road.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Participial phrases preceded by a conjunction or by a preposition, nouns in apposition, adjectives, and adjective phrases come under the same rule if they begin the sentence.</span>
+<span lang="ja">接続詞または前置詞が前にきている分詞句、同格の名詞、形容詞、形容詞句は、それらが文頭にある場合、同じルールに従う。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth">
+<span lang="--">On arriving in Chicago, his friends met him at the station.</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">When he arrived (or, On his arrival) in Chicago, his friends met him at the station.</span>
+<br style="clear: both;" />
+</p>
+</div>
+<div class="set">
+<p class="auth">
+<span lang="--">A soldier of proved valor, they entrusted him with the defence of the city.</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">A soldier of proved valor, he was entrusted with the defence of the city.</span>
+<br style="clear: both;" />
+</p>
+</div>
+<div class="set">
+<p class="auth">
+<span lang="--">Young and inexperienced, the task seemed easy to me.</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Young and inexperienced, I thought the task easy.</span>
+<br style="clear: both;" />
+</p>
+</div>
+<div class="set">
+<p class="auth">
+<span lang="--">Without a friend to counsel him, the temptation proved irresistible.</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Without a friend to counsel him, he found the temptation irresistible.</span>
+<br style="clear: both;" />
+</p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">Sentences violating this rule are often ludicrous.</span>
+<span lang="ja">このルールに違反した文は、たいてい滑稽なものだ。</span>
+</p>
+
+<blockquote class="example">
+<p>
+Being in a dilapidated condition, I was able to buy the house very cheap.
+</p>
+</blockquote>
+
+<h3><a name="8">8. 
+<span lang="en">Divide words at line-ends, in accordance with their formation and pronunciation</span>
+<span lang="ja">語の構成と発音に従い、行末で語を分割する</span>
+</a></h3>
+
+<p>
+<span lang="en">If there is room at the end of a line for one or more syllables of a word, but not for the whole word, divide the word, unless this involves cutting off only a single letter, or cutting off only two letters of a long word. No hard and fast rule for all words can be laid down. The principles most frequently applicable are:</span>
+<span lang="ja">もし行末に、語のうちの1音節以上が入る余裕があるが、語全体が入るほどの余裕はない場合、語を分割する。ただし1文字だけを切り落としたり、長い語の2文字だけを切り落としたりするようなことになってはいけない。どんな語にも適用できる、確実で手間いらずのルールを定めることはできない。適用できる場合が最も多い原則は次のものだ：</span>
+</p>
+
+<ol>
+<li><span lang="en">Divide the word according to its formation:</span>
+    <span lang="ja">語の構成によって分割する：</span>
+    <blockquote class="example">
+    <p>know-ledge (not knowl-edge); Shake-speare (not Shakes-peare); de-scribe (not des-cribe); atmo-sphere (not atmos-phere);</p>
+    </blockquote></li>
+<li><span lang="en">Divide "on the vowel:"</span>
+    <span lang="ja">「母音の上で」分割する：</span>
+    <blockquote class="example">
+    <p>edi-ble (not ed-ible); propo-sition; ordi-nary; espe-cial; reli-gious; oppo-nents; regu-lar; classi-fi-ca-tion (three divisions possible); deco-rative; presi-dent;</p>
+    </blockquote></li>
+<li><span lang="en">Divide between double letters, unless they come at the end of the simple form of the word:</span>
+    <span lang="ja">二重になった文字の間で分割する、ただし語中の単純な構造の最後にくる場合を除く：</span>
+    <blockquote class="example">
+    <p>Apen-nines; Cincin-nati; refer-ring; but tell-ing.</p>
+    </blockquote></li>
+</ol>
+
+<p>
+<span lang="en">The treatment of consonants in combination is best shown from examples:</span>
+<span lang="ja">組み合わさった子音の扱いは、例を見るのが一番だろう：</span>
+</p>
+
+<blockquote class="example">
+<p>
+for-tune; pic-ture; presump-tuous; illus-tration; sub-stan-tial (either division); indus-try; instruc-tion; sug-ges-tion; incen-diary.
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The student will do well to examine the syllable-division in a number of pages of any carefully printed book.</span>
+<span lang="ja">丁寧に印刷された本の何ページにもわたって音節の分割を調べるという仕事を、学生は見事にこなすだろう。</span>
+</p>
+
+<hr />
+
+<h2><a name="composition">III. 
+<span lang="en">Elementary Principles of Composition</span>
+<span lang="ja">基本的な文章構成の原則</span>
+</a></h2>
+
+<h3><a name="9">9. 
+<span lang="en">Make the paragraph the unit of composition: one paragraph to each topic.</span>
+<span lang="ja">パラグラフを文章構成の単位にする: 各トピックにつき1パラグラフ</span>
+</a></h3>
+
+<p>
+<span lang="en">If the subject on which you are writing is of slight extent, or if you intend to treat it very briefly, there may be no need of subdividing it into topics. Thus a brief description, a brief summary of a literary work, a brief account of a single incident, a narrative merely outlining an action, the setting forth of a single idea, any one of these is best written in a single paragraph. After the paragraph has been written, it should be examined to see whether subdivision will not improve it.</span>
+<span lang="ja">もし書いている対象がわずかの広がりしか持たないか、または対象をごく手短にしか扱う気がないのであれば、複数のトピックに分割する必要はないだろう。よって、短い記述、文学作品の短い要約、ひとつの出来事についての短い説明、ひとつの行為の概略を示すだけの談話、単一の考えについての論述、これらはいずれも単一のパラグラフで書くのが最善だ。パラグラフを書いた後で、さらに分割することでより良くできるかどうかを考えればよい。</span>
+</p>
+<p>
+<span lang="en">Ordinarily, however, a subject requires subdivision into topics, each of which should be made the subject of a paragraph. The object of treating each topic in a paragraph by itself is, of course, to aid the reader. The beginning of each paragraph is a signal to him that a new step in the development of the subject has been reached.</span>
+<span lang="ja">しかしながら普通は、主題は複数のトピックに分ける必要がある。各トピックはパラグラフの主題となるべきものだ。各トピックをパラグラフで単独に扱う目的は、もちろん読み手を助けるためだ。各パラグラフの冒頭は読み手にとっての信号で、主題が発展する新しいステップに達したことを示す。</span>
+</p>
+<p>
+<span lang="en">The extent of subdivision will vary with the length of the composition. For example, a short notice of a book or poem might consist of a single paragraph. One slightly longer might consist of two paragraphs:</span>
+<span lang="ja">分割の度合は、文章の長さによって異なるだろう。例えば、本や詩の短い説明は単一のパラグラフから成っているかもしれない。もう少し長いものは2つのパラグラフから成っているかもしれない：</span>
+</p>
+
+<ol style="list-style-type: upper-alpha;">
+<li><span lang="--">Account of the work.</span>
+    <span lang="ja">（作品の説明）</span></li>
+<li><span lang="--">Critical discussion.</span>
+    <span lang="ja">（批判的な議論）</span></li>
+</ol>
+
+<p>
+<span lang="en">A report on a poem, written for a class in literature, might consist of seven paragraphs:</span>
+<span lang="ja">文学のクラスのために書かれた詩のリポートは、7つのパラグラフから構成されうる：</span>
+</p>
+
+<ol style="list-style-type: upper-alpha;">
+<li><span lang="--">Facts of composition and publication.</span>
+    <span lang="ja">（文章と出版に関する事実関係）</span></li>
+<li><span lang="--">Kind of poem; metrical form.</span>
+    <span lang="ja">（詩の種類；韻文の形式）</span></li>
+<li><span lang="--">Subject.</span>
+    <span lang="ja">（主題）</span></li>
+<li><span lang="--">Treatment of subject.</span>
+    <span lang="ja">（主題の取り扱い）</span></li>
+<li><span lang="--">For what chiefly remarkable.</span>
+    <span lang="ja">（主にどこが注目すべきか）</span></li>
+<li><span lang="--">Wherein characteristic of the writer.</span>
+    <span lang="ja">（書き手の特徴が表れているのはどこか）</span></li>
+<li><span lang="--">Relationship to other works.</span>
+    <span lang="ja">（他の作品との関連）</span></li>
+</ol>
+
+<p>
+<span lang="en">The contents of paragraphs C and D would vary with the poem. Usually, paragraph C would indicate the actual or imagined circumstances of the poem (the situation), if these call for explanation, and would then state the subject and outline its development. If the poem is a narrative in the third person throughout, paragraph C need contain no more than a concise summary of the action. Paragraph D would indicate the leading ideas and show how they are made prominent, or would indicate what points in the narrative are chiefly emphasized.</span>
+<span lang="ja">パラグラフCとDは、詩によって異なるだろう。通常、パラグラフCとDは、もし説明が必要であれば詩の実際のあるいは想像上の事情（状況）を示し、そして主題と展開の概略を述べるだろう。もし詩が最初から最後まで第三者の視点による談話であるなら、パラグラフCには行為の簡潔な要約以上のものを含める必要はない。パラグラフDは、主要なアイディアを示し、なぜそれらが他よりも重要なものとされているかを説明するだろう。または物語のどの点が最も強調されているかを示すだろう。</span>
+</p>
+<p>
+<span lang="en">A novel might be discussed under the heads:</span>
+<span lang="ja">小説は次の見出しの下で議論されうる：</span>
+</p>
+
+<ol style="list-style-type: upper-alpha;">
+<li><span lang="--">Setting.</span>
+    <span lang="ja">（設定）</span></li>
+<li><span lang="--">Plot.</span>
+    <span lang="ja">（筋書き）</span></li>
+<li><span lang="--">Characters.</span>
+    <span lang="ja">（登場人物）</span></li>
+<li><span lang="--">Purpose.</span>
+    <span lang="ja">（目的）</span></li>
+</ol>
+
+<p>
+<span lang="en">A historical event might be discussed under the heads:</span>
+<span lang="ja">歴史的な出来事は次の見出しの下で議論されうる：</span>
+</p>
+
+<ol style="list-style-type: upper-alpha;">
+<li><span lang="--">What led up to the event.</span>
+    <span lang="ja">（その事件の伏線、原因）</span></li>
+<li><span lang="--">Account of the event.</span>
+    <span lang="ja">（事件の説明）</span></li>
+<li><span lang="--">What the event lead up to.</span>
+    <span lang="ja">（その事件が誘発したもの）</span></li>
+</ol>
+
+<p>
+<span lang="en">In treating either of these last two subjects, the writer would probably find it necessary to subdivide one or more of the topics here given.</span>
+<span lang="ja">最後の2つの主題は、どちらを扱うにしても、書き手はおそらくここに挙げたトピックのひとつかふたつをさらに細分する必要性を感じるだろう。</span>
+</p>
+<p>
+<span lang="en">As a rule, single sentences should not be written or printed as paragraphs. An exception may be made of sentences of transition, indicating the relation between the parts of an exposition or argument.</span>
+<span lang="ja">原則として、単一の文はパラグラフとして書かれたり印刷されたりしてはならない。例外を挙げるなら、説明や議論の部分同士がどういう関係にあるかを示す、変わり目の文だろう。</span>
+</p>
+<p>
+<span lang="en">In dialogue, each speech, even if only a single word, is a paragraph by itself; that is, a new paragraph begins with each change of speaker. The application of this rule, when dialogue and narrative are combined, is best learned from examples in well-printed works of fiction.</span>
+<span lang="ja">対話文における一つひとつの発言は、もし単一の語だったとしても、それ自体でパラグラフとなる。つまり、話者が変わるごとに新しいパラグラフが始まる。対話文（dialogue）と物語（narrative）が組み合わさったときにこのルールをどう適用するかは、うまく書かれたフィクションを例にして学ぶのが一番だ。</span>
+</p>
+
+<h3><a name="10">10. 
+<span lang="en">As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning</span>
+<span lang="ja">原則として、パラグラフはトピックセンテンスで始める; 始まりと対応する形で終える</span>
+</a></h3>
+
+<p>
+<span lang="en">Again, the object is to aid the reader. The practice here recommended enables him to discover the purpose of each paragraph as he begins to read it, and to retain the purpose in mind as he ends it. For this reason, the most generally useful kind of paragraph, particularly in exposition and argument, is that in which</span>
+<span lang="ja">ここでも、目的は読み手を手助けすることだ。ここで推奨している慣行に従えば、読み手は各パラグラフを読みはじめる時にその趣旨を理解でき、読み終える時にその趣旨を覚えていられる。この理由により、特に説明と議論においては、最も一般的に有用なパラグラフは次のようなものだ。</span>
+</p>
+
+<ol style="list-style-type: lower-alpha;">
+<li><span lang="en">the topic sentence comes at or near the beginning;</span>
+    <span lang="ja">トピックセンテンスが冒頭またはその近くにくる；</span></li>
+<li><span lang="en">the succeeding sentences explain or establish or develop the statement made in the topic sentence; and</span>
+    <span lang="ja">続く文が、トピックセンテンスでなされた論述を説明または確立または発展させる；そして</span></li>
+<li><span lang="en">the final sentence either emphasizes the thought of the topic sentence or states some important consequence.</span>
+    <span lang="ja">最後の文は、トピックセンテンスの考えを強調するか、または何か重要な結論を述べる。</span></li>
+</ol>
+
+<p>
+<span lang="en">Ending with a digression, or with an unimportant detail, is particularly to be avoided.</span>
+<span lang="ja">脇道にそれて終えたり、つまらないディテールを述べて終えたりすることは、特に避けなければならない。</span>
+</p>
+
+<p>
+<span lang="en">If the paragraph forms part of a larger composition, its relation to what precedes, or its function as a part of the whole, may need to be expressed. This can sometimes be done by a mere word or phrase (<em>again; therefore; for the same reason</em>) in the topic sentence. Sometimes, however, it is expedient to precede the topic sentence by one or more sentences of introduction or transition. If more than one such sentence is required, it is generally better to set apart the transitional sentences as a separate paragraph.</span>
+<span lang="ja">もしパラグラフがより大きな文章の一部を形作る場合は、前のパラグラフとの関係や、全体の一部として自身が持つ役割を明らかにする必要があるかもしれない。あるときは、これはトピックセンテンス中にちょっとした語や句（<em>again; therefore; for the same reason</em>）があれば済んでしまうことがある。しかしながらあるときは、導入や推移のための文を1つないし複数、トピックセンテンスの前に置くほうが都合がいいこともある。もしそのような文が複数必要なら、一般的に言って、推移のための文を別のパラグラフに分けたほうがよい。</span>
+</p>
+<p>
+<span lang="en">According to the writer's purpose, he may, as indicated above, relate the body of the paragraph to the topic sentence in one or more of several different ways. He may make the meaning of the topic sentence clearer by restating it in other forms, by defining its terms, by denying the converse, by giving illustrations or specific instances; he may establish it by proofs; or he may develop it by showing its implications and consequences. In a long paragraph, he may carry out several of these processes.</span>
+<span lang="ja">書き手の目的によっては、上記のように、書き手はパラグラフの本文をいくつか異なったやり方でトピックセンテンスに関連付けてもよい。書き手は、トピックセンテンスの意味をより明確にするために、それを別の形で再度述べたり、用語を定義したり、逆説を棄却したり、例証したり特定の実例を挙げたりしてもよい；証拠によって立証してもよい；あるいはそれが持つ意味合いと重要性を示して論を展開してもよい。長いパラグラフでは、これらの方法のうちいくつかを実行してもよい。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth"><strong>1</strong> 
+<span lang="--">Now, to be properly enjoyed, a walking tour should be gone upon alone.</span>
+<span lang="ja">（さて、正しく楽しむためには、徒歩旅行は一人で行かねばならない。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>1</strong> 
+<span lang="en">Topic sentence.</span>
+<span lang="ja">トピックセンテンス。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>2</strong> 
+<span lang="--">If you go in a company, or even in pairs, it is no longer a walking tour in anything but name; it is something else and more in the nature of a picnic.</span>
+<span lang="ja">（もし連れだって行くと、たとえ2人で行ったとしても、徒歩旅行というのは名目ばかりのものになってしまう；それは何か別のもので、本質的にはピクニックにより近いものだ。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>2</strong> 
+<span lang="en">The meaning made clearer by denial of the contrary.</span>
+<span lang="ja">逆の説を否定することで、意味がより明確になった。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>3</strong> 
+<span lang="--">A walking tour should be gone upon alone, because freedom is of the essence; because you should be able to stop and go on, and follow this way or that, as the freak takes you; and because you must have your own pace, and neither trot alongside a champion walker, nor mince in time with a girl.</span>
+<span lang="ja">（徒歩旅行は一人で行かなくてはならない。というのも、その本質は自由にあるからだ；気まぐれのままに、立ち止まったり歩きつづけたり、こっちの道を行ったりあっちの道を行ったりできなければならない；そして自分のペースを保たなければならないのだから、ウォーキングのチャンピオンに並んで急ぎ足で歩いたり、女の子に合わせて小股に歩いたりしてはならない。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>3</strong> 
+<span lang="en">The topic sentence repeated, in abridged form, and supported by three reasons; the meaning of the third ("you must have your own pace") made clearer by denying the converse.</span>
+<span lang="ja">トピックセンテンスが手短に繰り返され、3つの理由で支持されている；3番目の理由（自分自身のペースを持たねばならない）の意味は、逆説を否定することにより、いっそう明らかになっている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>4</strong> 
+<span lang="--">And you must be open to all impressions and let your thoughts take colour from what you see.</span>
+<span lang="ja">（そしてあなたはすべての心象に対して自分を開放し、あなたの思考が目に見えるものから生彩を感じ取るように仕向けなければならない。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>4</strong> 
+<span lang="en">A fourth reason, stated in two forms.</span>
+<span lang="ja">4番目の理由が2つの形で示されている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>5</strong> 
+<span lang="--">You should be as a pipe for any wind to play upon.</span>
+<span lang="ja">（あなたはどんな風にも応えて鳴る笛のようでなければならない。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>5</strong> 
+<span lang="en">The same reason, stated in still another form.</span>
+<span lang="ja">同じ理由が、また別の形で示されている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>6</strong> 
+<span lang="--">"I cannot see the wit," says Hazlitt, "of walking and talking at the same time.</span>
+<span lang="ja">（"そんなことをして何がいいのか私には分からないよ、"とHazlittは言った, "歩きながら話をするなんて。）</span>
+<br style="clear: both;" />
+</p>
+<p class="auth" style="clear: both;"><strong>7</strong> 
+<span lang="--">When I am in the country, I wish to vegetate like the country," which is the gist of all that can be said upon the matter.</span>
+<span lang="ja">（田舎にいるときは、私は田舎らしくゆっくりと時間を過ごしたいね、" この件について一言で言えばそういうことだ。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>6-7</strong> 
+<span lang="en">The same reason as stated by Hazlitt.</span>
+<span lang="ja">Hazlittが述べたのと同じ理由。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>8</strong> 
+<span lang="--">There should be no cackle of voices at your elbow, to jar on the meditative silence of the morning.</span>
+<span lang="ja">（あなたは、瞑想に誘う朝の静けさを台無しにするようなおしゃべりをしてはいけない。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>8</strong> 
+<span lang="en">Repetition, in paraphrase, of the quotation from Hazlitt.</span>
+<span lang="ja">Hazlittからの引用を、パラフレーズ（分かりやすくするための言い替え）で繰り返している。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>9</strong> 
+<span lang="--">And so long as a man is reasoning he cannot surrender himself to that fine intoxication that comes of much motion in the open air, that begins in a sort of dazzle and sluggishness of the brain, and ends in a peace that passes comprehension.&mdash; Stevenson, <em>Walking Tours.</em></span>
+<span lang="ja">（そして人間に理性がある限り、ある種の眩惑と脳の不活性で始まって理解を超える幸福で終わる、野外で大きなウン動を生み出すあの快適な陶酔に、人は屈することができない。──Stevenson, <em>Walking Tours.</em>）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>9</strong> 
+<span lang="en">Final statement of the fourth reason, in language amplified and heightened to form a strong conclusion.</span>
+<span lang="ja">4番目の理由について最後の説明を、強い言葉で述べ、力強い結びを形作っている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth"><strong>1</strong> 
+<span lang="--">It was chiefly in the eighteenth century that a very different conception of history grew up.</span>
+<span lang="ja">（歴史に関する非常に特異な考え方が発達したのは主に18世紀においてだった。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>1</strong> 
+<span lang="en">Topic sentence.</span>
+<span lang="ja">トピックセンテンス。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>2</strong> 
+<span lang="--">Historians then came to believe that their task was not so much to paint a picture as to solve a problem; to explain or illustrate the successive phases of national growth, prosperity, and adversity.</span>
+<span lang="ja">（歴史学者たちは、彼らの仕事は絵を描くよりもむしろ問題を解決することだと信じるに至った；つまり国家の成長、隆盛、および逆境を、説明または例証することだと。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>2</strong> 
+<span lang="en">The meaning of the topic sentence made clearer; the new conception of history defined.</span>
+<span lang="ja">トピックセンテンスの意味がより明らかになっている；歴史の新しい考え方が定義されている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>3</strong> 
+<span lang="--">The history of morals, of industry, of intellect, and of art; the changes that take place in manners or beliefs; the dominant ideas that prevailed in successive periods; the rise, fall, and modification of political constitutions; in a word, all the conditions of national well-being became the subjects of their works.</span>
+<span lang="ja">（倫理、産業、知識、および芸術の歴史；礼儀や信念に生じた変化；続く時代で優勢となった支配的な考え；政体の勃興、凋落、そして変容；一言で言って、国家繁栄のためのすべての条件が、彼らの仕事の主題となった。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>3</strong> 
+<span lang="en">The definition expanded.</span>
+<span lang="ja">定義が発展している。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>4</strong> 
+<span lang="--">They sought rather to write a history of peoples than a history of kings.</span>
+<span lang="ja">（彼らは王たちの歴史を書くよりは、むしろ人々の歴史を書こうと努めた。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>4</strong> 
+<span lang="en">The definition explained by contrast.</span>
+<span lang="ja">定義が対比によって説明されている。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>5</strong> 
+<span lang="--">They looked especially in history for the chain of causes and effects.</span>
+<span lang="ja">（彼らは特に歴史の中に、因果関係の鎖を探し求めた。）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>5</strong> 
+<span lang="en">The definition supplemented: another element in the new conception of history.</span>
+<span lang="ja">定義が補足されている：歴史の新しい考え方における、また別の要素。</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth"><strong>6</strong> 
+<span lang="--">They undertook to study in the past the physiology of nations, and hoped by applying the experimental method on a large scale to deduce some lessons of real value about the conditions on which the welfare of society mainly depend. &mdash; Lecky, <em>The Political Value of History.</em></span>
+<span lang="ja">（彼らは過去に国家の生理学の研究に取りかかったことがある。実験的な方法を大規模な対象に適用して、社会の福祉が主に依存している条件について、現実的な価値を持った何らかの教訓を導き出せないかと期待したのだ。──Lecky, <em>The Political Value of History.</em>）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit"><strong>6</strong> 
+<span lang="en">Conclusion: an important consequence of the new conception of history.</span>
+<span lang="ja">結論：歴史の新しい考え方の重要な帰結。</span>
+<br style="clear: both;" />
+</p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">In narration and description the paragraph sometimes begins with a concise, comprehensive statement serving to hold together the details that follow.</span>
+<span lang="ja">叙述と描写においては、後に続く詳細説明をまとめている簡潔で包括的な記述でパラグラフが始まることが時々ある。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The breeze served us admirably.</span>
+<span lang="ja">（風が素晴らしく心地良かった）</span>
+</p>
+<p>
+<span lang="--">The campaign opened with a series of reverses.</span>
+<span lang="ja">（キャンペーンは相次ぐ逆転で幕を明けた）</span>
+</p>
+<p>
+<span lang="--">The next ten or twelve pages were filled with a curious set of entries.</span>
+<span lang="ja">（続く10-12ページは好奇心をそそるエントリの組でいっぱいだった）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">But this device, if too often used, would become a mannerism. More commonly the opening sentence simply indicates by its subject with what the paragraph is to be principally concerned.</span>
+<span lang="ja">しかしこの仕掛けは使いすぎるとマンネリズムに陥る。さらによくあることには、最初の文が、そのパラグラフの第一の関心事を主語で示すだけの文になってしまう。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">At length I thought I might return towards the stockade.</span>
+<span lang="ja">（やっと私は、囲いの中に戻ろうかと考えた）</span>
+</p>
+<p>
+<span lang="--">He picked up the heavy lamp from the table and began to explore.</span>
+<span lang="ja">（彼はテーブルから重いランプを持ち上げて探し始めた）</span>
+</p>
+<p>
+<span lang="--">Another flight of steps, and they emerged on the roof.</span>
+<span lang="ja">（もうひとのぼりして、彼らは屋根の上に出た）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The brief paragraphs of animated narrative, however, are often without even this semblance of a topic sentence. The break between them serves the purpose of a rhetorical pause, throwing into prominence some detail of the action.</span>
+<span lang="ja">しかし、生き生きとした物語文の短いパラグラフには、これほどにさえもトピックセンテンスらしさがないことがよくある。そういったパラグラフ間の分断は修辞上の「間」として機能し、行為の細かなディテールを際立たせる。</span>
+</p>
+
+<h3><a name="11">11. 
+<span lang="en">Use the active voice</span>
+<span lang="ja">能動態を使う</span>
+</a></h3>
+
+<p>
+<span lang="en">The active voice is usually more direct and vigorous than the passive:</span>
+<span lang="ja">能動態は通常、受動態よりも直接的で力強い：</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">I shall always remember my first visit to Boston.</span>
+<span lang="ja">（初めてBostonを訪れたときのことを私はいつまでも忘れないだろう）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">This is much better than</span>
+<span lang="ja">これは次の文よりもずっと良い。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">My first visit to Boston will always be remembered by me.</span>
+<span lang="ja">（初めてBostonを訪れたときのことは私によっていつまでも思い出されるだろう）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The latter sentence is less direct, less bold, and less concise. If the writer tries to make it more concise by omitting "by me,"</span>
+<span lang="ja">後者の文は直接度がより低く、力強さがより低く、簡潔さもより低い。もし書き手が"by me"（私によって）を割愛することで文をより簡潔にしようとするならば、</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">My first visit to Boston will always be remembered,</span>
+<span lang="ja">（初めてBostonを訪れたときのことはいつまでも思い出されるだろう）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">it becomes indefinite: is it the writer, or some person undisclosed, or the world at large, that will always remember this visit?</span>
+<span lang="ja">はっきりしなくなってしまう：訪れたときのことを忘れずにいるのは、書き手なのか、明らかにされていない誰かなのか、それとも世間全般の話なのか？</span>
+</p>
+<p>
+<span lang="en">This rule does not, of course, mean that the writer should entirely discard the passive voice, which is frequently convenient and sometimes necessary.</span>
+<span lang="ja">もちろんこのルールは、書き手が受動態を一切使ってはならないといっているわけではない。受動態は便利なことがよくあるし、ときには必要になる。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth">
+<span lang="--">The dramatists of the Restoration are little esteemed to-day.</span>
+<span lang="ja">（王政復古の時代の劇作家は、今日ではあまり評価されていない）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Modern readers have little esteem for the dramatists of the Restoration.</span>
+<span lang="ja">（現代の読者は、王政復古の時代の劇作家をあまり評価していない）</span>
+<br style="clear: both;" />
+</p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">The first would be the right form in a paragraph on the dramatists of the Restoration; the second, in a paragraph on the tastes of modern readers. The need of making a particular word the subject of the sentence will often, as in these examples, determine which voice is to be used.</span>
+<span lang="ja">1番目の文は、王政復古の時代の劇作家たちについてのパラグラフの中であれば正しい形だ；2番目の文は、現代の読者の嗜好についてのパラグラフ中であれば正しい。これらの例のように、特定の語を文の主語にする必要性から、どちらの態を使うべきかが決まることがよくあるだろう。</span>
+</p>
+<p>
+<span lang="en">The habitual use of the active voice, however, makes for forcible writing. This is true not only in narrative principally concerned with action, but in writing of any kind. Many a tame sentence of description or exposition can be made lively and emphatic by substituting a transitive in the active voice for some such perfunctory expression as <em>there is,</em> or <em>could be heard.</em></span>
+<span lang="ja">しかし、習慣的に能動態を使うと力強い文章が生み出される。このことは、主として行為に関する叙述だけの話ではなく、どんな文章においても真実だ。単調な説明文の多くは、<em>there is</em>や<em>could be heard</em>といったおざなりな表現を能動態の他動詞で置き換えることで、生き生きとして力強い文になる。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth">
+<span lang="--">There were a great number of dead leaves lying on the ground.</span>
+<span lang="ja">（たくさんの落葉が地面に落ちていた）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Dead leaves covered the ground.</span>
+<span lang="ja">（落葉が地面を覆っていた）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">The sound of the falls could still be heard.</span>
+<span lang="ja">（滝の音はまだ聞くことができた）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">The sound of the falls still reached our ears.</span>
+<span lang="ja">（滝の音はまだ私たちの耳に届いた）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">The reason that he left college was that his health became impaired.</span>
+<span lang="ja">（彼が大学を離れた理由は、彼の健康状態が悪化したことだった）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Failing health compelled him to leave college.</span>
+<span lang="ja">（健康上の問題が、大学を去らざるを得ない状況に彼を追い込んだ）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">It was not long before he was very sorry that he had said what he had.</span>
+<span lang="ja">（彼が自分の発言を後悔するまでには、ほとんど時間はかからなかった）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">He soon repented his words.</span>
+<span lang="ja">（彼はすぐに自分が言ったことを後悔した）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<p>
+<span lang="en">As a rule, avoid making one passive depend directly upon another.</span>
+<span lang="ja">原則として、他の受動態に直接従属する受動態を作ることは避ける。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth">
+<span lang="--">Gold was not allowed to be exported.</span>
+<span lang="ja">（金は輸出されることが許されていなかった）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">It was forbidden to export gold (The export of gold was prohibited).</span>
+<span lang="ja">（金を輸出することは禁じられていた（金の輸出は禁じられていた））</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">He has been proved to have been seen entering the building.</span>
+<span lang="ja">（彼はその建物に入るところを目撃されているということが証明されている）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">It has been proved that he was seen to enter the building.</span>
+<span lang="ja">（彼はその建物に入るところを目撃されたことが証明されている）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<p>
+<span lang="en">In both the examples above, before correction, the word properly related to the second passive is made the subject of the first.</span>
+<span lang="ja">上記の例はどちらも、修正する前は、第2の受動態に正しく関係している語は第1の受動態の主語になっている。</span>
+</p>
+<p>
+<span lang="en">A common fault is to use as the subject of a passive construction a noun which expresses the entire action, leaving to the verb no function beyond that of completing the sentence.</span>
+<span lang="ja">よくある失敗は、受動態の構文の主語として、全体の行為を表す名詞を使ってしまい、文を完成させる以外の何の役割も動詞に残してやらないというものだ。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth">
+<span lang="--">A survey of this region was made in 1900.</span>
+<span lang="ja">（この地域の調査は1990年に行われた）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">This region was surveyed in 1900.</span>
+<span lang="ja">（この地域は1900年に調査された）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">Mobilization of the army was rapidly carried out.</span>
+<span lang="ja">（軍隊の動員は素早く行われた）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">The army was rapidly mobilized.</span>
+<span lang="ja">（軍隊は素早く動員された）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">Confirmation of these reports cannot be obtained.</span>
+<span lang="ja">（これらの報告の確認は得られない）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">These reports cannot be confirmed.</span>
+<span lang="ja">（これらの報告は確認できない）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<p>
+<span lang="en">Compare the sentence, "The export of gold was prohibited," in which the predicate "was prohibited" expresses something not implied in "export."</span>
+<span lang="ja">"The export of gold was prohibited"（金の輸出は禁じられていた）という文を検討してみよう。この文では"was prohibited"（禁じられていた）という述部が、"export"（輸出）が含意していない何かを表している。</span>
+</p>
+
+<h3><a name="12">12. 
+<span lang="en">Put statements in positive form</span>
+<span lang="ja">肯定文で記述する</span>
+</a></h3>
+
+<p>
+<span lang="en">Make definite assertions. Avoid tame, colorless, hesitating, non-committal language. Use the word <em>not</em> as a means of denial or in antithesis, never as a means of evasion.</span>
+<span lang="ja">明確な主張をすること。単調な、はっきりしない、ためらいのある、あいまいな言葉は避ける。<em>not</em>（ない）という語は、否定のために使うかまたはアンチテーゼの中で使い、絶対に言い抜けやはぐらかしの手段として使ってはならない。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth">
+<span lang="--">He was not very often on time.</span>
+<span lang="ja">（彼が時間を守ることはあまり多くない）</span>
+</p>
+<p class="edit">
+<span lang="--">He usually came late.</span>
+<span lang="ja">（彼はたいてい遅れて来る）</span>
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">He did not think that studying Latin was much use.</span>
+<span lang="ja">（ラテン語を学ぶのがそれほど役に立つとは彼は考えなかった）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">He thought the study of Latin useless.</span>
+<span lang="ja">（ラテン語を学んでも役に立たないと彼は考えた）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--"><em>The Taming of the Shrew</em> is rather weak in spots. Shakespeare does not portray Katharine as a very admirable character, nor does Bianca remain long in memory as an important character in Shakespeare's works.</span>
+<span lang="ja">（「じゃじゃ馬馴らし」はところどころに結構な弱点がある。シェイクスピアはキャサリンを非常に尊敬できる人物としては描いておらず、ビアンカもシェイクスピアの作品における重要な人物として長く記憶に残ることがない）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">The women in <em>The Taming of the Shrew</em> are unattractive. Katharine is disagreeable, Bianca insignificant.</span>
+<span lang="ja">（「じゃじゃ馬馴らし」は魅力に欠ける。キャサリンは不愉快だし、ビアンカは影が薄い）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<p>
+<span lang="en">The last example, before correction, is indefinite as well as negative. The corrected version, consequently, is simply a guess at the writer's intention.</span>
+<span lang="ja">最後の例の修正前の文は、否定形であると同時にあいまいでもある。したがって修正後の版は書き手の意図を単に推量した。</span>
+</p>
+<p>
+<span lang="en">All three examples show the weakness inherent in the word <em>not.</em> Consciously or unconsciously, the reader is dissatisfied with being told only what is not; he wishes to be told what is. Hence, as a rule, it is better to express a negative in positive form.</span>
+<span lang="ja">3つの例はすべて<em>not</em>（ない）という単語に本質的に存在する弱点を示している。意識的であろうと無意識的であろうと、何がそうではないかということだけしか伝えられないと、読み手は不満に感じる；読み手は何がそうであるかを伝えてほしいのだ。ゆえに一般的には、 肯定文で否定を表現するほうがよい。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth">
+<span lang="--">not honest</span>
+<span lang="ja">（正直でない）</span>
+</p>
+<p class="edit">
+<span lang="--">dishonest</span>
+<span lang="ja">（不正直な）</span>
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">not important</span>
+<span lang="ja">（重要でない）</span>
+</p>
+<p class="edit">
+<span lang="--">trifling</span>
+<span lang="ja">（些細な）</span>
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">did not remember</span>
+<span lang="ja">（思い出さなかった）</span>
+</p>
+<p class="edit">
+<span lang="--">forgot</span>
+<span lang="ja">（忘れた）</span>
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">did not pay any attention to</span>
+<span lang="ja">（全く注意を払わなかった）</span>
+</p>
+<p class="edit">
+<span lang="--">ignored</span>
+<span lang="ja">（無視した）</span>
+</p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">did not have much confidence in</span>
+<span lang="ja">（それほど信用がなかった）</span>
+</p>
+<p class="edit">
+<span lang="--">distrusted</span>
+<span lang="ja">（不審の念を抱いていた）</span>
+</p>
+</div>
+
+</blockquote>
+
+<p>
+<span lang="en">The antithesis of negative and positive is strong:</span>
+<span lang="ja">否定と肯定の対照が持つ力は強い：</span>
+</p>
+
+<blockquote class="example">
+<p class="auth">
+<span lang="--">Not charity, but simple justice.</span>
+<span lang="ja">（慈悲ではなく正義だ）</span>
+</p>
+<p class="edit">
+<span lang="--">Not that I loved Caesar less, but Rome the more.</span>
+<span lang="ja">（シーザーを愛していなかった訳ではない、ただローマへの愛のほうが強かったのだ）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Negative words other than <em>not</em> are usually strong:</span>
+<span lang="ja"><em>not</em>以外の否定の語はたいてい強力だ：</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The sun never sets upon the British flag.</span>
+<span lang="ja">（英国旗に陽が沈むことなど決してない）</span>
+</p>
+</blockquote>
+
+<h3><a name="13">13. 
+<span lang="en">Omit needless words</span>
+<span lang="ja">不要な語を省く</span>
+</a></h3>
+
+<p>
+<span lang="en">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in outline, but that every word tell.</span>
+<span lang="ja">力強い文章は簡潔なものだ。文に不要な語が含まれていてはならず、パラグラフに不要な文が含まれていてはならない。それは、絵画に不要な線があってはならず、機械に不要な部品があってはならないのと同じ理由による。これは、書き手がすべての文を短くしなければならないとか、詳細を略して主題の概略だけを扱うべきという訳ではない。そうではなくて、どの単語にも意味がなければならないということだ。</span>
+</p>
+<p>
+<span lang="en">Many expressions in common use violate this principle:</span>
+<span lang="ja">よく使われる多くの表現はこの原則を破っている：</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">the question as to whether</span>
+                <span lang="ja">（～かどうかについての質問）</span></p>
+<p class="edit"><span lang="--">whether (the question whether)</span>
+                <span lang="ja">（～かどうか（～かどうかという質問））</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">there is no doubt but that</span>
+                <span lang="ja">（間違える余地もないことに）</span></p>
+<p class="edit"><span lang="--">no doubt (doubtless)</span>
+                <span lang="ja">（間違いなく）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">used for fuel purposes</span>
+                <span lang="ja">（燃料を用途として用いられる）</span></p>
+<p class="edit"><span lang="--">used for fuel</span>
+                <span lang="ja">（燃料に使われる）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">he is a man who</span>
+                <span lang="ja">（彼は～というような男だ）</span></p>
+<p class="edit"><span lang="--">he</span>
+                <span lang="ja">（彼は）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">in a hasty manner</span>
+                <span lang="ja">（急いだ様子で）</span></p>
+<p class="edit"><span lang="--">hastily</span>
+                <span lang="ja">（急いで）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">this is a subject which</span>
+                <span lang="ja">（これは～というような主題だ）</span></p>
+<p class="edit"><span lang="--">this subject</span>
+                <span lang="ja">（この主題は）</span></p>
+</div>
+
+<div class="set">
+<p class="auth"><span lang="--">His story is a strange one.</span>
+                <span lang="ja">（彼の物語は奇妙なものだった）</span></p>
+<p class="edit"><span lang="--">His story is strange.</span>
+                <span lang="ja">（彼の物語は奇妙だった）</span></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">In especial the expression <em>the fact that</em> should be revised out of every sentence in which it occurs.</span>
+<span lang="ja">特に<em>the fact that</em>（～という事実）という表現は、どんな文に出てきたとしても取り除くべきだ。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">owing to the fact that</span>
+                <span lang="ja">（～という事実によって）</span></p>
+<p class="edit"><span lang="--">since (because)</span>
+                <span lang="ja">（なぜなら）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">in spite of the fact that</span>
+                <span lang="ja">（～という事実にもかかわらず）</span></p>
+<p class="edit"><span lang="--">though (although)</span>
+                <span lang="ja">（～なのに）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">call your attention to the fact that</span>
+                <span lang="ja">（～という事実に注意を払ってほしい）</span></p>
+<p class="edit"><span lang="--">remind you (notify you)</span>
+                <span lang="ja">（～に注意してほしい）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">I was unaware of the fact that</span>
+                <span lang="ja">（私は～という事実に気がついていなかった）</span></p>
+<p class="edit"><span lang="--">I was unaware that (did not know)</span>
+                <span lang="ja">（私は～に気がついていなかった（知らなかった））</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">the fact that he had not succeeded</span>
+                <span lang="ja">（彼が成功しなかったという事実）</span></p>
+<p class="edit"><span lang="--">his failure</span>
+                <span lang="ja">（彼の失敗）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">the fact that I had arrived</span>
+                <span lang="ja">（私が到着したという事実）</span></p>
+<p class="edit"><span lang="--">my arrival</span>
+                <span lang="ja">（私の到着）</span></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">See also under <em><a href="#words5">case</a>, <a href="#words7">character</a>, <a href="#words28">nature</a>, <a href="#words41">system</a></em> in <a href="#words">Chapter V</a>.</span>
+<span lang="ja"><a href="#words">第V章</a>の<em><a href="#words5">case</a>, <a href="#words7">character</a>, <a href="#words28">nature</a>, <a href="#words41">system</a></em>以下も参照。</span>
+</p>
+<p>
+<span lang="en"><em>Who is, which was,</em> and the like are often superfluous.</span>
+<span lang="ja"><em>Who is</em>や<em>which was</em>やその他同様の語句は、多くの場合余計なものだ。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">His brother, who is a member of the same firm</span>
+                <span lang="ja">（同じ会社の社員であるところの彼の兄弟）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">His brother, a member of the same firm</span>
+                <span lang="ja">（同じ会社の社員である彼の兄弟）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Trafalgar, which was Nelson's last battle</span>
+                <span lang="ja">（ネルソン提督の最後の戦場であるところのトラファルガー）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Trafalgar, Nelson's last battle</span>
+                <span lang="ja">（ネルソン提督の最後の戦場トラファルガー）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">As positive statement is more concise than negative, and the active voice more concise than the passive, many of the examples given under Rules <a href="#11">11</a> and <a href="#12">12</a> illustrate this rule as well.</span>
+<span lang="ja">肯定形の論述は否定形よりも簡明で、能動態は受動態よりも簡明なので、ルール<a href="#11">11</a>と<a href="#12">12</a>で示されている例の多くはこのルールの説明にもなっている。</span>
+</p>
+<p>
+<span lang="en">A common violation of conciseness is the presentation of a single complex idea, step by step, in a series of sentences which might to advantage be combined into one.</span>
+<span lang="ja">簡潔さに関してよくあるルール違反は、ひとつの複雑な考えを、うまくすればひとつにまとめられるような複数の文で、少しずつ示すことだ。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth">
+<span lang="--">Macbeth was very ambitious. This led him to wish to become king of Scotland. The witches told him that this wish of his would come true. The king of Scotland at this time was Duncan. Encouraged by his wife, Macbeth murdered Duncan. He was thus enabled to succeed Duncan as king. (55 words.)</span>
+<span lang="ja">（マクベスは非常に野心的だった。このために彼は、スコットランドの王になることを願うようになった。魔女たちは彼にこの願いはかなうと告げた。時のスコットランドの王はダンカンだった。妻にそそのかされ、マクベスはダンカンを殺害した。彼はこのようにしてダンカンの王位を継承することに成功した。（55語））</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">Encouraged by his wife, Macbeth achieved his ambition and realized the prediction of the witches by murdering Duncan and becoming king of Scotland in his place. (26 words.)</span>
+<span lang="ja">（妻にそそのかされ、ダンカンを殺害してスコットランドの王になることにより、マクベスは自分の野望を達成し、魔女たちの予言を現実のものとした。（26語））</span>
+<br style="clear: both;" />
+</p>
+</div>
+</blockquote>
+
+<h3><a name="14">14. 
+<span lang="en">Avoid a succession of loose sentences</span>
+<span lang="ja">締まりのない文が連続するのを避ける</span>
+</a></h3>
+
+<p>
+<span lang="en">This rule refers especially to loose sentences of a particular type, those consisting of two co-ordinate clauses, the second introduced by a conjunction or relative. Although single sentences of this type may be unexceptionable (see under Rule <a href="#4">4</a>), a series soon becomes monotonous and tedious.</span>
+<span lang="ja">このルールはとりわけ特定の種類の緩い文に当てはまる。2つの対等な節から成っていて、2番目の節が接続詞や関係詞によって導かれるものがそうだ。この種の文は、単独で存在するときは申し分ないかもしれないが（ルール<a href="#4">4</a>を参照）、続けて出てくるとすぐに単調で退屈になる。</span>
+</p>
+<p>
+<span lang="en">An unskilful writer will sometimes construct a whole paragraph of sentences of this kind, using as connectives <em>and, but,</em> and less frequently, <em>who, which, when, where,</em> and <em>while,</em> these last in non-restrictive senses (see under Rule <a href="#3">3</a>).</span>
+<span lang="ja">下手な書き手は往々にして、<em>and, but</em>そして比較的少ないが<em>who, which, when, where</em>および<em>while</em>といった、非制限的な意味の連結語を使って、段落ひとつをまるごとこの種の文で構成してしまうことがあるだろう（ルール<a href="#3">3</a>参照）。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The third concert of the subscription series was given last evening, and a large audience was in attendance. Mr. Edward Appleton was the soloist, and the Boston Symphony Orchestra furnished the instrumental music. The former showed himself to be an artist of the first rank, while the latter proved itself fully deserving of its high reputation. The interest aroused by the series has been very gratifying to the Committee, and it is planned to give a similar series annually hereafter. The fourth concert will be given on Tuesday, May 10, when an equally attractive programme will be presented.</span>
+<span lang="ja">（一連の番外編コンサートのうちの第3回は昨晩開催され、そしてたくさんの観客が来場していた。エドワード・アップルトン氏が独奏者で、ボストンシンフォニーオーケストラが器楽を担当した。アップルトン氏は自身が第一級の芸術家であることを披露し、一方オーケストラは自身が名声に全く違わぬ実力の持ち主であることを証明してみせた。このシリーズによって生じた利益は委員会にとって満足がいくもので、同様のシリーズを今後も毎年行うことが予定されている。第4回のコンサートは5月10日火曜日に開催される予定で、同様に魅力的なプログラムが上演される）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Apart from its triteness and emptiness, the paragraph above is bad because of the structure of its sentences, with their mechanical symmetry and sing-song. Contrast with them the sentences in the paragraphs quoted under Rule <a href="#10">10</a>, or in any piece of good English prose, as the preface (<a href="vf.html">Before the Curtain</a>) to <em>Vanity Fair.</em></span>
+<span lang="ja">陳腐さと内容のなさを別にしたとしても、上記のパラグラフは文の構成が機械的に対称で一本調子なので、出来が悪い。ルール<a href="#10">10</a>で引用した文や、適当な出来がいい英語の散文、例えば<em>Vanity Fair</em>（虚栄の市）の序文（<a href="vf.html">Before the Curtain</a>（開演の前に））と対照させてみてほしい。</span>
+</p>
+<p>
+<span lang="en">If the writer finds that he has written a series of sentences of the type described, he should recast enough of them to remove the monotony, replacing them by simple sentences, by sentences of two clauses joined by a semicolon, by periodic sentences of two clauses, by sentences, loose or periodic, of three clauses &mdash; whichever best represent the real relations of the thought.</span>
+<span lang="ja">もし書き手がこのような種類の文を一続き書いてしまったことに気づいたら、単純な文で置き換えて、単調さがなくなるまで十分に書き直すべきだ。2つの節をセミコロンで接続した文や、2つの節から成る掉尾文や、3つの節から成る緩いもしくは掉尾文調の文か──いずれにせよ考えていることの実際の関係を表すのに最も適した文で置き換える。</span>
+</p>
+
+<h3><a name="15">15. 
+<span lang="en">Express co-ordinate ideas in similar form</span>
+<span lang="ja">対等な複数の考えは同じ形で表現する</span>
+</a></h3>
+
+<p>
+<span lang="en">This principle, that of parallel construction, requires that expressions of similar content and function should be outwardly similar. The likeness of form enables the reader to recognize more readily the likeness of content and function. Familiar instances from the Bible are the Ten Commandments, the Beatitudes, and the petitions of the Lord's Prayer.</span>
+<span lang="ja">この並列構造の原則によると、似た内容と役割を持った表現は、外見上も似ていなければならない。形の類似のおかげで、内容と役割の類似を読み手が認識しやすい。聖書からの親しみ深い例は、Ten Commandments（十戒）、Beatitudes（幸福についての教え（山上の垂訓））、Lord's Prayer（主の祈り）の祈願だ。</span>
+</p>
+<p>
+<span lang="en">The unskilful writer often violates this principle, from a mistaken belief that he should constantly vary the form of his expressions. It is true that in repeating a statement in order to emphasize it he may have need to vary its form. For illustration, see the paragraph from Stevenson quoted under Rule <a href="#10">10</a>. But apart from this, he should follow the principle of parallel construction.</span>
+<span lang="ja">下手な書き手は、表現の形式を絶えず変えなければならないという間違った思い込みのせいで、この原則をよく破ってしまう。強調するために記述を繰り返すときは、場合によっては形を変えなければならないというのは真実だ。例えば、ルール<a href="#10">10</a>にあるStevensonの作品から引用したパラグラフを見てみてほしい。しかしこのことはさておいて、書き手は並列構造の原則を守るべきだ。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Formerly, science was taught by the textbook method, while now the laboratory method is employed.</span>
+                <span lang="ja">（以前は、科学は教科書を使った方法で教えられていた。一方、今日採用されているのは実験室を使った方法だ）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Formerly, science was taught by the textbook method; now it is taught by the laboratory method.</span>
+                <span lang="ja">（以前は、科学は教科書を使った方法で教えられていた；今日では科学は実験室を使った手法で教えられている）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">The left-hand version gives the impression that the writer is undecided or timid; he seems unable or afraid to choose one form of expression and hold to it. The right-hand version shows that the writer has at least made his choice and abided by it.</span>
+<span lang="ja">左側の例は、書き手に決断力がないか自信に欠けているという印象を与える；書き手はひとつの表現形式を選んで決めて踏み止まることができないか、またはそうすることを恐がっているように見える。右側の例は少なくとも書き手が選択肢を選び、それを守っていることを示している。</span>
+</p>
+<p>
+<span lang="en">By this principle, an article or a preposition applying to all the members of a series must either be used only before the first term or else be repeated before each term.</span>
+<span lang="ja">この原則により、一連の要素すべてに適用される冠詞や前置詞は、最初の語の前だけで使うか、そうでなければ各要素の前で繰り返さなければならない。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">The French, the Italians, Spanish, and Portuguese</span></p>
+<p class="edit"><span lang="--">The French, the Italians, the Spanish, and the Portuguese</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">In spring, summer, or in winter</span></p>
+<p class="edit"><span lang="--">In spring, summer, or winter (In spring, in summer, or in winter)</span></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">Correlative expressions (<em>both, and; not, but; not only, but also; either, or; first, second, third;</em> and the like) should be followed by the same grammatical construction. Many violations of this rule can be corrected by rearranging the sentence.</span>
+<span lang="ja">相関的な表現（<em>both, and; not, but; not only, but also; either, or; first, second, third</em>およびその他類似したもの）は、文法上同じ構成が後に続かなければならない。このルールを破っている例の多くは、文を整理し直すことで修正できる。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">It was both a long ceremony and very tedious.</span>
+                <span lang="ja">（長い式典でとても退屈なことの両方だった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">The ceremony was both long and tedious.</span>
+                <span lang="ja">（式典は長くしかも退屈だった）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">A time not for words, but action</span>
+                <span lang="ja">（言葉の時ではなく、行動だ）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">A time not for words, but for action</span>
+                <span lang="ja">（言葉の時ではなく、行動の時だ）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Either you must grant his request or incur his ill will.</span>
+                <span lang="ja">（彼の要求を入れなければならないか、彼の不興を買わなければならない）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">You must either grant his request or incur his ill will.</span>
+                <span lang="ja">（彼の要求を入れるか、彼の不興を買うかしなければならない）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">My objections are, first, the injustice of the measure; second, that it is unconstitutional.</span>
+                <span lang="ja">（私の反論は、第一に、基準の不公正さだ；第二に、それが憲法違反であることだ）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">My objections are, first, that the measure is unjust; second, that it is unconstitutional.</span>
+                <span lang="ja">（私の反論は、第一に、基準が不公正であること；第二に、それが憲法違反であることだ）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">See also the third example under Rule <a href="#12">12</a> and the last under Rule <a href="#13">13</a>.</span>
+<span lang="ja">ルール<a href="#12">12</a>の3番目の例と、ルール<a href="#13">13</a>の最後の例も参照。</span>
+</p>
+<p>
+<span lang="en">It may be asked, what if a writer needs to express a very large number of similar ideas, say twenty? Must he write twenty consecutive sentences of the same pattern? On closer examination he will probably find that the difficulty is imaginary, that his twenty ideas can be classified in groups, and that he need apply the principle only within each group. Otherwise he had best avoid the difficulty by putting his statements in the form of a table.</span>
+<span lang="ja">書き手が非常に多くの似たような考えを表現しなければならないとしたらどうするのか、という疑問が生じるかもしれない。例えば20もあったらどうするのか？ 書き手は同じパターンの文を20も続けて書かなければならないのだろうか？ よく調べてみれば、この問題は杞憂であり、20のアイデアはグループに分けられ、原則を適用するのはグループ内だけでいいことが分かるだろう。さもなければ、記述を表の形式にすることで問題を回避するのが最善の手だ。</span>
+</p>
+
+<h3><a name="16">16. 
+<span lang="en">Keep related words together</span>
+<span lang="ja">関係する語句は一緒にしておく</span>
+</a></h3>
+
+<p>
+<span lang="en">The position of the words in a sentence is the principal means of showing their relationship. The writer must therefore, so far as possible, bring together the words, and groups of words, that are related in thought, and keep apart those which are not so related.</span>
+<span lang="ja">文中の語の位置は、語の関係を示すための第一の手段だ。したがって書き手は、可能な限り、内容において関係する語および語のグループはまとめなければならず、それほど関係が深くないものは離しておかなければならない。</span>
+</p>
+<p>
+<span lang="en">The subject of a sentence and the principal verb should not, as a rule, be separated by a phrase or clause that can be transferred to the beginning.</span>
+<span lang="ja">文の主語と主たる動詞とは、原則として、文頭に移動可能な句や節で分断されてはならない。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth">
+<span lang="--">Wordsworth, in the <a href="http://www.columbia.edu/~svl2/wordsworth/ww402.html">fifth book</a> of <em>The Excursion,</em> gives a minute description of this church.</span>
+<span lang="ja">（ワーズワースは、<em>The Excursion</em>の<a href="http://www.columbia.edu/~svl2/wordsworth/ww402.html">第5巻目</a>で、この教会を詳細に描写している）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">In the <a href="http://www.columbia.edu/~svl2/wordsworth/ww402.html">fifth book</a> of <em>The Excursion,</em> Wordsworth gives a minute description of this church.</span>
+<span lang="ja">（<em>The Excursion</em>の<a href="http://www.columbia.edu/~svl2/wordsworth/ww402.html">第5巻目</a>で、ワーズワースはこの教会を詳細に描写している）</span>
+<br style="clear: both;" />
+</p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Cast iron, when treated in a Bessemer converter, is changed into steel.</span>
+                <span lang="ja">（鋳鉄は、ベッセマー転炉で処理すると、鋼鉄に変化する）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">By treatment in a Bessemer converter, cast iron is changed into steel.</span>
+                <span lang="ja">（ベッセマー転炉で処理することで、鋳鉄は鋼鉄に変化する）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">The objection is that the interposed phrase or clause needlessly interrupts the natural order of the main clause. This objection, however, does not usually hold when the order is interrupted only by a relative clause or by an expression in apposition. Nor does it hold in periodic sentences in which the interruption is a deliberately used means of creating suspense (see examples under Rule <a href="#18">18</a>).</span>
+<span lang="ja">分断に反対する理由は、挿入された句や節が、主節の自然な順序をいたずらにさえぎるということだ。しかしながらこの反対理由は、順序が単に関係節によって割り込まれたり同格の表現によって割り込まれたりした場合には、主張できないのが普通だ。割り込みが不安定さを作り出すための手段として意図的に使われる掉尾文においても、これは成り立たない（ルール<a href="#18">18</a>を参照）</span>
+</p>
+<p>
+<span lang="en">The relative pronoun should come, as a rule, immediately after its antecedent.</span>
+<span lang="ja">関係代名詞は原則としてその先行詞の直後にこなければならない。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">There was a look in his eye that boded mischief.</span>
+                <span lang="ja">（いたずらの予兆が彼の目の中に見て取れた）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">In his eye was a look that boded mischief.</span>
+                <span lang="ja">（彼の目の中にはいたずらの予兆が見て取れた）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">He wrote three articles about his adventures in Spain, which were published in <em>Harper's Magazine.</em></span>
+                <span lang="ja">（彼はスペインでの彼の冒険に関して3件の記事を書き、それらは<em>Harper's Magazine</em>で発表された）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">He published in <em>Harper's Magazine</em> three articles about his adventures in Spain.</span>
+                <span lang="ja">（彼はスペインでの彼の冒険に関して3件の記事を<em>Harper's Magazine</em>で発表した）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth">
+<span lang="--">This is a portrait of Benjamin Harrison, grandson of <a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>, who became President in 1889.</span>
+<span lang="ja">（これはBenjamin Harrisonの肖像画だ。彼は<a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>の孫息子で、1889年に大統領になった）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">This is a portrait of Benjamin Harrison, grandson of <a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>. He became President in 1889.</span>
+<span lang="ja">（これは<a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>の孫息子であるBenjamin Harrisonの肖像画だ。彼は1889年に大統領になった）</span>
+<br style="clear: both;" />
+</p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">If the antecedent consists of a group of words, the relative comes at the end of the group, unless this would cause ambiguity.</span>
+<span lang="ja">もし先行詞が語のグループから成る場合は、そうすることで意味があいまいにならない限り、関係詞はグループの末尾にくる。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p>
+<span lang="--">The Superintendent of the Chicago Division, who</span>
+<span lang="ja">（シカゴ地区本部長）</span>
+</p>
+</div>
+<div class="set">
+<div class="auth"><p><span lang="--">A proposal to amend the Sherman Act, which has been variously judged</span>
+                     <span lang="ja">（シャーマン法を改正する、多角的に審議された提案が）</span><br style="clear: both;" /></p>
+</div>
+<div class="edit"><p><span lang="--">A proposal, which has been variously judged, to amend the Sherman Act</span>
+                     <span lang="ja">（多角的に審議された、シャーマン法を改正するための提案が）</span></p>
+                  <p><span lang="--">A proposal to amend the much-debated Sherman Act</span>
+                     <span lang="ja">（盛んに討論されたシャーマン法を改正するための提案が）</span><br style="clear: both;" /></p>
+</div>
+</div>
+<div class="set">
+<p class="auth">
+<span lang="--">The grandson of <a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>, who</span>
+<span lang="ja">（<a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>の孫息子）</span>
+</p>
+<p class="edit">
+<span lang="--"><a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>'s grandson, Benjamin Harrison, who</span>
+<span lang="ja">（<a href="http://www.columbia.edu/~svl2/inaugural/pres26.html">William Henry Harrison</a>の孫息子Benjamin Harrison）</span>
+</p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">A noun in apposition may come between antecedent and relative, because in such a combination no real ambiguity can arise.</span>
+<span lang="ja">同格の名詞は先行詞と関係詞の間にあってもよい。というのも、そのような組み合わせでは実際にはあいまいさが生じえないからだ。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The Duke of York, his brother, who was regarded with hostility by the Whigs</span>
+<span lang="ja">（彼の兄弟であり、ホイッグ党から敵対的にみられているヨーク公）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Modifiers should come, if possible next to the word they modify. If several expressions modify the same word, they should be so arranged that no wrong relation is suggested.</span>
+<span lang="ja">修飾語は、もし可能なら修飾の対象となる語に隣接して置かなければならない。もしいくつかの表現が同一の語を修飾する場合、間違った関連を連想させないように配置しなければならない。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth"><span lang="--">All the members were not present.</span>
+                <span lang="ja">（メンバー全員が出席していなかった）</span></p>
+<p class="edit"><span lang="--">Not all the members were present.</span>
+                <span lang="ja">（メンバー全員が出席していた訳ではなかった）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">He only found two mistakes.</span>
+                <span lang="ja">（彼は2つの誤りを見つけただけだった）</span></p>
+<p class="edit"><span lang="--">He found only two mistakes.</span>
+                <span lang="ja">（彼はたった2つの誤りしか見つけなかった）</span></p>
+</div>
+
+<div class="set">
+<p class="auth">
+<span lang="--">Major R. E. Joyce will give a lecture on Tuesday evening in Bailey Hall, to which the public is invited, on "My Experiences in Mesopotamia" at eight P.M.</span>
+<span lang="ja">（R. E. Joyce少佐が火曜日の晩にBailey Hallでレクチャーを行う。レクチャーは一般参加可能で、「メソポタミアにおける私の経験」というテーマで、午後8時開始）</span>
+<br style="clear: both;" />
+</p>
+<p class="edit">
+<span lang="--">On Tuesday evening at eight P.M., Major R. E. Joyce will give in Bailey Hall a lecture on "My Experiences in Mesopotamia." The public is invited.</span>
+<span lang="ja">（火曜日の晩、午後8時に、R. E. Joyce少佐がBailey Hallで、「メソポタミアにおける私の経験」というテーマでレクチャーを行う。レクチャーは一般参加可能）</span>
+<br style="clear: both;" />
+</p>
+</div>
+
+</blockquote>
+
+<h3><a name="17">17. 
+<span lang="en">In summaries, keep to one tense</span>
+<span lang="ja">サマリでは時制をひとつだけに</span>
+</a></h3>
+
+<p>
+<span lang="en">In summarizing the action of a drama, the writer should always use the present tense. In summarizing a poem, story, or novel, he should preferably use the present, though he may use the past if he prefers. If the summary is in the present tense, antecedent action should be expressed by the perfect; if in the past, by the past perfect.</span>
+<span lang="ja">戯曲の筋を要約する際には、書き手は常に現在形を使わなければならない。詩、物語、または小説を要約する際には、書き手の好みによっては過去形を使ってもよいが、現在形を使うことが望ましい。もし要約が現在形になっている場合、先立つ行動は完了時制で表現しなければならない。過去形になっている場合は過去完了で表現する。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">An unforeseen chance prevents Friar John from delivering Friar Lawrence's letter to Romeo. Juliet, meanwhile, owing to her father's arbitrary change of the day set for her wedding, has been compelled to drink the potion on Tuesday night, with the result that Balthasar informs Romeo of her supposed death before Friar Lawrence learns of the nondelivery of the letter.</span>
+<span lang="ja">（予想外の巡り合わせのために、Friar JohnはFriar Lawrenceの手紙をRomeoに届けられない。そのころJulietは、彼女の父が気まぐれで彼女の結婚式の日を変えたおかげで、火曜の夜には薬を飲み終えていた。その結果、Friar Lawrenceが手紙の不達を知る前に、BalthasarはRomeoに彼女の「死」を伝える）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">But whichever tense be used in the summary, a past tense in indirect discourse or in indirect question remains unchanged.</span>
+<span lang="ja">しかし要約でどの時制が使われようと、間接話法や間接疑問における過去形は変わらない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The Legate inquires who struck the blow.</span>
+<span lang="ja">（使節は一撃を加えたのが誰かを問うた）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Apart from the exceptions noted, whichever tense the writer chooses, he should use throughout. Shifting from one tense to the other gives the appearance of uncertainty and irresolution (compare Rule <a href="#15">15</a>).</span>
+<span lang="ja">注記した例外を除けば、どの時制を書き手が選んだとしても、貫徹しなければならない。ある時制から別の時制へと移り変わると、不明確で優柔不断な見た目を与える（ルール<a href="#15">15</a>と比較せよ）。</span>
+</p>
+<p>
+<span lang="en">In presenting the statements or the thought of some one else, as in summarizing an essay or reporting a speech, the writer should avoid intercalating such expressions as "he said," "he stated," "the speaker added," "the speaker then went on to say," "the author also thinks," or the like. He should indicate clearly at the outset, once for all, that what follows is summary, and then waste no words in repeating the notification.</span>
+<span lang="ja">エッセイを要約するときやスピーチを報告するときのように、誰か他の人の言説や考えを示すときには、書き手は"he said,"（彼は言った）、"he stated,"（彼は述べた）、"the speaker added,"（話し手は付け加えた）、"the speaker then went on to say,"（話し手はこう続けた）、"the author also thinks,"（筆者はまたこう考える）のような表現を差し挟んではならない。続くものが要約であることを、書き手は最初からきっぱりと明確に示さなければならず、そしてその注意を繰り返して無駄に言葉を費してはならない。</span>
+</p>
+<p>
+<span lang="en">In notebooks, in newspapers, in handbooks of literature, summaries of one kind or another may be indispensable, and for children in primary schools it is a useful exercise to retell a story in their own words. But in the criticism or interpretation of literature the writer should be careful to avoid dropping into summary. He may find it necessary to devote one or two sentences to indicating the subject, or the opening situation, of the work he is discussing; he may cite numerous details to illustrate its qualities. But he should aim to write an orderly discussion supported by evidence, not a summary with occasional comment. Similarly, if the scope of his discussion includes a number of works, he will as a rule do better not to take them up singly in chronological order, but to aim from the beginning at establishing general conclusions.</span>
+<span lang="ja">手帳や新聞や文学作品の解説書などにおいて、何らかの要約は必須であり、そして小学校に通う子供たちにとっては物語を自分の言葉で語り直すことは有用な訓練になる。しかし批評や文学作品の解釈においては、書き手は要約に没頭しないように注意しなければならない。書き手は1、2文を費して、自分が論じている作品の主題や冒頭の状況を示す必要があると考えるかもしれない；詳細を数多く引用して作品の出来を例証してもよいだろう。しかし書き手は、要約に時折コメントが付くようなものではなく、証拠に基づいている整然とした論考を書くよう心がけなければならない。同様に、書き手が論じる範囲にいくつもの作品が含まれていたら、原則として書き手は時系列順に単調に取り上げるのではなく、最初から総合的な結論を固めることに狙いを定めたほうがよい。</span>
+</p>
+
+<h3><a name="18">18. 
+<span lang="en">Place the emphatic words of a sentence at the end</span>
+<span lang="ja">強調する語は一文の中で最後に置く</span>
+</a></h3>
+
+<p>
+<span lang="en">The proper place for the word, or group of words, which the writer desires to make most prominent is usually the end of the sentence.</span>
+<span lang="ja">書き手が最も目立たせたいと思う語や語のグループを置くのに適切な位置は、通常は文の末尾だ。</span>
+</p>
+
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Humanity has hardly advanced in fortitude since that time, though it has advanced in many other ways.</span>
+                <span lang="ja">（人間性は、忍耐力に関してはそのころからほとんど進歩がない──他の多くの面では進歩したとはいえ。）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Humanity, since that time, has advanced in many other ways, but it has hardly advanced in fortitude.</span>
+                <span lang="ja">（人間性はそのころから、他の多くの面では進歩してきた、しかし忍耐力に関してはほとんど進歩していない）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">This steel is principally used for making razors, because of its hardness.</span>
+                <span lang="ja">（この鋼は主として剃刀を作るのに使われる。その理由は硬さにある）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Because of its hardness, this steel is principally used in making razors.</span>
+                <span lang="ja">（その硬さのために、この鋼は主として剃刀を作るのに使われる）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+
+<p>
+<span lang="en">The word or group of words entitled to this position of prominence is usually the logical predicate, that is, the <em>new</em> element in the sentence, as it is in the second example.</span>
+<span lang="ja">この目立つ場所にふさわしい語または語のグループは、通常は論理的な述語だ。つまり、2番目の例に見られるように文中の<em>新しい</em>要素だ。</span>
+</p>
+<p>
+<span lang="en">The effectiveness of the periodic sentence arises from the prominence which it gives to the main statement.</span>
+<span lang="ja">掉尾文が効果的なのは、それが主たる論述を際立たせるからだ。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Four centuries ago, Christopher Columbus, one of the Italian mariners whom the decline of their own republics had put at the service of the world and of adventure, seeking for Spain a westward passage to the Indies as a set-off against the achievements of Portuguese discoverers, lighted on America.</span>
+<span lang="ja">（4世紀前、イタリア海軍の一員で、自分たちの共和国が凋落したことが理由となって、ポルトガルの探険家たちの手柄に見合う成果として、スペインのためにインドへの西向き航路を探し出そうという世界的な冒険の任務にあたったChristopher Columbusは、アメリカを見つけた）</span>
+</p>
+<p>
+<span lang="--">With these hopes and in this belief I would urge you, laying aside all hindrance, thrusting away all private aims, to devote yourselves unswervingly and unflinchingly to the vigorous and successful prosecution of this war.</span>
+<span lang="ja">（これらの希望とこの信念をよりどころに、私はあなたに強く提案する。すべての邪魔を脇に置いて、私的な目標を横へ押しやり、そしてこの戦争に対する精力的で効果的な糾弾に断固として自身を委ねることを）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The other prominent position in the sentence is the beginning. Any element in the sentence, other than the subject, becomes emphatic when placed first.</span>
+<span lang="ja">文中でもうひとつ目立つ場所は文頭だ。文の要素はいずれも、主語を除いて、文頭に置くと強調される。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Deceit or treachery he could never forgive.</span>
+<span lang="ja">（欺瞞や裏切りを、彼は絶対に許せなかった。）</span>
+</p>
+<p>
+<span lang="--">So vast and rude, fretted by the action of nearly three thousand years, the fragments of this architecture may often seem, at first sight, like works of nature.</span>
+<span lang="ja">（非常に広範にわたって荒々しく、ほぼ3000年近くの環境作用によって侵食されているので、この建築物の一部分は多くの場合、一見自然の産物のように見えるだろう）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">A subject coming first in its sentence may be emphatic, but hardly by its position alone. In the sentence,</span>
+<span lang="ja">主語がその文の最初にくる場合は、強調されるかもしれないが、位置を変えただけではほとんど効果はない。次の文では、</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Great kings worshipped at his shrine,</span>
+<span lang="ja">（偉大な王たちは彼の神殿に参拝した）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">the emphasis upon <em>kings</em> arises largely from its meaning and from the context. To receive special emphasis, the subject of a sentence must take the position of the predicate.</span>
+<span lang="ja"><em>kings</em>が強調される効果は、大半がその意味と文脈によって生じている。特別に強調されるためには、文の主語は述部の位置になければならない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Through the middle of the valley flowed a winding stream.</span>
+<span lang="ja">（谷の中央を貫いて、曲がりくねった小川が流れていた）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The principle that the proper place for what is to be made most prominent is the end applies equally to the words of a sentence, to the sentences of a paragraph, and to the paragraphs of a composition.</span>
+<span lang="ja">最も目立たせるべきものの適切な位置が末尾であるという原則は、文中の語にも、パラグラフ中の文にも、文章中のパラグラフにも同様に当てはまる。</span>
+</p>
+
+<hr />
+
+<h2><a name="form">IV. 
+<span lang="en">A Few Matters of Form</span>
+<span lang="ja">形式に関するいくつかの問題</span>
+</a></h2>
+
+<h3><a name="headings">
+<span lang="--">Headings</span>
+<span lang="ja">（見出し）</span>
+</a></h3>
+
+<p>
+<span lang="en">Leave a blank line, or its equivalent in space, after the title or heading of a manuscript. On succeeding pages, if using ruled paper, begin on the first line.</span>
+<span lang="ja">原稿のタイトルや見出しの後には、空行かそれに相当する空白を置く。続くページでは、罫の入った紙を使っている場合は、最初の行から始める。</span>
+</p>
+
+<h3><a name="numerals">
+<span lang="--">Numerals</span>
+<span lang="ja">（数詞）</span>
+</a></h3>
+
+<p>
+<span lang="en">Do not spell out dates or other serial numbers. Write them in figures or in Roman notation, as may be appropriate.</span>
+<span lang="ja">日付やその他の通し番号は、普通の単語として綴らない。適切な表記になるよう、数字かローマ記数法で記述する。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">August 9, 1918</span>
+<span lang="ja">（1918年8月9日）</span>
+</p>
+<p>
+<span lang="--">Chapter XII</span>
+<span lang="ja">（第XII章）</span>
+</p>
+<p>
+<span lang="--">Rule 3</span>
+<span lang="ja">（ルール3）</span>
+</p>
+<p>
+<span lang="--">352d Infantry</span>
+<span lang="ja">（第352歩兵隊）</span>
+</p>
+</blockquote>
+
+<h3><a name="parentheses">
+<span lang="--">Parentheses</span>
+<span lang="ja">（括弧）</span>
+</a></h3>
+
+<p>
+<span lang="en">A sentence containing an expression in parenthesis is punctuated, outside of the marks of parenthesis, exactly as if the expression in parenthesis were absent. The expression within is punctuated as if it stood by itself, except that the final stop is omitted unless it is a question mark or an exclamation point.</span>
+<span lang="ja">括弧に入った表現を含む文のうち、括弧記号の外側は、括弧内の表現がまるで存在しないかのように句読点を打つ。内側の表現は、それだけで独立しているかのようにみなして句読点を打つ。ただし内側の最後の句読点は、疑問符か感嘆符でない限り省略する。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">I went to his house yesterday (my third attempt to see him), but he had left town.</span>
+<span lang="ja">（私は昨日彼の家に行ったが（彼に会いに行くのはこれが3回目だ）、彼は町を離れた後だった）</span>
+</p>
+<p>
+<span lang="--">He declares (and why should we doubt his good faith?) that he is now certain of success.</span>
+<span lang="ja">（彼が宣言したことには（そして我々が彼の善き信仰を疑うことなどあろうか？）彼は今や自分自身の成功を確信している）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">(When a wholly detached expression or sentence is parenthesized, the final stop comes before the last mark of parenthesis.)</span>
+<span lang="ja">（完全に分離した表現や文が括弧で囲まれている場合、最後の句読点は最後の括弧記号の前にくる。）</span>
+</p>
+
+<h3><a name="quotations">
+<span lang="--">Quotations</span>
+<span lang="ja">（引用）</span>
+</a></h3>
+
+<p>
+<span lang="en">Formal quotations, cited as documentary evidence, are introduced by a colon and enclosed in quotation marks.</span>
+<span lang="ja">文書上の証拠として引用される正式な引用文は、コロンで導かれ引用符で囲まれる。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The provision of the Constitution is: "No tax or duty shall be laid on articles exported from any state."</span>
+<span lang="ja">（憲法にはこう定められている：「どの州から輸出される物品にも、租税や関税を課してはならない。」）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Quotations grammatically in apposition or the direct objects of verbs are preceded by a comma and enclosed in quotation marks.</span>
+<span lang="ja">文法上同格である引用文や、動詞の直接目的語である引用文は、直前にカンマが来て引用符で囲まれる。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">I recall the maxim of La Rochefoucauld, "<a href="http://www.columbia.edu/~svl2/bartlett/513.html#25">Gratitude is a lively sense of benefits to come</a>."</span>
+<span lang="ja">（私はLa Rochefoucauldの、「感謝の念は、来たる利益の確かな感触である」という格言を思い出す。）</span>
+</p>
+<p>
+<span lang="--">Aristotle says, "Art is an imitation of nature."</span>
+<span lang="ja">（アリストテレスは「芸術は自然の模倣である」と言った。）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Quotations of an entire line, or more, of verse, are begun on a fresh line and centred, but not enclosed in quotation marks.</span>
+<span lang="ja">詩句の1行丸ごとかそれ以上の引用は、新しい行でセンタリングして始めるが、引用符で囲むことはしない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Wordsworth's enthusiasm for the Revolution was at first unbounded:</span>
+<span lang="ja">（ワーズワースの革命に対する熱狂は当初限りなかった：）</span>
+</p>
+<p>
+<a href="http://www.columbia.edu/~svl2/wordsworth/ww297.html">
+<span lang="--">Bliss was it in that dawn to be alive,</span>
+<span lang="ja">（生きて迎える曙光の至福よ、）</span>
+<span lang="--">But to be young was very heaven!</span>
+<span lang="ja">（長く生きることはこの上ない幸せ！）</span>
+</a>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Quotations introduced by <em>that</em> are regarded as in indirect discourse and not enclosed in quotation marks.</span>
+<span lang="ja"><em>that</em>によって導入された引用は、間接話法の中にある状態と同様にみなされ、引用符で囲まれない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">Keats declares that <a href="http://www.columbia.edu/~svl2/keats/keats54.html">beauty is truth, truth beauty</a>.</span>
+<span lang="ja">（美は真なり、真は美とキーツは言い切っている）</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">Proverbial expressions and familiar phrases of literary origin require no quotation marks.</span>
+<span lang="ja">諺などでよく知られた表現および文学に由来する身近なフレーズは、引用符を必要としない。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">These are the times that try men's souls.</span>
+<span lang="ja">（今こそ我々の魂が試されるときなのだ（訳注：Thomas Paine, "The Crisis", 1776-83））</span>
+</p>
+<p>
+<span lang="--">He lives far from the madding crowd.</span>
+<span lang="ja">（群集からはるかに離れて彼は生きる（訳注：Thomas Hardy, "Far From the Madding Crowd", 1874））</span>
+</p>
+</blockquote>
+
+<p>
+<span lang="en">The same is true of colloquialisms and slang.</span>
+<span lang="ja">口語と卑語・俗語についても同様のことがいえる。</span>
+</p>
+
+<h3><a name="references">
+<span lang="--">References</span>
+<span lang="ja">（リファレンス、参考文献）</span>
+</a></h3>
+
+<p>
+<span lang="en">In scholarly work requiring exact references, abbreviate titles that occur frequently, giving the full forms in an alphabetical list at the end. As a general practice, give the references in parenthesis or in footnotes, not in the body of the sentence. Omit the words <em>act, scene, line, book, volume, page,</em> except when referring by only one of them. Punctuate as indicated below.</span>
+<span lang="ja">正確なリファレンスが必要とされる学術的な著作物では、何度も現れるタイトルは省略形で示し、巻末に完全形のアルファベット順一覧を載せる。一般的な慣習として、リファレンスは括弧に入れるか脚注にするかして、本文中にそのまま書くことはしない。<em>act, scene, line, book, volume, page</em>（幕、場、行、冊、巻、頁）という語は、これらのうちただ1種類によって参照するとき以外は省略する。句読点は下記のように打つ。</span>
+</p>
+
+<blockquote class="example">
+
+<div class="set">
+<p class="auth"><span lang="--">In the second scene of the third act</span>
+                <span lang="ja">（第三幕の第二場において）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">In III.ii (still better, simply insert III.ii in parenthesis at the proper place in the sentence)</span>
+                <span lang="ja">（III.iiにおいて（さらに良い書き方は、単に文中の適切な箇所に、括弧に包んでIII.iiと挿入する））</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p>
+<span lang="--">After the killing of Polonius, Hamlet is placed under guard (IV. ii. 14).</span>
+<span lang="ja">（ポロニウスを殺害した後、ハムレットは警備兵の監視下におかれる（IV. ii. 14））</span>
+</p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">2 <em>Samuel</em> i:17-27</span></p>
+<p class="edit"><span lang="--"><em>Othello</em> II.iii 264-267, III.iii. 155-161</span></p>
+</div>
+</blockquote>
+
+<h3><a name="titles">
+<span lang="en">Titles</span>
+<span lang="ja">（タイトル、書名）</span>
+</a></h3>
+
+<p>
+<span lang="en">For the titles of literary works, scholarly usage prefers italics with capitalized initials. The usage of editors and publishers varies, some using italics with capitalized initials, others using Roman with capitalized initials and with or without quotation marks. Use italics (indicated in manuscript by underscoring), except in writing for a periodical that follows a different practice. Omit initial <em>A</em> or <em>The</em> from titles when you place the possessive before them.</span>
+<span lang="ja">文学的作品のタイトルは、学術的な用法では、イニシャルを大文字にしたイタリックにすることが望ましい。編集者や出版社によって用法は異なり、イニシャルを大文字にしたイタリックを使うところもあれば、イニシャルを大文字にしたローマンに引用符を付けたり付けなかったりするところもある。執筆している雑誌や媒体が異なる慣習に従う場合を除き、イタリックを使うこと（原稿上では該当箇所に下線を引くことで示される）。タイトルの前に所有格を置く場合は、タイトルの最初の<em>A</em>または<em>The</em>は省略する。</span>
+</p>
+
+<blockquote class="example">
+<p>
+<span lang="--">The <em>Iliad;</em> the <em><a href="http://www.columbia.edu/~svl2/chapman/">Odyssey</a>; As You Like It; To a Skylark; The Newcomes; A Tale of Two Cities;</em> Dicken's <em>Tale of Two Cities.</em></span>
+<span lang="ja">（イリアッド；オデュッセイア；お気に召すまま；雲雀に；ニューカム家の人々；二都物語；ディケンズの二都物語）</span>
+</p>
+</blockquote>
+
+<hr />
+
+<h2><a name="words">V. 
+<span lang="en">Words and Expressions Commonly Misused</span>
+<span lang="ja">単語と表現でよくある間違い</span>
+</a></h2>
+
+<p>
+<span lang="en">(Many of the words and expressions here listed are not so much bad English as bad style, the commonplaces of careless writing. As illustrated under <em>Feature,</em> the proper correction is likely to be not the replacement of one word or set of words by another, but the replacement of vague generality by definite statement.)</span>
+<span lang="ja">（ここに列挙した語と表現の多くは、そのスタイルのひどさに比べれば、英語としてはそれほどひどいものではない。これらのスタイルは、ずさんなライティングのありきたりな例だ。<em>Feature</em>で説明されているように、適切な修正を施すためには、単語を取り換えるのではなく、あいまいで漠然とした記述を明確な記述で置き換える必要があるだろう。）</span>
+</p>
+
+<dl>
+
+<dt><a name="v1">
+<span lang="--">All right</span>
+<span lang="ja">（よろしい）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en"> Idiomatic in familiar speech as a detached phrase in the sense, "Agreed," or "Go ahead." In other uses better avoided. Always written as two words.</span>
+<span lang="ja">「同意した」あるいは「そうしなさい」という意味の独立したフレーズとして、日常口語で使われるのが慣用。他の使い方は避けること。常に2つの単語として表記される。</span>
+</p>
+</dd>
+
+<dt><a name="v2">
+<span lang="--">As good or better than</span>
+<span lang="ja">（同じかそれよりもよい）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Expressions of this type should be corrected by rearranging the sentence.</span>
+<span lang="ja">この種の表現は文を整理し直して修正すべきだ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">My opinion is as good or better than his.</span>
+                <span lang="ja">（私の意見は彼の意見と同じかそれ以上に優れている）</span></p>
+<p class="edit"><span lang="--">My opinion is as good as his, or better (if not better).</span>
+                <span lang="ja">（私の意見は彼の意見と同じくらい優れている。あるいはそれ以上に優れている（それ以上に優れていないとしても））</span>
+</p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v3">
+<span lang="--">As to whether</span>
+<span lang="ja">（かどうか）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en"><em>Whether</em> is sufficient; see under <a href="#13">Rule 13</a>.</span>
+<span lang="ja"><em>Whether</em>で十分だ；<a href="#13">ルール13</a>を参照。</span>
+</p>
+</dd>
+
+<dt><a name="v4">
+<span lang="--">Bid</span>
+<span lang="ja">（入札する）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Takes the infinitive without <em>to.</em> The past tense is <em>bade.</em></span>
+<span lang="ja"><em>to</em>がない不定詞をとる。過去形は<em>bade.</em></span>
+</p>
+</dd>
+
+<dt><a name="v5">
+<span lang="--">Case</span>
+<span lang="ja">（ケース）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">The <em>Concise Oxford Dictionary</em> begins its definition of this word: "instance of a thing's occurring; usual state of affairs." In these two senses, the word is usually unnecessary.</span>
+<span lang="ja">The <em>Concise Oxford Dictionary</em>はその定義をこの言葉で始めている："instance of a thing's occurring; usual state of affairs."（物事の発生の事例；事物のいつもの状態） これらの2つの意味において、この語は通常不要だ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">In many cases, the rooms were poorly ventilated.</span>
+                <span lang="ja">（多くの場合、それらの部屋はよく換気されていなかった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Many of the rooms were poorly ventilated.</span>
+                <span lang="ja">（それらの部屋の多くはよく換気されていなかった）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">It has rarely been the case that any mistake has been made.</span>
+                <span lang="ja">（何か間違いをするというケースは、ほとんどなかった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Few mistakes have been made.</span>
+                <span lang="ja">（間違いはほとんどなかった）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">See Wood, <em>Suggestions to Authors,</em> pp. 68-71, and Quiller-Couch, <em>The Art of Writing,</em> pp. 103-106.</span>
+<span lang="ja">Wood, <em>Suggestions to Authors,</em> pp. 68-71, およびQuiller-Couch, <em>The Art of Writing,</em> pp. 103-106を参照。</span>
+</p>
+</dd>
+
+<dt><a name="v6">
+<span lang="--">Certainly</span>
+<span lang="ja">（確かに）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Used indiscriminately by some speakers, much as others use <i><a href="#44">very</a>,</i> to intensify any and every statement. A mannerism of this kind, bad in speech, is even worse in writing.</span>
+<span lang="ja"><em><a href="#44">very</a></em>を見境なしに使う者がいるのと同様に、どんなものであろうとすべての単語に対して強調のためにこの言葉を使う者がいる。この種のマンネリズムはスピーチではまずいものだし、ライティングにおいてはなおさらまずい。</span>
+</p>
+</dd>
+
+<dt><a name="v7">
+<span lang="--">Character</span>
+<span lang="ja">（性格）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Often simply redundant, used from a mere habit of wordiness.</span>
+<span lang="ja">単にくどい話し方が癖になって使われているだけで、全く冗長でしかない場合が多い。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Acts of a hostile character</span>
+                <span lang="ja">（敵対的な性格を示す行為）</span></p>
+<p class="edit"><span lang="--">Hostile acts</span>
+                <span lang="ja">（敵対的な行為）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v8">
+<span lang="--">Claim, vb.</span>
+<span lang="ja">（主張）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">With object-noun, means <em>lay claim to.</em> May be used with a dependent clause if this sense is clearly involved: "He claimed that he was the sole surviving heir." (But even here, "claimed to be" would be better.) Not to be used as a substitute for <em>declare, maintain,</em> or <em>charge.</em></span>
+<span lang="ja">目的語名詞を伴うと、<em>lay claim to</em>（主張する）という意味になる。この意味を明確に含んでいるならば、従属節と共に使ってもよい："He claimed that he was the sole surviving heir."（彼は自分がたった一人の生き残った相続人だったと主張した）（ただしここでさえ、"claimed to be"（であると主張）のほうが望ましいだろう。）<em>declare, maintain,</em>または<em>charge</em>の代替として使われるべきものではない。</span>
+</p>
+</dd>
+
+<dt><a name="v9">
+<span lang="--">Compare</span>
+<span lang="ja">（比較する）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">To <em>compare to</em> is to point out or imply resemblances, between objects regarded as essentially of different order; to <em>compare with</em> is mainly to point out differences, between objects regarded as essentially of the same order. Thus life has been compared to a pilgrimage, to a drama, to a battle; Congress may be compared with the British Parliament. Paris has been compared to ancient Athens; it may be compared with modern London.</span>
+<span lang="ja"><em>compare to</em>とは、本質的に異なる種類の物事の間の類似を指摘または示唆することだ；<em>compare with</em>とは、主に本質的に同じ種類の物事の間の違いを指摘することだ。かくして人生は巡礼や劇や戦いに比較（compare to）されてきた；米国議会は英国議会と比較（compare with）してもよいだろう。パリは古代アテネに比べられてきた（compare to）；現代のロンドンと比較（compare with）してもよいだろう。</span>
+</p>
+</dd>
+
+<dt><a name="v10">
+<span lang="--">Clever</span>
+<span lang="ja">（賢しい）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">his word has been greatly overused; it is best restricted to ingenuity displayed</span> in small matters.
+<span lang="ja">この言葉はあまりにも使われすぎている；小さなことについて発揮された知恵に限って使うようにするのが最善だ。</span>
+</p>
+</dd>
+
+<dt><a name="v11">
+<span lang="--">Consider</span>
+<span lang="ja">（考慮する）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not followed by <em>as</em> when it means, "believe to be." "I consider him thoroughly competent." Compare, "The lecturer considered Cromwell first as soldier and second as administrator," where "considered" means "examined" or "discussed."</span>
+<span lang="ja">"believe to be."（みなす） "I consider him thoroughly competent."（彼は全く適任であると私は考えている）という意味のときには<em>as</em>が後に続かない。"The lecturer considered Cromwell first as soldier and second as administrator"（講師はクロムウェルを第一に兵士、第二に行政官とみなしていた）と比較せよ。ここでは"considered"は"examined"（検討した）または"discussed"（考察した）という意味だ。</span>
+</p>
+</dd>
+
+<dt><a name="v12">
+<span lang="--">Dependable</span>
+<span lang="ja">（信頼できる）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A needless substitute for <em>reliable, trustworthy.</em></span>
+<span lang="ja"><em>reliable, trustworthy</em>の不要な言い替え。</span>
+</p>
+</dd>
+
+<dt><a name="v13">
+<span lang="--">Due to</span>
+<span lang="ja">（のせいで）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Incorrectly used for <em>through, because of,</em> or <em>owing to,</em> in adverbial phrases: "He lost the first game, due to carelessness." In correct use related as predicate or as modifier to a particular noun: "This invention is due to Edison;" "losses due to preventable fires."</span>
+<span lang="ja">副詞句において<em>through, because of,</em>または<em>owing to</em>の代わりに不適切に使われる："He lost the first game, due to carelessness."（彼は最初のゲームで不注意のせいで負けた） 述語として、または特定の名詞に関する修飾語として関連した正しい用法では："This invention is due to Edison;"（この発明はエジソンによる） "losses due to preventable fires"（防ぐことができた火事による損失）。</span>
+</p>
+</dd>
+
+<dt><a name="v14">
+<span lang="--">Effect</span>
+<span lang="ja">（効果）</span>
+</a></dt>
+<dd>
+<p>
+<span>As noun, means <em>result;</em> as verb, means <em>to bring about, accomplish lang="en"</em> (not to be confused with <em>affect,</em> which means "to influence").</span>
+<span lang="ja">名詞としては、<em>result</em>（結果）を意味する；動詞としては、<em>to bring about, accomplish</em>（もたらす、達成する）を意味する（<em>affect</em>と混同してはならない。それは"to influence"（影響を及ぼす）という意味）。</span>
+</p>
+<p>
+<span lang="en">As noun, often loosely used in perfunctory writing about fashions, music, painting, and other arts: "an Oriental effect;" "effects in pale green;" "very delicate effects;" "broad effects;" "subtle effects;" "a charming effect was produced by." The writer who has a definite meaning to express will not take refuge in such vagueness.</span>
+<span lang="ja">名詞としては、ファッションや音楽や絵画その他の芸術に関するいい加減なライティングで、ゆるく使われることがよくある："an Oriental effect;"（東洋風の効果） "effects in pale green;"（薄緑の効果） "very delicate effects;"（とても微妙な効果） "broad effects;"（幅広い影響） "subtle effects;"（かすかな効果） "a charming effect was produced by"（魅力的な効果はそれによって生み出されている）。伝えるべき明確な趣旨を持った書き手は、そのようなあいまいな表現に逃げたりしないだろう。</span>
+</p>
+</dd>
+
+<dt><a name="v15">
+<span lang="--">Etc</span>
+<span lang="ja">（など）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not to be used of persons. Equivalent to <em>and the rest, and so forth,</em> and hence not to be used if one of these would be insufficient, that is, if the reader would be left in doubt as to any important particulars. Least open to objection when it represents the last terms of a list already given in full, or immaterial words at the end of a quotation.</span>
+<span lang="ja">人間に対して使ってはならない。これは<em>and the rest, and so forth,</em>と同等の表現で、そのためこれらの表現のいずれかを使うのが不適当な場合、つまり、もし読み手が何か大事な物事の詳細が分からないまま置きざりにされるようなら、使ってはならない。それが既に完全な形で与えられたリストの最後の語か、または引用文の末尾の重要でない語を表しているのであれば、etc.を使うことに異論を挟む余地はほとんどない。</span>
+</p>
+<p>
+<span lang="en">At the end of a list introduced by <em>such as, for example,</em> or any similar expression, <em>etc.</em> is incorrect.</span>
+<span lang="ja"><em>such as</em>や<em>for example</em>やその他似たような表現によって導かれるリストの末尾では、<em>etc.</em>を使うのは正しくない。</span>
+</p>
+</dd>
+
+<dt><a name="v16">
+<span lang="--">Fact</span>
+<span lang="ja">（事実）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Use this word only of matters of a kind capable of direct verification, not of matters of judgment. That a particular event happened on a given date, that lead melts at a certain temperature, are facts. But such conclusions as that Napoleon was the greatest of modern generals, or that the climate of California is delightful, however incontestable they may be, are not properly facts.</span>
+<span lang="ja">この語は判断に関する場合には使うべきではなく、直接証明が可能な場合に限って使うこと。特定の出来事がある日時に起きたということや、鉛が特定の温度で溶けるということは、事実（fact）だ。しかし、ナポレオンが近代の将軍のなかで最も優れている、またはカリフォルニアの気候は快適であるというような判断は、それらがいかに明白であろうと、正しい事実とはいえない。</span>
+</p>
+<p>
+<span lang="en">On the formula <em>the fact that,</em> see under <a href="strunk.html#13">Rule 13</a>.</span>
+<span lang="ja"><em>the fact that,</em>という定型については、<a href="strunk.html#13">ルール13</a>を参照。</span>
+</p>
+</dd>
+
+<dt><a name="v17">
+<span lang="--">Factor</span>
+<span lang="ja">（要因）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A hackneyed word; the expressions of which it forms part can usually be replaced by something more direct and idiomatic.</span>
+<span lang="ja">紋切型で陳腐な言葉だ；この言葉を含む表現は、たいていより直接的でふさわしい表現で置き換えることができる。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">His superior training was the great factor in his winning the match.</span>
+                <span lang="ja">（彼のより優れた訓練が、彼が試合に勝利する大きな要因だった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">He won the match by being better trained.</span>
+                <span lang="ja">（彼はより良く訓練されていたので試合に勝利した）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Heavy artillery is becoming an increasingly important factor in deciding battles.</span>
+                <span lang="ja">（戦闘の勝敗の決め手となる要因として、重砲はますます重要になってきている）</span></p>
+<p class="edit"><span lang="--">Heavy artillery is playing a larger and larger part in deciding battles.</span>
+                <span lang="ja">（戦闘の勝敗の決め手として、重砲はますます大きな役割を担うようになっている）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v18">
+<span lang="--">Feature</span>
+<span lang="ja">（特徴）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Another hackneyed word; like <em><a href="#17">factor</a></em> it usually adds nothing to the sentence in which it occurs.</span>
+<span lang="ja">また別の紋切型で陳腐な語；<em><a href="#17">factor</a></em>と同じように、それが使われている文に何の意味も加えないことが多い。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">A feature of the entertainment especially worthy of mention was the singing of Miss A.</span>
+                <span lang="ja">（その演目の特徴で特に言及に値するのは、A嬢の歌唱だ）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">(Better use the same number of words to tell what Miss A. sang, or if the programme has already been given, to tell something of how she sang.)</span>
+                <span lang="ja">（（同じだけの語数を費すなら、何をA嬢は歌ったのか、またはもしプログラムが既に提供されているのであれば、彼女がどのように歌ったかについて述べたほうがよい））</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">As a verb, in the advertising sense of <em>offer as a special attraction,</em> to be avoided.</span>
+<span lang="ja">動詞としては、<em>offer as a special attraction,</em>（特別魅力的なオファー）という広告的な意味では、避けるべきだ。</span>
+</p>
+</dd>
+
+<dt><a name="v19">
+<span lang="--">Fix</span>
+<span lang="ja">（直す）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Colloquial in America for <em>arrange, prepare, mend.</em> In writing restrict it to its literary senses, <em>fasten, make firm or immovable,</em> etc.</span>
+<span lang="ja">アメリカ口語では<em>arrange, prepare, mend.</em>という意味がある。ライティングにおいては<em>fasten, make firm</em>または<em>immovable</em>などの文字どおりの意味に限定すること。</span>
+</p>
+</dd>
+
+<dt><a name="v20">
+<span lang="--">He is a man who</span>
+<span lang="ja">（彼は～というような男だ）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A common type of redundant expression; see <a href="strunk.html#13">Rule 13</a>.</span>
+<span lang="ja">よくある種類の冗長な表現；<a href="strunk.html#13">ルール13</a>を参照。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">He is a man who is very ambitious.</span>
+                <span lang="ja">（彼は非常に野心的な男だ）</span></p>
+<p class="edit"><span lang="--">He is very ambitious.</span>
+                <span lang="ja">（彼は非常に野心的だ）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Spain is a country which I have always wanted to visit.</span>
+                <span lang="ja">（スペインは私がずっと行きたいと思っている国だ）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">I have always wanted to visit Spain.</span>
+                <span lang="ja">（私はずっとスペインに行きたいと思っていた）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v21">
+<span lang="--">However</span>
+<span lang="ja">（しかしながら）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">In the meaning <em>nevertheless,</em> not to come first in its sentence or clause.</span>
+<span lang="ja"><em>nevertheless</em>（それにもかかわらず）という意味の場合は、それが含まれる文や節の最初に来てはならない。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">The roads were almost impassable. However, we at last succeeded in reaching camp.</span>
+                <span lang="ja">（道路はほとんど通行できなかった。しかしながら、私たちはとうとうキャンプに到達できた）</span></p>
+<p class="edit"><span lang="--">The roads were almost impassable. At last, however, we succeeded in reaching camp.</span>
+                <span lang="ja">（道路はほとんど通行できなかった。それにもかかわらず、私たちはとうとうキャンプに到達できた）</span></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">When <em>however</em> comes first, it means <em>in whatever way</em> or <em>to whatever extent.</em></span>
+<span lang="ja"><em>however</em>が最初にくる場合、それは<em>in whatever way</em>（どんな方法であれ）または<em>to whatever extent</em>（どの程度であれ）という意味だ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">However you advise him, he will probably do as he thinks best.</span>
+                <span lang="ja">（あなたがどんなに彼に助言をしても、たぶん彼は自分が一番だと思うところを為すだろう）</span></p>
+<p class="edit"><span lang="--">However discouraging the prospect, he never lost heart.</span>
+                <span lang="ja">（見通しがどんなに思わしくなかったとしても、彼は決して落胆しなかった）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v22">
+<span lang="--">Kind of</span>
+<span lang="ja">（ある種の）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not to be used as a substitute for <em>rather</em> (before adjectives and verbs), or except in familiar style, for <em>something like</em> (before nouns). Restrict it to its literal sense: "Amber is a kind of fossil resin;" "I dislike that kind of notoriety." The same holds true of <em>sort of.</em></span>
+<span lang="ja">（形容詞や動詞の前における）<em>rather</em>の代わりに使ったり、くだけた体裁の場合を除いては（名詞の前における）<em>something like</em>の代わりに使ってはならない。文字どおりの意味に限ること："Amber is a kind of fossil resin;"（琥珀は化石樹脂の一種だ） "I dislike that kind of notoriety"（私はその手の悪評は好まない）。同じことが<em>sort of</em>についてもいえる。</span>
+</p>
+</dd>
+
+<dt><a name="v23">
+<span lang="--">Less</span>
+<span lang="ja">（分量が少ない）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Should not be misused for <em>fewer.</em></span>
+<span lang="ja">これを<em>fewer</em>（数が少ない）と誤用してはならない。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">He had less men than in the previous campaign.</span>
+                <span lang="ja">（彼は前回の戦役よりも少ない兵士しか率いていなかった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">He had fewer men than in the previous campaign.</span>
+                <span lang="ja">（彼は前回の戦役よりも少ない兵士しか率いていなかった）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en"><em>Less</em> refers to quantity, <em>fewer</em> to number. "His troubles are less than mine" means "His troubles are not so great as mine." "His troubles are fewer than mine" means "His troubles are not so numerous as mine." It is, however, correct to say, "The signers of the petition were less than a hundred, "where the round number, a hundred, is something like a collective noun, and <em>less</em> is thought of as meaning a less quantity or amount.</span>
+<span lang="ja"><em>Less</em>は分量を指し、<em>fewer</em>は数を指す。"His troubles are less than mine"は"His troubles are not so great as mine."（彼の問題は私の問題ほどひどくない）という意味だ。"His troubles are fewer than mine"は"His troubles are not so numerous as mine."（彼の問題は私の問題ほど数が多くない）という意味だ。しかしながら、"The signers of the petition were less than a hundred, "（請願の署名は100に満たなかった）と言うのは、100のような丸められた数字は集合名詞のようなものであり、<em>less</em>は分量や額が少ないという意味だと解釈されるので、正しい。</span>
+</p>
+</dd>
+
+<dt><a name="v24">
+<span lang="--">Line, along these lines</span>
+<span lang="ja">（線、この線で）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en"><em>Line</em> in the sense of <em>course of procedure, conduct, thought,</em> is allowable, but has been so much overworked, particularly in the phrase <em>along these lines,</em> that a writer who aims at freshness or originality had better discard it entirely.</span>
+<span lang="ja"><em>course of procedure, conduct, thought</em>（手続き、行動、考え方の指針）という意味での<em>line</em>は許容されるが、特に<em>along these lines</em>（この線に沿って）というフレーズで多用されすぎているので、新鮮味やオリジナリティを求める書き手は完全に無視したほうがよい。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Mr. B. also spoke along the same lines.</span>
+                <span lang="ja">（B氏もまた同じ線で話をした）</span></p>
+<p class="edit"><span lang="--">Mr. B. also spoke, to the same effect.</span>
+                <span lang="ja">（B氏もまた同じ趣旨の話をした）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">He is studying along the line of French literature.</span>
+                <span lang="ja">（彼はフランス文学の概略に沿って研究をしている）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">He is studying French literature.</span>
+                <span lang="ja">（彼はフランス文学を研究している）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v25">
+<span lang="--">Literal, literally</span>
+<span lang="ja">（文字どおり）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Often incorrectly used in support of exaggeration or violent metaphor.</span>
+<span lang="ja">誇張しようとして、または暴力的な暗喩をしようとして、しばしば誤って用いられる。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">A literal flood of abuse</span>
+                <span lang="ja">（文字どおり、罵詈雑言の洪水）</span></p>
+<p class="edit"><span lang="--">A flood of abuse</span>
+                <span lang="ja">（洪水のような罵詈雑言）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Literally dead with fatigue</span>
+                <span lang="ja">（文字どおり疲労で死んだようになって）</span></p>
+<p class="edit"><span lang="--">Almost dead with fatigue (dead tired)</span>
+                <span lang="ja">（疲労でほとんど死んだようになって（死ぬほど疲れて））</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v26">
+Lose out
+</a></dt>
+<dd>
+<p>
+<span lang="en">Meant to be more emphatic than <em>lose,</em> but actually less so, because of its commonness. The same holds true of <em>try out, win out, sign up, register up.</em> With a number of verbs, <em>out</em> and <em>up</em> form idiomatic combinations: <em>find out, run out, turn out, cheer up, dry up, make up,</em> and others, each distinguishable in meaning from the simple verb. <em>Lose out</em> is not.</span>
+<span lang="ja"><em>lose</em>よりも語勢を強める意図で使われるが、実際にはそのありきたりさゆえに、より弱くなる。<em>try out, win out, sign up, register up</em>も同様。<em>out</em>および<em>up</em>は、さまざまな動詞と結合して慣用表現を形作る：<em>find out, run out, turn out, cheer up, dry up, make up</em>その他で、それぞれがもとの動詞から意味の違いを読み取れる。<em>Lose out</em>はそうではない。</span>
+</p>
+</dd>
+
+<dt><a name="v27">
+<span lang="--">Most</span>
+<span lang="ja">（ほとんどの）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not to be used for <em>almost.</em></span>
+<span lang="ja"><em>almost</em>（ほぼ）という意味で使ってはならない。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Most everybody</span>
+                <span lang="ja">（ほとんどの誰もが）</span></p>
+<p class="edit"><span lang="--">Almost everybody</span>
+                <span lang="ja">（ほとんど誰もが）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Most all the time</span>
+                <span lang="ja">（ほとんどのずっと）</span></p>
+<p class="edit"><span lang="--">Almost all the time</span>
+                <span lang="ja">（ほとんどずっと）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v28">
+<span lang="--">Nature</span>
+<span lang="ja">（性質）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Often simply redundant, used like <em><a href="#7">character</a>.</em></span>
+<span lang="ja"><em><a href="#7">character</a></em>（性格）のように使われ、多くの場合は単に冗長だ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Acts of a hostile nature</span>
+                <span lang="ja">（敵対的な性質の行為）</span></p>
+<p class="edit"><span lang="--">Hostile acts</span>
+                <span lang="ja">（敵対的な行為）</span></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">Often vaguely used in such expressions as "a lover of nature;" "poems about nature." Unless more specific statements follow, the reader cannot tell whether the poems have to do with natural scenery, rural life, the sunset, the untracked wilderness, or the habits of squirrels.</span>
+<span lang="ja">"a lover of nature;"（自然を愛する者） "poems about nature"（自然についての詩）のような表現でしばしばあいまいに使われる。より具体的な記述がそれに続くのでない限り、その詩が自然の景観に関するものなのか、田園生活に関するものなのか、日没に関するものなのか、人跡未踏の荒野に関するものなのか、リスの習性に関するものなのか、読み手には分からない。</span>
+</p>
+</dd>
+
+<dt><a name="v29">
+<span lang="--">Near by</span>
+<span lang="ja">（近くの）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Adverbial phrase, not yet fully accepted as good English, though the analogy of <em>close by</em> and <em>hard by</em> seems to justify it. <em>Near,</em> or <em>near at hand,</em> is as good, if not better.</span>
+<span lang="ja">副詞的なフレーズで、いまだに良い英語だとは完全に認められていないが、<em>close by</em>および<em>hard by</em>のアナロジーによって正当化されているようだ。<em>Near</em>または<em>near at hand</em>も、少なくとも同程度には良い。</span>
+</p>
+<p>
+<span lang="en">Not to be used as an adjective; use <em>neighboring.</em></span>
+<span lang="ja">形容詞として使ってはならない；<em>neighboring</em>を使うこと。</span>
+</p>
+</dd>
+
+<dt><a name="v30">
+<span lang="--">Oftentimes, ofttimes</span>
+<span lang="ja">（しばしば）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Archaic forms, no longer in good use. The modern word is <em>often.</em></span>
+<span lang="ja">古風な形式で、もうあまり使われていない。現代的な言葉は<em>often.</em></span>
+</p>
+</dd>
+
+<dt><a name="v31">
+<span lang="--">One hundred and one</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Retain the <em>and</em> in this and similar expressions, in accordance with the unvarying usage of English prose from Old English times.</span>
+<span lang="ja">これとこれに似た表現では、オールドイングリッシュ（Old English: 古期英語）の時代からの英語散文の一定不変の用法に従って、<em>and</em>を省かずにおく。</span>
+</p>
+</dd>
+
+<dt><a name="v32">
+<span lang="--">One of the most</span>
+<span lang="ja">（最も～なもののひとつ）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Avoid beginning essays or paragraphs with this formula, as, "One of the most interesting developments of modern science is, etc.;" "Switzerland is one of the most interesting countries of Europe." There is nothing wrong in this; it is simply threadbare and forcible-feeble.</span>
+<span lang="ja">この定型でエッセイやパラグラフを始めるのは避けること。例えば"One of the most interesting developments of modern science is, etc.;"（現代科学の最も興味深い発展のひとつに、云々）や"Switzerland is one of the most interesting countries of Europe"（スイスはヨーロッパの最も興味深い国のひとつである）のような表現は避ける。これは決して間違ってはいない；単に陳腐で、一見強そうだが実は弱いというだけだ。</span>
+</p>
+</dd>
+
+<dt><a name="v33">
+<span lang="--">People</span>
+<span lang="ja">（人々）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en"><em>The people</em> is a political term, not to be confused with <em>the public.</em> From the people comes political support or opposition; from the public comes artistic appreciation or commercial patronage.</span>
+<span lang="ja"><em>The people</em>（人々）は政治的な用語であり、<em>the public.</em>（公衆）と混同してはならない。peopleが生み出すのは、政治的な協賛や抵抗だ；publicが生み出すのは、芸術的な賞賛や商業的な後援だ。</span>
+</p>
+<p>
+<span lang="en">The word <em>people</em> is not to be used with words of number, in place of <em>persons.</em> If of "six people" five went away, how many "people" would be left?</span>
+<span lang="ja"><em>people</em>という語は、<em>persons</em>の代わりに数詞と共に使ってはならない。もし"six people"のうち5人がいなくなったなら、何人の"people"が残るだろうか？</span>
+</p>
+</dd>
+
+<dt><a name="v34">
+<span lang="--">Phase</span>
+<span lang="ja">（段階）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Means a stage of transition or development: "the phases of the moon;" "the last phase." Not to be used for <em>aspect</em> or <em>topic.</em></span>
+<span lang="ja">移り変わりや発展の段階を意味する："the phases of the moon;"（月相） "the last phase"（最終段階）。<em>aspect</em>（面）や<em>topic</em>（話題）の意味で使ってはならない。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Another phase of the subject</span>
+                <span lang="ja">（主題のもうひとつの面）</span></p>
+<p class="edit"><span lang="--">Another point (another question)</span>
+                <span lang="ja">（もうひとつのポイント（もうひとつの疑問））</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v35">
+<span lang="--">Possess</span>
+<span lang="ja">（所有する、占有する）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not to be used as a mere substitute for <em>have</em> or <em>own.</em></span>
+<span lang="ja"><em>have</em>や<em>own</em>の単なる代替として使ってはならない。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">He possessed great courage.</span>
+                <span lang="ja">（彼は大変な勇気を所有していた）</span></p>
+<p class="edit"><span lang="--">He had great courage (was very brave).</span>
+                <span lang="ja">（彼は大変な勇気を持っていた（とても勇敢だった））</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">He was the fortunate possessor of</span>
+                <span lang="ja">（彼は幸運にも～の所有者だった）</span></p>
+<p class="edit"><span lang="--">He owned</span>
+                <span lang="ja">（彼は～を所有していた）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v36">
+<span lang="--">Respective, respectively</span>
+<span lang="ja">（それぞれ）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">These words may usually be omitted with advantage.</span>
+<span lang="ja">これらの語は通常、省略してよく、そうしたほうがよい。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Works of fiction are listed under the names of their respective authors.</span>
+                <span lang="ja">（フィクションの作品はそれぞれの作者の名前に基づいて列挙されている）</span>
+</p>
+<p class="edit"><span lang="--">Works of fiction are listed under the names of their authors.</span>
+                <span lang="ja">（フィクションの作品は作者の名前に基づいて列挙されている）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">The one mile and two mile runs were won by Jones and Cummings respectively.</span>
+                <span lang="ja">（1マイル走と2マイル走はそれぞれJonesとCummingsが勝利した）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">The one mile and two mile runs were won by Jones and by Cummings.</span>
+                <span lang="ja">（1マイル走と2マイル走はJonesとCummingsが勝利した）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">In some kinds of formal writing, as in geometrical proofs, it may be necessary to use <em>respectively,</em> but it should not appear in writing on ordinary subjects.</span>
+<span lang="ja">幾何学的な証明のように、ある種の公式なライティングでは、<em>respectively</em>を使うことが必須であるかもしれないが、通常の主題についてのライティングで使われるべきではない。</span>
+</p>
+</dd>
+
+<dt><a name="v37">
+<span lang="--">So</span>
+<span lang="ja">（とても）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Avoid, in writing, the use of <em>so</em> as an intensifier: "so good;" "so warm;" "so delightful."</span>
+<span lang="ja">ライティングでは、<em>so</em>を強調のために使うのは避けること："so good"（とても良い）；"so warm"（とても暖かい）；"so delightful"（とても喜ばしい）。</span>
+</p>
+<p>
+<span lang="en">On the use of <em>so</em> to introduce clauses, see <a href="strunk.html#4">Rule 4</a>.</span>
+<span lang="ja">節を導入するために<em>so</em>を使うことについては、<a href="strunk.html#4">ルール4</a>を参照。</span>
+</p>
+</dd>
+
+<dt><a name="v38">
+<span lang="--">Sort of</span>
+<span lang="ja">（ある種の）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">See under <strong><a href="#v22">Kind of</a></strong>.</span>
+<span lang="ja"><strong><a href="#v22">Kind of</a></strong>を参照。</span>
+</p>
+</dd>
+
+<dt><a name="v39">
+<span lang="--">State</span>
+<span lang="ja">（述べる）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Not to be used as a mere substitute for <em>say, remark.</em> Restrict it to the sense of <em>express fully or clearly,</em> as, "He refused to state his objections."</span>
+<span lang="ja">単に<em>say, remark</em>の代わりとして使ってはならない。"He refused to state his objections."（彼は反対意見を述べることを拒否した）のように、<em>余すところなく完全に、または明らかに表現する</em>（express fully or clearly）という意味に限定すること。</span>
+</p>
+</dd>
+
+<dt><a name="v40">
+<span lang="--">Student body</span>
+<span lang="ja">（全学生）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A needless and awkward expression, meaning no more than the simple word <em>students.</em></span>
+<span lang="ja"><em>students</em>（学生）という単純な語以上の意味を持たない、不必要で不格好な表現だ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">A member of the student body</span>
+                <span lang="ja">（全学生のメンバー）</span></p>
+<p class="edit"><span lang="--">A student</span>
+                <span lang="ja">（学生）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">Popular with the student body</span>
+                <span lang="ja">（全学生の間で人気の）</span></p>
+<p class="edit"><span lang="--">Liked by the students</span>
+                <span lang="ja">（学生に人気の）</span></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">The student body passed resolutions.</span>
+                <span lang="ja">（全学生は決議案を通過させた）</span></p>
+<p class="edit"><span lang="--">The students passed resolutions.</span>
+                <span lang="ja">（学生は決議案を通過させた）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v41">
+<span lang="--">System</span>
+<span lang="ja">（システム）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Frequently used without need.</span>
+<span lang="ja">必要がないのによく使われる。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Dayton has adopted the commission system of government.</span>
+                <span lang="ja">（Daytonは政府の委任システムを採用している）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Dayton has adopted government by commission.</span>
+                <span lang="ja">（Daytonは委任の点では政府を受け入れている）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">The dormitory system</span>
+                <span lang="ja">（寮制）</span></p>
+<p class="edit"><span lang="--">Dormitories</span>
+                <span lang="ja">（寮）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v42">
+<span lang="--">Thanking you in advance</span>
+<span lang="ja">（先に感謝の言葉を述べておく）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">This sounds as if the writer meant, "It will not be worth my while to write to you again." Simply write, "Thanking you," and if the favor which you have requested is granted, write a letter of acknowledgment.</span>
+<span lang="ja">これは書き手がこんなことを意図しているように読める："It will not be worth my while to write to you again."（私が時間を費してもう一度あなたに書くだけの価値はないだろう）。単にこう書けばよい："Thanking you,"（感謝する）。そしてあなたが求めた厚意が得られたなら、感謝状を送ればよい。</span>
+</p>
+</dd>
+
+<dt><a name="v43">
+<span lang="--">They</span>
+<span lang="ja">（彼ら）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A common inaccuracy is the use of the plural pronoun when the antecedent is a distributive expression such as <em>each, each one, everybody, every one, many a man,</em> which, though implying more than one person, requires the pronoun to be in the singular. Similar to this, but with even less justification, is the use of the plural pronoun with the antecedent <em>anybody, any one, somebody, some one,</em> the intention being either to avoid the awkward "he or she," or to avoid committing oneself to either. Some bashful speakers even say, "A friend of mine told me that they, etc."</span>
+<span lang="ja">よくある間違いは、先行詞が<em>each, each one, everybody, every one, many a man</em>のような配分詞表現であるときに、複数形の代名詞を使うことだ。これらは一人の人間以上の意味があるものの、代名詞は単数でなければならない。これと同様に、正当性はさらに低くなるが、<em>anybody, any one, somebody, some one</em>という先行詞について、不格好な"he or she"を避けるためか、またはどちらにも偏らないという意図を持って、複数形の代名詞を使うことが挙げられる。恥ずかしがりやの話し手は、"A friend of mine told me that they, etc."（私の友人が言うことには、彼らは云々）と言うことさえある。</span>
+</p>
+<p>
+<span lang="en">Use <em>he</em> with all the above words, unless the antecedent is or must be feminine.</span>
+<span lang="ja">上記の語すべてについては、先行詞が女性形であるか、女性形でなければならない場合を除き、<em>he</em>を使う。</span>
+</p>
+</dd>
+
+<dt><a name="v44">
+<span lang="--">Very</span>
+<span lang="ja">（とても）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Use this word sparingly. Where emphasis is necessary, use words strong in themselves.</span>
+<span lang="ja">この単語を使うのは控えめにしたほうがよい。強調が必要なときは、それ自体が力強い言葉を使うこと。</span>
+</p>
+</dd>
+
+<dt><a name="v45">
+<span lang="--">Viewpoint</span>
+<span lang="ja">（視点）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Write <em>point of view,</em> but do not misuse this, as many do, for <em>view</em> or <em>opinion.</em></span>
+<span lang="ja"><em>point of view</em>（視点）と書くこと。ただし使い方を誤ってはならない。多くの人が間違えているが、<em>view</em>（見解）や<em>opinion</em>（意見）の意味で使うのは間違いだ。</span>
+</p>
+</dd>
+
+<dt><a name="v46">
+<span lang="--">While</span>
+<span lang="ja">（一方）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Avoid the indiscriminate use of this word for <em>and, but,</em> and <em>although.</em> Many writers use it frequently as a substitute for <em>and</em> or <em>but,</em> either from a mere desire to vary the connective, or from uncertainty which of the two connectives is the more appropriate. In this use it is best replaced by a semicolon.</span>
+<span lang="ja">この語を<em>and, but</em>および<em>although</em>という意味で見境なく使うのは避けること。接続詞の種類を増やしたいという単純な気持ちから、そしてどちらの接続詞がより適切か判断がつかないために、多くの書き手がこれを<em>and</em>または<em>but</em>の代わりによく使う。このような使われ方をしている場合、一番いいのはセミコロンで置き換えることだ。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">The office and salesrooms are on the ground floor, while the rest of the building is devoted to manufacturing.</span>
+                <span lang="ja">（事務所と販売用の部屋は地階にあり、その一方で建物の他の部分は生産のための空間になっている）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">The office and salesrooms are on the ground floor; the rest of the building is devoted to manufacturing.</span>
+                <span lang="ja">（事務所と販売用の部屋は地階にある；建物の他の部分は生産のための空間になっている）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">Its use as a virtual equivalent of <em>although</em> is allowable in sentences where this leads to no ambiguity or absurdity.</span>
+<span lang="ja">これを事実上<em>although</em>の同等品として使うことは、そのために文があいまいになったり不合理に陥ったりしなければ許容される。</span>
+</p>
+<blockquote class="example">
+<p>
+<span lang="--">While I admire his energy, I wish it were employed in a better cause.</span>
+<span lang="ja">（私は彼の元気には感心はするものの、それがもっとましな目的のために生かされることを願う）</span>
+</p>
+</blockquote>
+<p>
+<span lang="en">This is entirely correct, as shown by the paraphrase,</span>
+<span lang="ja">言い換えで示されているとおり、これは全体としては正しい：</span>
+</p>
+<blockquote class="example">
+<p>
+<span lang="--">I admire his energy; at the same time I wish it were employed in a better cause.</span>
+<span lang="ja">（彼の元気には感心する；同時に、それがもっとましな目的のために生かされることを願う）</span>
+</p>
+</blockquote>
+<p>
+<span lang="en">Compare:</span>
+<span lang="ja">比較してみてほしい：</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">While the temperature reaches 90 or 95 degrees in the daytime, the nights are often chilly.</span>
+                <span lang="ja">（日中は温度が90ないし95度に達する一方で、夜中は肌寒いことが多い）</span></p>
+<p class="edit"><span lang="--">Although the temperature reaches 90 or 95 degrees in the daytime, the nights are often chilly.</span>
+                <span lang="ja">（日中は温度が90ないし95度に達するけれども、夜中は肌寒いことが多い）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">The paraphrase,</span>
+<span lang="ja">次のパラフレーズは、</span>
+</p>
+<blockquote class="example">
+<p>
+<span lang="--">The temperature reaches 90 or 95 degrees in the daytime; at the same time the nights are often chilly,</span>
+<span lang="ja">（日中は温度が90ないし95度に達する；それと同時に、夜中は肌寒いことが多い）</span>
+</p>
+</blockquote>
+<p>
+<span lang="en">shows why the use of <em>while</em> is incorrect.</span>
+<span lang="ja">なぜ<em>while</em>を使うのが誤っているかを示している。</span>
+</p>
+<p>
+<span lang="en">In general, the writer will do well to use <em>while</em> only with strict literalness, in the sense of <em>during the time that.</em></span>
+<span lang="ja">一般的にいって、<em>while</em>を<em>during the time that</em>（～という時期の間）という厳密に字義どおりの意味に限って使っても、書き手はうまく書ける。</span>
+</p>
+</dd>
+
+<dt><a name="v47">
+<span lang="--">Whom</span>
+<span lang="ja">（誰に）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Often incorrectly used for <em>who</em> before <em>he said</em> or similar expressions, when it is really the subject of a following verb.</span>
+<span lang="ja"><em>he said</em>やそれに似た表現の前にある<em>who</em>の代わりに誤って用いられることがよくある。実際には続く動詞の主語だというのに。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">His brother, whom he said would send him the money</span>
+                <span lang="ja">（彼が言うには彼にお金を送る先(?)であるところの、彼の兄）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">His brother, who he said would send him the money</span>
+                <span lang="ja">（彼が言うには彼にお金を送ってくれるであろうところの、彼の兄）</span><br style="clear: both;" /></p>
+</div>
+<div class="set">
+<p class="auth"><span lang="--">The man whom he thought was his friend</span>
+                <span lang="ja">（彼が考えた男は彼の友人だった）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">The man who (that) he thought was his friend (whom he thought his friend)</span>
+                <span lang="ja">（彼が考えた男は、彼が自分の友人であると考えた人物だった）</span></p>
+</div>
+</blockquote>
+</dd>
+
+<dt><a name="v48">
+<span lang="--">Worth while</span>
+<span lang="ja">（有意義な）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">Overworked as a term of vague approval and (with <em>not</em>) of disapproval. Strictly applicable only to actions: "Is it worth while to telegraph?"</span>
+<span lang="ja">あいまいな賛成と（<em>not</em>をつけて）不賛成の言葉として、あまりに使われすぎている。行為に対してのみ適用可能："Is it worth while to telegraph?"（電報を打つ価値があるだろうか？）</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">His books are not worth while.</span>
+                <span lang="ja">（彼の本は価値がない）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">His books are not worth reading (not worth one's while to read; do not repay reading).</span>
+                <span lang="ja">（彼の本は読む価値がない（読む時間を費すに値しない；読むことが報いられない））</span></p>
+</div>
+</blockquote>
+<p>
+<span lang="en">The use of <em>worth while</em> before a noun ("a worth while story") is indefensible.</span>
+<span lang="ja"><em>worth while</em>を名詞の前で使うこと（"a worth while story"）は、弁解の余地なく間違っている。</span>
+</p>
+</dd>
+
+<dt><a name="v49">
+<span lang="--">Would</span>
+<span lang="ja">（だったろう）</span>
+</a></dt>
+<dd>
+<p>
+<span lang="en">A conditional statement in the first person requires <em>should,</em> not <em>would.</em></span>
+<span lang="ja">第一人称の条件節が必要とするのは<em>should</em>であって、<em>would</em>ではない。</span>
+</p>
+<blockquote class="example">
+<p>
+<span lang="--">I should not have succeeded without his help.</span>
+<span lang="ja">（彼の助けなしには私は成功しなかっただろう）</span>
+</p>
+</blockquote>
+<p>
+<span lang="en">The equivalent of <em>shall</em> in indirect quotation after a verb in the past tense is <em>should,</em> not <em>would.</em></span>
+<span lang="ja">過去形の動詞の後の間接引用における<em>shall</em>の相当語句は、<em>should</em>であって、<em>would</em>ではない。</span>
+</p>
+<blockquote class="example">
+<p>
+<span lang="--">He predicted that before long we should have a great surprise.</span>
+<span lang="ja">（近いうちに我々は思いがけない大きな出来事を迎えるだろうと彼は予言した）</span>
+</p>
+</blockquote>
+<p>
+<span lang="en">To express habitual or repeated action, the past tense, without <em>would,</em> is usually sufficient, and from its brevity, more emphatic.</span>
+<span lang="ja">習慣的または何度も繰り返す行為を表現するためには、<em>would</em>なしの過去形で通常は十分であり、その簡潔さからいってよりはっきりしている。</span>
+</p>
+<blockquote class="example">
+<div class="set">
+<p class="auth"><span lang="--">Once a year he would visit the old mansion.</span>
+                <span lang="ja">（1年に1度、彼はその古い屋敷を訪れていた）</span><br style="clear: both;" /></p>
+<p class="edit"><span lang="--">Once a year he visited the old mansion.</span>
+                <span lang="ja">（1年に1度、彼はその古い屋敷を訪れた）</span><br style="clear: both;" /></p>
+</div>
+</blockquote>
+</dd>
+
+</dl>
+
+<hr />
+
+<h2><a name="spell">VI. 
+<span lang="en">Words Often Misspelled</span>
+<span lang="ja">よくある綴りの間違い</span>
+</a></h2>
+
+<div style="width: 12em; float: left;">
+<ul>
+<li>accidentally</li>
+<li>advice</li>
+<li>affect</li>
+<li>beginning</li>
+<li>believe</li>
+<li>benefit</li>
+<li>challenge</li>
+<li>criticize</li>
+<li>deceive</li>
+<li>definite</li>
+<li>describe</li>
+<li>despise</li>
+<li>develop</li>
+<li>disappoint</li>
+<li>duel</li>
+<li>ecstasy</li>
+<li>effect</li>
+<li>existence</li>
+<li>fiery</li>
+</ul>
+<br style="clear: both;" />
+</div>
+<div style="width: 12em; float: left;">
+<ul>
+<li>formerly</li>
+<li>humorous</li>
+<li>hypocrisy</li>
+<li>immediately</li>
+<li>incidentally</li>
+<li>latter</li>
+<li>led</li>
+<li>lose</li>
+<li>marriage</li>
+<li>mischief</li>
+<li>murmur</li>
+<li>necessary</li>
+<li>occurred</li>
+<li>parallel</li>
+<li>Philip</li>
+<li>playwright</li>
+<li>preceding</li>
+<li>prejudice</li>
+<li>principal</li>
+</ul>
+</div>
+<div style="width: 12em; float: left;">
+<ul>
+<li>privilege</li>
+<li>pursue</li>
+<li>repetition</li>
+<li>rhyme</li>
+<li>rhythm</li>
+<li>ridiculous</li>
+<li>sacrilegious</li>
+<li>seize</li>
+<li>separate</li>
+<li>shepherd</li>
+<li>siege</li>
+<li>similar</li>
+<li>simile</li>
+<li>too</li>
+<li>tragedy</li>
+<li>tries</li>
+<li>undoubtedly</li>
+<li>until</li>
+</ul>
+</div>
+<br style="clear: both;" />
+
+<p>
+<span lang="en">Write <em>to-day, to-night, to-morrow</em> (but not <em>together</em>) with hyphen.</span>
+<span lang="ja"><em>to-day, to-night, to-morrow</em>はハイフンを付けて書くこと（ただし<em>together</em>は除く）。</span>
+</p>
+<p>
+<span lang="en">Write <em>any one, every one, some one, some time</em> (except the sense of <em>formerly</em>) as two words.</span>
+<span lang="ja"><em>any one, every one, some one, some time</em>は2語に分けて書くこと（ただし<em>formerly</em>（以前は）という意味の場合を除く）。</span>
+</p>
+
+<hr />
+
+</body>
+</html>
