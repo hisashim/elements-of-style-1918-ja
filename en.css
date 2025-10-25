@@ -1,0 +1,10 @@
+*[lang="en"] {
+  display: compact;
+}
+*[lang="ja"] {
+  display: none;
+}
+p span[lang="--"] + span[lang="en"] {
+  /* insert line break between languages */
+  display: block;
+}

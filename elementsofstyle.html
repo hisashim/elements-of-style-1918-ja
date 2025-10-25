@@ -5,107 +5,11 @@
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
  <title>Strunk, William. 1918. The Elements of Style.</title>
- <style type="text/css">
-  h1 {
-   border: medium outset;
-   padding: 0.5em;
-   page-break-before: right;
-   page-break-after: avoid;
-  }
-  h2 {
-   border-left: thick solid;
-   padding-left: 0.3em;
-   page-break-before: always;
-   page-break-after: avoid;
-  }
-  h3 {
-   page-break-after: avoid;
-  }
-  <!-- these styles are not supported or do not fit to today's browsers
-  h4 {
-   display: run-in;
-   page-break-after: avoid;
-  }
-  h4:after {content: ": ";}
-  kbd {font-family: "Courier New", "Courier", monospace; font-weight: bolder;}
-   -->
-  .chapters > li {
-   list-style-type: upper-roman;
-   counter-reset: rule;  <!-- counter does not work in mozilla or in msie for now -->
-  }
-  .chapters > li {
-   list-style-type: upper-roman;    <!-- list-style-type needs to be written twice.  mozilla's bug? -->
-  }
-  .rules > li:before {
-   content: counter(rule) ".";
-   counter-increment: rule;
-  }
-  .bib > p.h, .toc > p.h {
-   font-family: sans-serif;
-   font-weight: bolder;
-   font-size: larger;
-   border-left: thick solid;
-   padding-left: 0.3em;
-  }
-  .example {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    padding: 0.25em 0.25em;
-    border: thin dashed black;
-  }
-  .example p {
-    margin: 0.25em 0.25em 0.25mm 0.25mm;
-    padding: 0em 0em;
-  }
-  .set {
-    border: thin dotted gray;
-    margin: 0.25em 0.25em 0.25em 0.25em;
-    padding: 0em 0em 0em 0em;
-    clear: both;
-    width: 99%;
-  }
-  .example .set .auth {  <!-- a > b selector does not work in msie -->
-    margin: 0em 0em 0em 0em;
-    padding: 0em 2em 0em 0.5em;
-    display: compact;
-    width: 45%;
-    float: left;
-  }
-  .example .set .edit {
-    margin: 0.25em 0em;
-    padding: 0em 0.5em 0em 2em;
-    display: compact;
-    width: auto;
-  }
-  blockquote.example + * {
-    clear: both;
-  }
-  p + br {margin: 0em; padding; 0em;}
- </style>
+ <link rel="stylesheet" href="base.css" />
  <!-- language specific style -->
- <style type="text/css">
-  *[lang="ja"] { line-height: 1.5em; }
- </style>
- <style title="ja" type="text/css">
-  *[lang="en"] {display: none;}
-  *[lang="ja"] {display: compact;}
-  p span[lang="--"] + span[lang="ja"] {display: block;} <!-- insert line break between languages -->
- </style>
- <style title="en" type="text/css">
-  *[lang="en"] {display: compact;}
-  *[lang="ja"] {display: none;}
-  p span[lang="--"] + span[lang="en"] {display: block;} <!-- insert line break between languages -->
- </style>
- <style title="en+ja" type="text/css">
-  *[lang="en"] {display: compact;}
-  *[lang="ja"] {display: compact;}
-  h1 span[lang] + span[lang], 
-  h2 span[lang] + span[lang], 
-  h3 span[lang] + span[lang], 
-  p span[lang] + span[lang] {display: block;} <!-- insert line break between languages -->
-  <!-- p span[lang] + span[lang] + * {display: run-in;} --><!-- run-in is not supported yet -->
- </style>
+ <link rel="alternate stylesheet" href="ja.css" title="ja" />
+ <link rel="alternate stylesheet" href="en.css" title="en" />
+ <link rel="alternate stylesheet" href="en+ja.css" title="en+ja" />
 </head>
 <body>
 
