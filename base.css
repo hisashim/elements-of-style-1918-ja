@@ -34,10 +34,12 @@ kbd {
 .chapters > li {
   list-style-type: upper-roman; /* list-style-type needs to be written twice.  mozilla's bug? */
 }
+/* redundant; <ol start="...">...</ol> will suffice
 .rules > li:before {
   content: counter(rule) ".";
   counter-increment: rule;
 }
+*/
 .bib > p.h,
 .toc > p.h {
   font-family: sans-serif;
