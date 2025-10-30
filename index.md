@@ -8,9 +8,9 @@ William Strunk, Jr., "The Elements of Style"は、ライティングの古典的
 
 同書籍は改訂されて現在[第4版](https://www.amazon.com/exec/obidos/ASIN/020530902X/)（2000）まで版が進んでいますが、[第1版](https://www.bartleby.com/141/)（1918）はパブリックドメインに置かれています。第3版は日本語訳（William Strunk Jr., E.B.White 著, 荒竹三郎 訳『[英語文章ルールブック](https://www.amazon.co.jp/exec/obidos/ASIN/4870430126/)』）があったようですが、現在絶版の模様です。そこで、第1版をHTML化したものを拙いながら日本語に訳してみました。
 
-* [The Elements of Style (ja+en)](elementsofstyle.html)（日本語と英語をCSSで切り替え可能）
-* [The Elements of Style (ja)](elementsofstyle.ja.html)（日本語のみ）
-* [The Elements of Style (en)](elementsofstyle.en.html) (English only)
+* [The Elements of Style (ja)](elementsofstyle_ja.md)（日本語のみ）
+* [The Elements of Style (en)](elementsofstyle_en.md) (English only)
+* [The Elements of Style (ja+en)](elementsofstyle_en_ja.md)（日本語と英語の両方を含む簡易対訳形式）
 
 目次：
 

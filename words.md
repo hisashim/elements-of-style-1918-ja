@@ -64,10 +64,10 @@ Expressions of this type should be corrected by rearranging the sentence.
 ### As to whether（かどうか）
 {: lang="ja"}
 
-_Whether_ is sufficient; see under [Rule 13](composition.html#rule13).
+_Whether_ is sufficient; see under [Rule 13](composition.md#rule13).
 {: lang="en"}
 
-_Whether_で十分だ；[ルール13](composition.html#rule13)を参照。
+_Whether_で十分だ；[ルール13](composition.md#rule13)を参照。
 {: lang="ja"}
 
 {: #words4}
@@ -303,10 +303,10 @@ Use this word only of matters of a kind capable of direct verification, not of m
 この語は判断に関する場合には使うべきではなく、直接証明が可能な場合に限って使うこと。特定の出来事がある日時に起きたということや、鉛が特定の温度で溶けるということは、事実（fact）だ。しかし、ナポレオンが近代の将軍のなかで最も優れている、またはカリフォルニアの気候は快適であるというような判断は、それらがいかに明白であろうと、正しい事実とはいえない。
 {: lang="ja"}
 
-On the formula _the fact that_, see under [Rule 13](composition.html#rule13).
+On the formula _the fact that_, see under [Rule 13](composition.md#rule13).
 {: lang="en"}
 
-_the fact that_という定型については、[ルール13](composition.html#rule13)を参照。
+_the fact that_という定型については、[ルール13](composition.md#rule13)を参照。
 {: lang="ja"}
 
 {: #words17}
@@ -407,10 +407,10 @@ Colloquial in America for _arrange_, _prepare_, _mend_. In writing restrict it t
 ### He is a man who（彼は～というような男だ）
 {: lang="ja"}
 
-A common type of redundant expression; see [Rule 13](composition.html#rule13).
+A common type of redundant expression; see [Rule 13](composition.md#rule13).
 {: lang="en"}
 
-よくある種類の冗長な表現；[ルール13](composition.html#rule13)を参照。
+よくある種類の冗長な表現；[ルール13](composition.md#rule13)を参照。
 {: lang="ja"}
 
 <div class="example" markdown="1">
@@ -930,10 +930,10 @@ Avoid, in writing, the use of _so_ as an intensifier: "so good;" "so warm;" "so 
 ライティングでは、_so_を強調のために使うのは避けること："so good"（とても良い）；"so warm"（とても暖かい）；"so delightful"（とても喜ばしい）。
 {: lang="ja"}
 
-On the use of _so_ to introduce clauses, see [Rule 4](usage.html#rule4).
+On the use of _so_ to introduce clauses, see [Rule 4](usage.md#rule4).
 {: lang="en"}
 
-節を導入するために_so_を使うことについては、[ルール4](usage.html#rule4)を参照。
+節を導入するために_so_を使うことについては、[ルール4](usage.md#rule4)を参照。
 {: lang="ja"}
 
 {: #words38}

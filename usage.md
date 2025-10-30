@@ -89,10 +89,10 @@ In the names of business firms the last comma is omitted, as
 > Brown, Shipley and Company
 {: .example}
 
-The abbreviation [_etc._](words.html#words15), even if only a single term comes before it, is always preceded by a comma.
+The abbreviation [_etc._](words.md#words15), even if only a single term comes before it, is always preceded by a comma.
 {: lang="en"}
 
-[_etc._](words.html#words15)という略語は、もしもその前にあるのが単独の語句だったとしても、常に直前にカンマを付ける。
+[_etc._](words.md#words15)という略語は、もしもその前にあるのが単独の語句だったとしても、常に直前にカンマを付ける。
 {: lang="ja"}
 
 {: #rule3}
@@ -105,10 +105,10 @@ The abbreviation [_etc._](words.html#words15), even if only a single term comes 
 > The best way to see a country, unless you are pressed for time, is to travel on foot.
 {: .example}
 
-This rule is difficult to apply; it is frequently hard to decide whether a single word, such as [_however_](words.html#words21), or a brief phrase, is or is not parenthetic. If the interruption to the flow of the sentence is but slight, the writer may safely omit the commas. But whether the interruption be slight or considerable, he must never omit one comma and leave the other. Such punctuation as
+This rule is difficult to apply; it is frequently hard to decide whether a single word, such as [_however_](words.md#words21), or a brief phrase, is or is not parenthetic. If the interruption to the flow of the sentence is but slight, the writer may safely omit the commas. But whether the interruption be slight or considerable, he must never omit one comma and leave the other. Such punctuation as
 {: lang="en"}
 
-このルールは適用するのが難しい。[_however_](words.html#words21)のように単独の語や短い語句が、挿入句（parenthetic）なのかどうかは、見極めにくいことがよくある。もし文の流れにわずかしか割り込まないのであれば、カンマを省略しても問題ない。しかし割り込みがわずかであろうと相当であろうと、カンマを1つだけ略して他をそのままにするということは許されない。
+このルールは適用するのが難しい。[_however_](words.md#words21)のように単独の語や短い語句が、挿入句（parenthetic）なのかどうかは、見極めにくいことがよくある。もし文の流れにわずかしか割り込まないのであれば、カンマを省略しても問題ない。しかし割り込みがわずかであろうと相当であろうと、カンマを1つだけ略して他をそのままにするということは許されない。
 {: lang="ja"}
 
 > Marjorie's husband, Colonel Nelson paid us a visit yesterday,
@@ -177,16 +177,16 @@ In this sentence the relative clause restricts the application of the word _cand
 この文では、単独の人物に対する_candidate_という語の適用を、関係節が制限している。これまでの例とは異なり、この文は2つの独立した平叙文に分離できない。
 {: lang="ja" .continued}
 
-The abbreviations [_etc._](words.html#words15) and _jr._ are always preceded by a comma, and except at the end of a sentence, followed by one.
+The abbreviations [_etc._](words.md#words15) and _jr._ are always preceded by a comma, and except at the end of a sentence, followed by one.
 {: lang="en"}
 
-[_etc._](words.html#words15)あるいは_jr._という略称は、常に直前にカンマがくる。そして文末にあるときを除いて常に直後にカンマがくる。
+[_etc._](words.md#words15)あるいは_jr._という略称は、常に直前にカンマがくる。そして文末にあるときを除いて常に直後にカンマがくる。
 {: lang="ja"}
 
-Similar in principle to the enclosing of parenthetic expressions between commas is the setting off by commas of phrases or dependent clauses preceding or following the main clause of a sentence. The sentences quoted in this section and under Rules [4](#rule4), [5](#rule5), [6](#rule6), [7](#rule7), [16](composition.html#rule16), and [18](composition.html#rule18) should afford sufficient guidance.
+Similar in principle to the enclosing of parenthetic expressions between commas is the setting off by commas of phrases or dependent clauses preceding or following the main clause of a sentence. The sentences quoted in this section and under Rules [4](#rule4), [5](#rule5), [6](#rule6), [7](#rule7), [16](composition.md#rule16), and [18](composition.md#rule18) should afford sufficient guidance.
 {: lang="en"}
 
-挿入句的表現をカンマで囲むのと基本的には同様に、文の主部のすぐ前あるいはすぐ後にくる句または従属節は、カンマで区切る。このセクションのルール[4](#rule4), [5](#rule5), [6](#rule6), [7](#rule7), [16](composition.html#rule16)および[18](composition.html#rule18)で引用された文が十分な説明となるだろう。<!-- FIXME: 改善案: このセクションで引用された文と、ルール4, 5, 6, 7, 16, 18で引用された文が十分な説明となるだろう。 -->
+挿入句的表現をカンマで囲むのと基本的には同様に、文の主部のすぐ前あるいはすぐ後にくる句または従属節は、カンマで区切る。このセクションのルール[4](#rule4), [5](#rule5), [6](#rule6), [7](#rule7), [16](composition.md#rule16)および[18](composition.md#rule18)で引用された文が十分な説明となるだろう。<!-- FIXME: 改善案: このセクションで引用された文と、ルール4, 5, 6, 7, 16, 18で引用された文が十分な説明となるだろう。 -->
 {: lang="ja"}
 
 If a parenthetic expression is preceded by a conjunction, place the first comma before the conjunction, not after it.
@@ -232,10 +232,10 @@ Or the subordinate clauses might be replaced by phrases:
 > In this perilous situation, there is still one chance of escape.
 {: .example}
 
-But a writer may err by making his sentences too uniformly compact and periodic, and an occasional loose sentence prevents the style from becoming too formal and gives the reader a certain relief. Consequently, loose sentences of the type first quoted are common in easy, unstudied writing. But a writer should be careful not to construct too many of his sentences after this pattern (see Rule [14](composition.html#rule14)).
+But a writer may err by making his sentences too uniformly compact and periodic, and an occasional loose sentence prevents the style from becoming too formal and gives the reader a certain relief. Consequently, loose sentences of the type first quoted are common in easy, unstudied writing. But a writer should be careful not to construct too many of his sentences after this pattern (see Rule [14](composition.md#rule14)).
 {: lang="en"}
 
-しかし書き手は、文をあまりに満遍なく短く掉尾文調（periodic）にしてしまうという間違いを犯すかもしれないし、ところどころに緩い文があると文体が極端に堅苦しくはならず、読み手はそれなりの息抜きができる。よって、最初に引用したような緩い文は、気楽で自然体な書き物でよくみられる。しかし書き手は、あまり多くの文をこのパターンで書いてしまわないよう、注意しなければならない（ルール[14](composition.html#rule14)を参照）。
+しかし書き手は、文をあまりに満遍なく短く掉尾文調（periodic）にしてしまうという間違いを犯すかもしれないし、ところどころに緩い文があると文体が極端に堅苦しくはならず、読み手はそれなりの息抜きができる。よって、最初に引用したような緩い文は、気楽で自然体な書き物でよくみられる。しかし書き手は、あまり多くの文をこのパターンで書いてしまわないよう、注意しなければならない（ルール[14](composition.md#rule14)を参照）。
 {: lang="ja"}
 
 Two-part sentences of which the second member is introduced by _as_ (in the sense of _because_), _for_, _or_, _nor_, and _while_ (in the sense of _and at the same time_) likewise require a comma before the conjunction.

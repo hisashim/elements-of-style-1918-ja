@@ -1105,10 +1105,10 @@ In especial the expression _the fact that_ should be revised out of every senten
 </div>
 </div>
 
-See also under [_case_](words.html#words5), [_character_](words.html#words7), [_nature_](words.html#words28), [_system_](words.html#words41) in [Chapter V](words.html#words).
+See also under [_case_](words.md#words5), [_character_](words.md#words7), [_nature_](words.md#words28), [_system_](words.md#words41) in [Chapter V](words.md#words).
 {: lang="en"}
 
-[第V章](words.html#words)の[_case_](words.html#words5), [_character_](words.html#words7), [_nature_](words.html#words28), [_system_](words.html#words41)以下も参照。
+[第V章](words.md#words)の[_case_](words.md#words5), [_character_](words.md#words7), [_nature_](words.md#words28), [_system_](words.md#words41)以下も参照。
 {: lang="ja"}
 
 _Who is_, _which was_, and the like are often superfluous.
@@ -1183,16 +1183,16 @@ A common violation of conciseness is the presentation of a single complex idea, 
 ### 14. 締まりのない文が連続するのを避ける
 {: lang="ja"}
 
-This rule refers especially to loose sentences of a particular type, those consisting of two co-ordinate clauses, the second introduced by a conjunction or relative. Although single sentences of this type may be unexceptionable (see under Rule [4](usage.html#rule4)), a series soon becomes monotonous and tedious.
+This rule refers especially to loose sentences of a particular type, those consisting of two co-ordinate clauses, the second introduced by a conjunction or relative. Although single sentences of this type may be unexceptionable (see under Rule [4](usage.md#rule4)), a series soon becomes monotonous and tedious.
 {: lang="en"}
 
-このルールはとりわけ特定の種類の緩い文に当てはまる。2つの対等な節から成っていて、2番目の節が接続詞や関係詞によって導かれるものがそうだ。この種の文は、単独で存在するときは申し分ないかもしれないが（ルール[4](usage.html#rule4)を参照）、続けて出てくるとすぐに単調で退屈になる。
+このルールはとりわけ特定の種類の緩い文に当てはまる。2つの対等な節から成っていて、2番目の節が接続詞や関係詞によって導かれるものがそうだ。この種の文は、単独で存在するときは申し分ないかもしれないが（ルール[4](usage.md#rule4)を参照）、続けて出てくるとすぐに単調で退屈になる。
 {: lang="ja"}
 
-An unskilful writer will sometimes construct a whole paragraph of sentences of this kind, using as connectives _and_, _but_, and less frequently, _who_, _which_, _when_, _where_, and _while,_ these last in non-restrictive senses (see under Rule [3](usage.html#rule3)).
+An unskilful writer will sometimes construct a whole paragraph of sentences of this kind, using as connectives _and_, _but_, and less frequently, _who_, _which_, _when_, _where_, and _while,_ these last in non-restrictive senses (see under Rule [3](usage.md#rule3)).
 {: lang="en"}
 
-下手な書き手は往々にして、_and_, _but_そして比較的少ないが_who_, _which_, _when_, _where_および_while_といった、非制限的な意味の連結語を使って、段落ひとつをまるごとこの種の文で構成してしまうことがあるだろう（ルール[3](usage.html#rule3)参照）。
+下手な書き手は往々にして、_and_, _but_そして比較的少ないが_who_, _which_, _when_, _where_および_while_といった、非制限的な意味の連結語を使って、段落ひとつをまるごとこの種の文で構成してしまうことがあるだろう（ルール[3](usage.md#rule3)参照）。
 {: lang="ja"}
 
 > The third concert of the subscription series was given last evening, and a large audience was in attendance. Mr. Edward Appleton was the soloist, and the Boston Symphony Orchestra furnished the instrumental music. The former showed himself to be an artist of the first rank, while the latter proved itself fully deserving of its high reputation. The interest aroused by the series has been very gratifying to the Committee, and it is planned to give a similar series annually hereafter. The fourth concert will be given on Tuesday, May 10, when an equally attractive programme will be presented.
