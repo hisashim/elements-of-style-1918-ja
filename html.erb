@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%=
+      if metadata = @converter.root.metadata
+        elements = metadata.to_html_elements
+        elements.unshift("<title></title>") if not(metadata["title"])
+        elements.join("\n")
+      else
+        "<title></title>"
+      end
+     %>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="alternate stylesheet" href="ja.css" title="ja" />
+    <link rel="alternate stylesheet" href="en.css" title="en" />
+    <link rel="alternate stylesheet" href="en+ja.css" title="en+ja" />
+  </head>
+  <body>
+    <%= @body.chomp %>
+  </body>
+</html>
