@@ -1,6 +1,6 @@
 require "rake/clean"
 
-MULTILINGUAL_MARKDOWN = "multilingual_markdown --template-file=html.erb"
+YA_MULTILINGUAL_MARKDOWN = "ya_multilingual_markdown --template-file=html.erb"
 LANGS = ["en", "ja", "en,ja"]
 htmls = {}
 
@@ -19,13 +19,13 @@ Dir.glob("*.md").reject { |f| f == "index.md" }.each { |md|
         else
           "--langs=#{lang} --link-suffixes='.md:_#{lang.gsub(/,/, "_")}.html'"
         end
-      sh "#{MULTILINGUAL_MARKDOWN} #{options} #{t.source} > #{t.name}"
+      sh "#{YA_MULTILINGUAL_MARKDOWN} #{options} #{t.source} > #{t.name}"
     end
   }
 }
 
 file "index.html" => "index.md" do |t|
-  sh "#{MULTILINGUAL_MARKDOWN} #{t.source} > #{t.name}"
+  sh "#{YA_MULTILINGUAL_MARKDOWN} #{t.source} > #{t.name}"
 end
 
 CLEAN.include(htmls.values.flatten + ["index.html"])

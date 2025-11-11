@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "multilingual_markdown"
+gem "ya_multilingual_markdown"
