@@ -13,6 +13,11 @@ By William Strunk, Jr.
 森田尚 訳 (Japanese translation by Hisashi MORITA, 2005.  This Japanese translation is in public domain; it is provided on an as-is basis and the translator disclaims any responsibility.  Use it at your own risk.)
 {: lang="ja"}
 
+  * [Bibliographic Record](copyright.md#copyright)
+    {: lang="en"}
+    [書誌情報](copyright.md#copyright)
+    {: lang="ja"}
+
 <div class="toc" markdown="1">
 ### Contents
 {: lang="en"}
