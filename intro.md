@@ -21,7 +21,7 @@ The book covers only a small portion of the field of English style, but the expe
 この本は英語のスタイルという分野のほんのわずかの部分をカバーするに過ぎない。だが筆者の経験では、いったん本質的な要素をものにしてしまえば、生徒にとって一番効果が高いのは自分が書いた文章の問題点に基づいて個別指導を受けることであり、講師はみなそれぞれ自分なりの理論体系を持っていて、どんな教科書で示されたものよりも自分の理論体系を好むものだ。
 {: lang="ja"}
 
-The writer's colleagues in the Department of English in Cornell University have greatly helped him in the preparation of his manuscript. Mr. George McLane Wood has kindly consented to the inclusion under Rule 11 of some material from his _Suggestions to Authors_.
+The writer’s colleagues in the Department of English in Cornell University have greatly helped him in the preparation of his manuscript. Mr. George McLane Wood has kindly consented to the inclusion under Rule 11 of some material from his _Suggestions to Authors_.
 {: lang="en"}
 
 Cornell大学の英語部門における筆者の同僚たちは、原稿を準備するにあたって多大な協力をしてくれた。George McLane Wood氏は親切にも、彼の「書き手への提言」（_Suggestions to Authors_.）に由来する材料の一部分をルール11の配下に含めることに同意してくれた。

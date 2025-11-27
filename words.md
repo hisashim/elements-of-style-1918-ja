@@ -90,10 +90,10 @@ _to_がない不定詞をとる。過去形は_bade_.
 ### Case（ケース）
 {: lang="ja"}
 
-The _Concise Oxford Dictionary_ begins its definition of this word: “instance of a thing's occurring; usual state of affairs.” In these two senses, the word is usually unnecessary.
+The _Concise Oxford Dictionary_ begins its definition of this word: “instance of a thing’s occurring; usual state of affairs.” In these two senses, the word is usually unnecessary.
 {: lang="en"}
 
-The _Concise Oxford Dictionary_はその定義をこの言葉で始めている：“instance of a thing's occurring; usual state of affairs.”（物事の発生の事例；事物のいつもの状態） これらの2つの意味において、この語は通常不要だ。
+The _Concise Oxford Dictionary_はその定義をこの言葉で始めている：“instance of a thing’s occurring; usual state of affairs.”（物事の発生の事例；事物のいつもの状態） これらの2つの意味において、この語は通常不要だ。
 {: lang="ja"}
 
 <div class="example" markdown="1">
@@ -1284,7 +1284,7 @@ Overworked as a term of vague approval and (with _not_) of disapproval. Strictly
 > {: lang="ja"}
 {: .auth}
 
-> His books are not worth reading (not worth one's while to read; do not repay reading).
+> His books are not worth reading (not worth one’s while to read; do not repay reading).
 >
 > （彼の本は読む価値がない（読む時間を費すに値しない；読むことが報いられない））
 > {: lang="ja"}

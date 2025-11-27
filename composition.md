@@ -204,7 +204,7 @@ If the paragraph forms part of a larger composition, its relation to what preced
 もしパラグラフがより大きな文章の一部を形作る場合は、前のパラグラフとの関係や、全体の一部として自身が持つ役割を明らかにする必要があるかもしれない。あるときは、これはトピックセンテンス中にちょっとした語や句（_again_; _therefore_; _for the same reason_）があれば済んでしまうことがある。しかしながらあるときは、導入や推移のための文を1つないし複数、トピックセンテンスの前に置くほうが都合がいいこともある。もしそのような文が複数必要なら、一般的に言って、推移のための文を別のパラグラフに分けたほうがよい。
 {: lang="ja"}
 
-According to the writer's purpose, he may, as indicated above, relate the body of the paragraph to the topic sentence in one or more of several different ways. He may make the meaning of the topic sentence clearer by restating it in other forms, by defining its terms, by denying the converse, by giving illustrations or specific instances; he may establish it by proofs; or he may develop it by showing its implications and consequences. In a long paragraph, he may carry out several of these processes.
+According to the writer’s purpose, he may, as indicated above, relate the body of the paragraph to the topic sentence in one or more of several different ways. He may make the meaning of the topic sentence clearer by restating it in other forms, by defining its terms, by denying the converse, by giving illustrations or specific instances; he may establish it by proofs; or he may develop it by showing its implications and consequences. In a long paragraph, he may carry out several of these processes.
 {: lang="en"}
 
 書き手の目的によっては、上記のように、書き手はパラグラフの本文をいくつか異なったやり方でトピックセンテンスに関連付けてもよい。書き手は、トピックセンテンスの意味をより明確にするために、それを別の形で再度述べたり、用語を定義したり、逆説を棄却したり、例証したり特定の実例を挙げたりしてもよい；証拠によって立証してもよい；あるいはそれが持つ意味合いと重要性を示して論を展開してもよい。長いパラグラフでは、これらの方法のうちいくつかを実行してもよい。
@@ -766,7 +766,7 @@ Make definite assertions. Avoid tame, colorless, hesitating, non-committal langu
 </div>
 
 <div class="set" markdown="1">
-> _The Taming of the Shrew_ is rather weak in spots. Shakespeare does not portray Katharine as a very admirable character, nor does Bianca remain long in memory as an important character in Shakespeare's works.
+> _The Taming of the Shrew_ is rather weak in spots. Shakespeare does not portray Katharine as a very admirable character, nor does Bianca remain long in memory as an important character in Shakespeare’s works.
 >
 > （「じゃじゃ馬馴らし」はところどころに結構な弱点がある。シェイクスピアはキャサリンを非常に尊敬できる人物としては描いておらず、ビアンカもシェイクスピアの作品における重要な人物として長く記憶に残ることがない）
 > {: lang="ja"}
@@ -780,7 +780,7 @@ Make definite assertions. Avoid tame, colorless, hesitating, non-committal langu
 </div>
 </div>
 
-The last example, before correction, is indefinite as well as negative. The corrected version, consequently, is simply a guess at the writer's intention.
+The last example, before correction, is indefinite as well as negative. The corrected version, consequently, is simply a guess at the writer’s intention.
 {: lang="en"}
 
 最後の例の修正前の文は、否定形であると同時にあいまいでもある。したがって修正後の版は書き手の意図を単に推量した。
@@ -1134,13 +1134,13 @@ _Who is_や_which was_やその他同様の語句は、多くの場合余計な�
 
 <div class="set" markdown="1">
 
-> Trafalgar, which was Nelson's last battle
+> Trafalgar, which was Nelson’s last battle
 >
 > （ネルソン提督の最後の戦場であるところのトラファルガー）
 > {: lang="ja"}
 {: .auth}
 
-> Trafalgar, Nelson's last battle
+> Trafalgar, Nelson’s last battle
 >
 > （ネルソン提督の最後の戦場トラファルガー）
 > {: lang="ja"}
@@ -1220,10 +1220,10 @@ If the writer finds that he has written a series of sentences of the type descri
 ### 15. 対等な複数の考えは同じ形で表現する
 {: lang="ja"}
 
-This principle, that of parallel construction, requires that expressions of similar content and function should be outwardly similar. The likeness of form enables the reader to recognize more readily the likeness of content and function. Familiar instances from the Bible are the Ten Commandments, the Beatitudes, and the petitions of the Lord's Prayer.
+This principle, that of parallel construction, requires that expressions of similar content and function should be outwardly similar. The likeness of form enables the reader to recognize more readily the likeness of content and function. Familiar instances from the Bible are the Ten Commandments, the Beatitudes, and the petitions of the Lord’s Prayer.
 {: lang="en"}
 
-この並列構造の原則によると、似た内容と役割を持った表現は、外見上も似ていなければならない。形の類似のおかげで、内容と役割の類似を読み手が認識しやすい。聖書からの親しみ深い例は、Ten Commandments（十戒）、Beatitudes（幸福についての教え（山上の垂訓））、Lord's Prayer（主の祈り）の祈願だ。
+この並列構造の原則によると、似た内容と役割を持った表現は、外見上も似ていなければならない。形の類似のおかげで、内容と役割の類似を読み手が認識しやすい。聖書からの親しみ深い例は、Ten Commandments（十戒）、Beatitudes（幸福についての教え（山上の垂訓））、Lord’s Prayer（主の祈り）の祈願だ。
 {: lang="ja"}
 
 The unskilful writer often violates this principle, from a mistaken belief that he should constantly vary the form of his expressions. It is true that in repeating a statement in order to emphasize it he may have need to vary its form. For illustration, see the paragraph from Stevenson quoted under Rule [10](#rule10). But apart from this, he should follow the principle of parallel construction.
@@ -1431,15 +1431,15 @@ The relative pronoun should come, as a rule, immediately after its antecedent.
 </div>
 
 <div class="set" markdown="1">
-> He wrote three articles about his adventures in Spain, which were published in _Harper's Magazine_.
+> He wrote three articles about his adventures in Spain, which were published in _Harper’s Magazine_.
 >
-> （彼はスペインでの彼の冒険に関して3件の記事を書き、それらは_Harper's Magazine_で発表された）
+> （彼はスペインでの彼の冒険に関して3件の記事を書き、それらは_Harper’s Magazine_で発表された）
 > {: lang="ja"}
 {: .auth}
 
-> He published in _Harper's Magazine_ three articles about his adventures in Spain.
+> He published in _Harper’s Magazine_ three articles about his adventures in Spain.
 >
-> （彼はスペインでの彼の冒険に関して3件の記事を_Harper's Magazine_で発表した）
+> （彼はスペインでの彼の冒険に関して3件の記事を_Harper’s Magazine_で発表した）
 > {: lang="ja"}
 {: .edit}
 </div>
@@ -1500,7 +1500,7 @@ If the antecedent consists of a group of words, the relative comes at the end of
 > {: lang="ja"}
 {: .auth}
 
-> [William Henry Harrison](http://www.columbia.edu/~svl2/inaugural/pres26.html)'s grandson, Benjamin Harrison, who
+> [William Henry Harrison](http://www.columbia.edu/~svl2/inaugural/pres26.html)’s grandson, Benjamin Harrison, who
 >
 > （[William Henry Harrison](http://www.columbia.edu/~svl2/inaugural/pres26.html)の孫息子Benjamin Harrison）
 > {: lang="ja"}
@@ -1583,7 +1583,7 @@ In summarizing the action of a drama, the writer should always use the present t
 戯曲の筋を要約する際には、書き手は常に現在形を使わなければならない。詩、物語、または小説を要約する際には、書き手の好みによっては過去形を使ってもよいが、現在形を使うことが望ましい。もし要約が現在形になっている場合、先立つ行動は完了時制で表現しなければならない。過去形になっている場合は過去完了で表現する。
 {: lang="ja"}
 
-> An unforeseen chance prevents Friar John from delivering Friar Lawrence's letter to Romeo. Juliet, meanwhile, owing to her father's arbitrary change of the day set for her wedding, has been compelled to drink the potion on Tuesday night, with the result that Balthasar informs Romeo of her supposed death before Friar Lawrence learns of the nondelivery of the letter.
+> An unforeseen chance prevents Friar John from delivering Friar Lawrence’s letter to Romeo. Juliet, meanwhile, owing to her father’s arbitrary change of the day set for her wedding, has been compelled to drink the potion on Tuesday night, with the result that Balthasar informs Romeo of her supposed death before Friar Lawrence learns of the nondelivery of the letter.
 >
 > （予想外の巡り合わせのために、Friar JohnはFriar Lawrenceの手紙をRomeoに届けられない。そのころJulietは、彼女の父が気まぐれで彼女の結婚式の日を変えたおかげで、火曜の夜には薬を飲み終えていた。その結果、Friar Lawrenceが手紙の不達を知る前に、BalthasarはRomeoに彼女の「死」を伝える）
 > {: lang="ja"}

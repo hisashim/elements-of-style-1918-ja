@@ -10,10 +10,10 @@ title: Strunk, William. 1918. The Elements of Style.
 {: lang="ja"}
 
 {: #rule1}
-### 1. Form the possessive singular of nouns with 's
+### 1. Form the possessive singular of nouns with ’s
 {: lang="en"}
 
-### 1. 名詞の所有格単数を'sで作る
+### 1. 名詞の所有格単数を’sで作る
 {: lang="ja"}
 
 Follow this rule whatever the final consonant. Thus write,
@@ -22,11 +22,11 @@ Follow this rule whatever the final consonant. Thus write,
 最後の子音が何であれこのルールを守ること。したがって次のように書く。
 {: lang="ja"}
 
-> Charles's friend
+> Charles’s friend
 >
-> Burns's poems
+> Burns’s poems
 >
-> the witch's malice
+> the witch’s malice
 {: .example}
 
 This is the usage of the United States Government Printing Office and of the Oxford University Press.
@@ -35,10 +35,10 @@ This is the usage of the United States Government Printing Office and of the Oxf
 これがUnited States Government Printing OfficeおよびOxford University Pressでの用法である。
 {: lang="ja"}
 
-Exceptions are the possessives of ancient proper names in _-es_ and _-is_, the possessive _Jesus'_, and such forms as _for conscience' sake_, _for righteousness' sake_. But such forms as _Achilles' heel_, _Moses' laws_, _Isis' temple_ are commonly replaced by
+Exceptions are the possessives of ancient proper names in _-es_ and _-is_, the possessive _Jesus’_, and such forms as _for conscience’ sake_, _for righteousness’ sake_. But such forms as _Achilles’ heel_, _Moses’ laws_, _Isis’ temple_ are commonly replaced by
 {: lang="en"}
 
-例外は、古来の固有名詞で_-es_と_-is_で終わるものの場合だ。例えば所有格の_Jesus'_や、_for conscience' sake_, _for righteousness' sake_といった形式だ。しかし_Achilles' heel_, _Moses' laws_, _Isis' temple_といった形式は、たいてい次のように置き換えられる。
+例外は、古来の固有名詞で_-es_と_-is_で終わるものの場合だ。例えば所有格の_Jesus’_や、_for conscience’ sake_, _for righteousness’ sake_といった形式だ。しかし_Achilles’ heel_, _Moses’ laws_, _Isis’ temple_といった形式は、たいてい次のように置き換えられる。
 {: lang="ja"}
 
 > the heel of Achilles
@@ -111,7 +111,7 @@ This rule is difficult to apply; it is frequently hard to decide whether a singl
 このルールは適用するのが難しい。[_however_](words.md#words21)のように単独の語や短い語句が、挿入句（parenthetic）なのかどうかは、見極めにくいことがよくある。もし文の流れにわずかしか割り込まないのであれば、カンマを省略しても問題ない。しかし割り込みがわずかであろうと相当であろうと、カンマを1つだけ略して他をそのままにするということは許されない。
 {: lang="ja"}
 
-> Marjorie's husband, Colonel Nelson paid us a visit yesterday,
+> Marjorie’s husband, Colonel Nelson paid us a visit yesterday,
 {: .example}
 
 or
@@ -272,7 +272,7 @@ If two or more clauses, grammatically complete and not joined by a conjunction, 
 もし、文法上完全でかつ接続詞で接続されていない2つ以上の節が、単一の複合文を構成するときは、句読点として正しい記号はセミコロンだ。
 {: lang="ja"}
 
-> Stevenson's romances are entertaining; they are full of exciting adventures.
+> Stevenson’s romances are entertaining; they are full of exciting adventures.
 >
 > It is nearly half past five; we cannot reach town before dark.
 {: .example}
@@ -283,7 +283,7 @@ It is of course equally correct to write the above as two sentences each, replac
 もちろん上記を、セミコロンをピリオドに置き換えてそれぞれ2つの文として書くのも正しい。
 {: lang="ja"}
 
-> Stevenson's romances are entertaining. They are full of exciting adventures.
+> Stevenson’s romances are entertaining. They are full of exciting adventures.
 >
 > It is nearly half past five. We cannot reach town before dark.
 {: .example}
@@ -294,7 +294,7 @@ If a conjunction is inserted, the proper mark is a comma (Rule [4](#rule4)).
 もし接続詞が挿入されたなら、適切な記号はカンマとなる（ルール[4](#rule4)）。
 {: lang="ja"}
 
-> Stevenson's romances are entertaining, for they are full of exciting adventures.
+> Stevenson’s romances are entertaining, for they are full of exciting adventures.
 >
 > It is nearly half past five, and we cannot reach town before dark.
 {: .example}

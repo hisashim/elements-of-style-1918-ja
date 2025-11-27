@@ -133,7 +133,7 @@ Quotations of an entire line, or more, of verse, are begun on a fresh line and c
 詩句の1行丸ごとかそれ以上の引用は、新しい行でセンタリングして始めるが、引用符で囲むことはしない。
 {: lang="ja"}
 
-> Wordsworth's enthusiasm for the Revolution was at first unbounded:
+> Wordsworth’s enthusiasm for the Revolution was at first unbounded:
 >
 > （ワーズワースの革命に対する熱狂は当初限りなかった：）
 > {: lang="ja"}
@@ -168,7 +168,7 @@ Proverbial expressions and familiar phrases of literary origin require no quotat
 諺などでよく知られた表現および文学に由来する身近なフレーズは、引用符を必要としない。
 {: lang="ja"}
 
-> These are the times that try men's souls.
+> These are the times that try men’s souls.
 >
 > （今こそ我々の魂が試されるときなのだ（訳注：Thomas Paine, “The Crisis”, 1776-83））
 > {: lang="ja"}
@@ -244,7 +244,7 @@ For the titles of literary works, scholarly usage prefers italics with capitaliz
 文学的作品のタイトルは、学術的な用法では、イニシャルを大文字にしたイタリックにすることが望ましい。編集者や出版社によって用法は異なり、イニシャルを大文字にしたイタリックを使うところもあれば、イニシャルを大文字にしたローマンに引用符を付けたり付けなかったりするところもある。執筆している雑誌や媒体が異なる慣習に従う場合を除き、イタリックを使うこと（原稿上では該当箇所に下線を引くことで示される）。タイトルの前に所有格を置く場合は、タイトルの最初の_A_または_The_は省略する。
 {: lang="ja"}
 
-> The _Iliad_; the [_Odyssey_](http://www.columbia.edu/~svl2/chapman/); _As You Like It_; _To a Skylark_; _The Newcomes_; _A Tale of Two Cities_; Dicken's _Tale of Two Cities_.
+> The _Iliad_; the [_Odyssey_](http://www.columbia.edu/~svl2/chapman/); _As You Like It_; _To a Skylark_; _The Newcomes_; _A Tale of Two Cities_; Dicken’s _Tale of Two Cities_.
 >
 > （イリアッド；オデュッセイア；お気に召すまま；雲雀に；ニューカム家の人々；二都物語；ディケンズの二都物語）
 > {: lang="ja"}

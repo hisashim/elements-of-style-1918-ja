@@ -33,8 +33,8 @@ By William Strunk, Jr.
    [基本的な用法の原則](usage.md#usage){: lang="ja"}
 
    {: .rules}
-   1. [Form the possessive singular of nouns with _'s_](usage.md#rule1){: lang="en"}
-      [名詞の所有格単数を_'s_で作る](usage.md#rule1){: lang="ja"}
+   1. [Form the possessive singular of nouns with _’s_](usage.md#rule1){: lang="en"}
+      [名詞の所有格単数を_’s_で作る](usage.md#rule1){: lang="ja"}
    2. [In a series of three or more terms with a single conjunction, use a comma after each term except the last](usage.md#rule2){: lang="en"}
       [単独の接続詞の後に3つかそれ以上の語句が連続する場合、末尾を除く各語句の後にカンマを置く](usage.md#rule2){: lang="ja"}
    3. [Enclose parenthetic expressions between commas](usage.md#rule3){: lang="en"}
