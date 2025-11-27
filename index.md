@@ -10,7 +10,7 @@ William Strunk, Jr., _The Elements of Style_は、ライティングの古典的
 
 * [The Elements of Style (ja)](main_ja.md)（日本語のみ）
 * [The Elements of Style (en)](main_en.md) (English only)
-* [The Elements of Style (ja+en)](main_en_ja.md)（日本語と英語の両方を含む簡易対訳形式）
+* [The Elements of Style (en+ja)](main_en_ja.md)（英語と日本語の両方を含む簡易対訳形式）
 
 <div class="toc" markdown="1">
 目次：
