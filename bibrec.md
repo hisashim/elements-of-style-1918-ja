@@ -2,7 +2,7 @@
 title: Strunk, William. 1918. The Elements of Style.
 ---
 
-<div class="copyright" markdown="1">
+<div id="bibrec" class="bibrec" markdown="1">
 ### Bibliographic Record
 {: lang="en"}
 
