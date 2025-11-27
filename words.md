@@ -22,7 +22,7 @@ title: Strunk, William. 1918. The Elements of Style.
 ### All right（よろしい）
 {: lang="ja"}
 
-Idiomatic in familiar speech as a detached phrase in the sense, "Agreed," or "Go ahead." In other uses better avoided. Always written as two words.
+Idiomatic in familiar speech as a detached phrase in the sense, “Agreed,” or “Go ahead.” In other uses better avoided. Always written as two words.
 {: lang="en"}
 
 「同意した」あるいは「そうしなさい」という意味の独立したフレーズとして、日常口語で使われるのが慣用。他の使い方は避けること。常に2つの単語として表記される。
@@ -90,10 +90,10 @@ _to_がない不定詞をとる。過去形は_bade_.
 ### Case（ケース）
 {: lang="ja"}
 
-The _Concise Oxford Dictionary_ begins its definition of this word: "instance of a thing's occurring; usual state of affairs." In these two senses, the word is usually unnecessary.
+The _Concise Oxford Dictionary_ begins its definition of this word: “instance of a thing's occurring; usual state of affairs.” In these two senses, the word is usually unnecessary.
 {: lang="en"}
 
-The _Concise Oxford Dictionary_はその定義をこの言葉で始めている："instance of a thing's occurring; usual state of affairs."（物事の発生の事例；事物のいつもの状態） これらの2つの意味において、この語は通常不要だ。
+The _Concise Oxford Dictionary_はその定義をこの言葉で始めている：“instance of a thing's occurring; usual state of affairs.”（物事の発生の事例；事物のいつもの状態） これらの2つの意味において、この語は通常不要だ。
 {: lang="ja"}
 
 <div class="example" markdown="1">
@@ -181,10 +181,10 @@ Often simply redundant, used from a mere habit of wordiness.
 ### Claim, vb.（主張）
 {: lang="ja"}
 
-With object-noun, means _lay claim to_. May be used with a dependent clause if this sense is clearly involved: "He claimed that he was the sole surviving heir." (But even here, "claimed to be" would be better.) Not to be used as a substitute for _declare_, _maintain_, or _charge_.
+With object-noun, means _lay claim to_. May be used with a dependent clause if this sense is clearly involved: “He claimed that he was the sole surviving heir.” (But even here, “claimed to be” would be better.) Not to be used as a substitute for _declare_, _maintain_, or _charge_.
 {: lang="en"}
 
-目的語名詞を伴うと、_lay claim to_（主張する）という意味になる。この意味を明確に含んでいるならば、従属節と共に使ってもよい："He claimed that he was the sole surviving heir."（彼は自分がたった一人の生き残った相続人だったと主張した）（ただしここでさえ、"claimed to be"（であると主張）のほうが望ましいだろう。）_declare, maintain_,または_charge_の代替として使われるべきものではない。
+目的語名詞を伴うと、_lay claim to_（主張する）という意味になる。この意味を明確に含んでいるならば、従属節と共に使ってもよい：“He claimed that he was the sole surviving heir.”（彼は自分がたった一人の生き残った相続人だったと主張した）（ただしここでさえ、“claimed to be”（であると主張）のほうが望ましいだろう。）_declare, maintain_,または_charge_の代替として使われるべきものではない。
 {: lang="ja"}
 
 {: #words9}
@@ -220,10 +220,10 @@ his word has been greatly overused; it is best restricted to ingenuity displayed
 ### Consider（考慮する）
 {: lang="ja"}
 
-Not followed by _as_ when it means, "believe to be." "I consider him thoroughly competent." Compare, "The lecturer considered Cromwell first as soldier and second as administrator," where "considered" means "examined" or "discussed."
+Not followed by _as_ when it means, “believe to be.” “I consider him thoroughly competent.” Compare, “The lecturer considered Cromwell first as soldier and second as administrator,” where “considered” means “examined” or “discussed.”
 {: lang="en"}
 
-"believe to be."（みなす） "I consider him thoroughly competent."（彼は全く適任であると私は考えている）という意味のときには_as_が後に続かない。"The lecturer considered Cromwell first as soldier and second as administrator"（講師はクロムウェルを第一に兵士、第二に行政官とみなしていた）と比較せよ。ここでは"considered"は"examined"（検討した）または"discussed"（考察した）という意味だ。
+“believe to be.”（みなす） “I consider him thoroughly competent.”（彼は全く適任であると私は考えている）という意味のときには_as_が後に続かない。“The lecturer considered Cromwell first as soldier and second as administrator”（講師はクロムウェルを第一に兵士、第二に行政官とみなしていた）と比較せよ。ここでは“considered”は“examined”（検討した）または“discussed”（考察した）という意味だ。
 {: lang="ja"}
 
 {: #words12}
@@ -246,10 +246,10 @@ _reliable_, _trustworthy_の不要な言い替え。
 ### Due to（のせいで）
 {: lang="ja"}
 
-Incorrectly used for _through_, _because of_, or _owing to_, in adverbial phrases: "He lost the first game, due to carelessness." In correct use related as predicate or as modifier to a particular noun: "This invention is due to Edison;" "losses due to preventable fires."
+Incorrectly used for _through_, _because of_, or _owing to_, in adverbial phrases: “He lost the first game, due to carelessness.” In correct use related as predicate or as modifier to a particular noun: “This invention is due to Edison;” “losses due to preventable fires.”
 {: lang="en"}
 
-副詞句において_through_, _because of_,または_owing to_の代わりに不適切に使われる："He lost the first game, due to carelessness."（彼は最初のゲームで不注意のせいで負けた） 述語として、または特定の名詞に関する修飾語として関連した正しい用法では："This invention is due to Edison;"（この発明はエジソンによる） "losses due to preventable fires"（防ぐことができた火事による損失）。
+副詞句において_through_, _because of_,または_owing to_の代わりに不適切に使われる：“He lost the first game, due to carelessness.”（彼は最初のゲームで不注意のせいで負けた） 述語として、または特定の名詞に関する修飾語として関連した正しい用法では：“This invention is due to Edison;”（この発明はエジソンによる） “losses due to preventable fires”（防ぐことができた火事による損失）。
 {: lang="ja"}
 
 {: #words14}
@@ -259,16 +259,16 @@ Incorrectly used for _through_, _because of_, or _owing to_, in adverbial phrase
 ### Effect（効果）
 {: lang="ja"}
 
-As noun, means _result_; as verb, means _to bring about_, _accomplish_ (not to be confused with _affect_, which means "to influence").
+As noun, means _result_; as verb, means _to bring about_, _accomplish_ (not to be confused with _affect_, which means “to influence”).
 {: lang="en"}
 
-名詞としては、_result_（結果）を意味する；動詞としては、_to bring about_, _accomplish_（もたらす、達成する）を意味する（_affect_と混同してはならない。それは"to influence"（影響を及ぼす）という意味）。
+名詞としては、_result_（結果）を意味する；動詞としては、_to bring about_, _accomplish_（もたらす、達成する）を意味する（_affect_と混同してはならない。それは“to influence”（影響を及ぼす）という意味）。
 {: lang="ja"}
 
-As noun, often loosely used in perfunctory writing about fashions, music, painting, and other arts: "an Oriental effect;" "effects in pale green;" "very delicate effects;" "broad effects;" "subtle effects;" "a charming effect was produced by." The writer who has a definite meaning to express will not take refuge in such vagueness.
+As noun, often loosely used in perfunctory writing about fashions, music, painting, and other arts: “an Oriental effect;” “effects in pale green;” “very delicate effects;” “broad effects;” “subtle effects;” “a charming effect was produced by.” The writer who has a definite meaning to express will not take refuge in such vagueness.
 {: lang="en"}
 
-名詞としては、ファッションや音楽や絵画その他の芸術に関するいい加減なライティングで、ゆるく使われることがよくある："an Oriental effect;"（東洋風の効果） "effects in pale green;"（薄緑の効果） "very delicate effects;"（とても微妙な効果） "broad effects;"（幅広い影響） "subtle effects;"（かすかな効果） "a charming effect was produced by"（魅力的な効果はそれによって生み出されている）。伝えるべき明確な趣旨を持った書き手は、そのようなあいまいな表現に逃げたりしないだろう。
+名詞としては、ファッションや音楽や絵画その他の芸術に関するいい加減なライティングで、ゆるく使われることがよくある：“an Oriental effect;”（東洋風の効果） “effects in pale green;”（薄緑の効果） “very delicate effects;”（とても微妙な効果） “broad effects;”（幅広い影響） “subtle effects;”（かすかな効果） “a charming effect was produced by”（魅力的な効果はそれによって生み出されている）。伝えるべき明確な趣旨を持った書き手は、そのようなあいまいな表現に逃げたりしないだろう。
 {: lang="ja"}
 
 {: #words15}
@@ -501,10 +501,10 @@ _however_が最初にくる場合、それは_in whatever way_（どんな方法
 ### Kind of（ある種の）
 {: lang="ja"}
 
-Not to be used as a substitute for _rather_ (before adjectives and verbs), or except in familiar style, for _something like_ (before nouns). Restrict it to its literal sense: "Amber is a kind of fossil resin;" "I dislike that kind of notoriety." The same holds true of _sort of_.
+Not to be used as a substitute for _rather_ (before adjectives and verbs), or except in familiar style, for _something like_ (before nouns). Restrict it to its literal sense: “Amber is a kind of fossil resin;” “I dislike that kind of notoriety.” The same holds true of _sort of_.
 {: lang="en"}
 
-（形容詞や動詞の前における）_rather_の代わりに使ったり、くだけた体裁の場合を除いては（名詞の前における）_something like_の代わりに使ってはならない。文字どおりの意味に限ること："Amber is a kind of fossil resin;"（琥珀は化石樹脂の一種だ） "I dislike that kind of notoriety"（私はその手の悪評は好まない）。同じことが_sort of_についてもいえる。
+（形容詞や動詞の前における）_rather_の代わりに使ったり、くだけた体裁の場合を除いては（名詞の前における）_something like_の代わりに使ってはならない。文字どおりの意味に限ること：“Amber is a kind of fossil resin;”（琥珀は化石樹脂の一種だ） “I dislike that kind of notoriety”（私はその手の悪評は好まない）。同じことが_sort of_についてもいえる。
 {: lang="ja"}
 
 {: #words23}
@@ -536,10 +536,10 @@ Should not be misused for _fewer_.
 </div>
 </div>
 
-_Less_ refers to quantity, _fewer_ to number. "His troubles are less than mine" means "His troubles are not so great as mine." "His troubles are fewer than mine" means "His troubles are not so numerous as mine." It is, however, correct to say, "The signers of the petition were less than a hundred, "where the round number, a hundred, is something like a collective noun, and _less_ is thought of as meaning a less quantity or amount.
+_Less_ refers to quantity, _fewer_ to number. “His troubles are less than mine” means “His troubles are not so great as mine.” “His troubles are fewer than mine” means “His troubles are not so numerous as mine.” It is, however, correct to say, “The signers of the petition were less than a hundred, ”where the round number, a hundred, is something like a collective noun, and _less_ is thought of as meaning a less quantity or amount.
 {: lang="en"}
 
-_Less_は分量を指し、_fewer_は数を指す。"His troubles are less than mine"は"His troubles are not so great as mine."（彼の問題は私の問題ほどひどくない）という意味だ。"His troubles are fewer than mine"は"His troubles are not so numerous as mine."（彼の問題は私の問題ほど数が多くない）という意味だ。しかしながら、"The signers of the petition were less than a hundred, "（請願の署名は100に満たなかった）と言うのは、100のような丸められた数字は集合名詞のようなものであり、_less_は分量や額が少ないという意味だと解釈されるので、正しい。
+_Less_は分量を指し、_fewer_は数を指す。“His troubles are less than mine”は“His troubles are not so great as mine.”（彼の問題は私の問題ほどひどくない）という意味だ。“His troubles are fewer than mine”は“His troubles are not so numerous as mine.”（彼の問題は私の問題ほど数が多くない）という意味だ。しかしながら、“The signers of the petition were less than a hundred, ”（請願の署名は100に満たなかった）と言うのは、100のような丸められた数字は集合名詞のようなものであり、_less_は分量や額が少ないという意味だと解釈されるので、正しい。
 {: lang="ja"}
 
 {: #words24}
@@ -713,10 +713,10 @@ Often simply redundant, used like [_character_](#words7).
 </div>
 </div>
 
-Often vaguely used in such expressions as "a lover of nature;" "poems about nature." Unless more specific statements follow, the reader cannot tell whether the poems have to do with natural scenery, rural life, the sunset, the untracked wilderness, or the habits of squirrels.
+Often vaguely used in such expressions as “a lover of nature;” “poems about nature.” Unless more specific statements follow, the reader cannot tell whether the poems have to do with natural scenery, rural life, the sunset, the untracked wilderness, or the habits of squirrels.
 {: lang="en"}
 
-"a lover of nature;"（自然を愛する者） "poems about nature"（自然についての詩）のような表現でしばしばあいまいに使われる。より具体的な記述がそれに続くのでない限り、その詩が自然の景観に関するものなのか、田園生活に関するものなのか、日没に関するものなのか、人跡未踏の荒野に関するものなのか、リスの習性に関するものなのか、読み手には分からない。
+“a lover of nature;”（自然を愛する者） “poems about nature”（自然についての詩）のような表現でしばしばあいまいに使われる。より具体的な記述がそれに続くのでない限り、その詩が自然の景観に関するものなのか、田園生活に関するものなのか、日没に関するものなのか、人跡未踏の荒野に関するものなのか、リスの習性に関するものなのか、読み手には分からない。
 {: lang="ja"}
 
 {: #words29}
@@ -771,10 +771,10 @@ Retain the _and_ in this and similar expressions, in accordance with the unvaryi
 ### One of the most（最も～なもののひとつ）
 {: lang="ja"}
 
-Avoid beginning essays or paragraphs with this formula, as, "One of the most interesting developments of modern science is, etc.;" "Switzerland is one of the most interesting countries of Europe." There is nothing wrong in this; it is simply threadbare and forcible-feeble.
+Avoid beginning essays or paragraphs with this formula, as, “One of the most interesting developments of modern science is, etc.;” “Switzerland is one of the most interesting countries of Europe.” There is nothing wrong in this; it is simply threadbare and forcible-feeble.
 {: lang="en"}
 
-この定型でエッセイやパラグラフを始めるのは避けること。例えば"One of the most interesting developments of modern science is, etc.;"（現代科学の最も興味深い発展のひとつに、云々）や"Switzerland is one of the most interesting countries of Europe"（スイスはヨーロッパの最も興味深い国のひとつである）のような表現は避ける。これは決して間違ってはいない；単に陳腐で、一見強そうだが実は弱いというだけだ。
+この定型でエッセイやパラグラフを始めるのは避けること。例えば“One of the most interesting developments of modern science is, etc.;”（現代科学の最も興味深い発展のひとつに、云々）や“Switzerland is one of the most interesting countries of Europe”（スイスはヨーロッパの最も興味深い国のひとつである）のような表現は避ける。これは決して間違ってはいない；単に陳腐で、一見強そうだが実は弱いというだけだ。
 {: lang="ja"}
 
 {: #words33}
@@ -790,10 +790,10 @@ _The people_ is a political term, not to be confused with _the public_. From the
 _The people_（人々）は政治的な用語であり、_the public_（公衆）と混同してはならない。peopleが生み出すのは、政治的な協賛や抵抗だ；publicが生み出すのは、芸術的な賞賛や商業的な後援だ。
 {: lang="ja"}
 
-The word _people_ is not to be used with words of number, in place of _persons_. If of "six people" five went away, how many "people" would be left?
+The word _people_ is not to be used with words of number, in place of _persons_. If of “six people” five went away, how many “people” would be left?
 {: lang="en"}
 
-_people_という語は、_persons_の代わりに数詞と共に使ってはならない。もし"six people"のうち5人がいなくなったなら、何人の"people"が残るだろうか？
+_people_という語は、_persons_の代わりに数詞と共に使ってはならない。もし“six people”のうち5人がいなくなったなら、何人の“people”が残るだろうか？
 {: lang="ja"}
 
 {: #words34}
@@ -803,10 +803,10 @@ _people_という語は、_persons_の代わりに数詞と共に使ってはな
 ### Phase（段階）
 {: lang="ja"}
 
-Means a stage of transition or development: "the phases of the moon;" "the last phase." Not to be used for _aspect_ or _topic_.
+Means a stage of transition or development: “the phases of the moon;” “the last phase.” Not to be used for _aspect_ or _topic_.
 {: lang="en"}
 
-移り変わりや発展の段階を意味する："the phases of the moon;"（月相） "the last phase"（最終段階）。_aspect_（面）や_topic_（話題）の意味で使ってはならない。
+移り変わりや発展の段階を意味する：“the phases of the moon;”（月相） “the last phase”（最終段階）。_aspect_（面）や_topic_（話題）の意味で使ってはならない。
 {: lang="ja"}
 
 <div class="example" markdown="1">
@@ -924,10 +924,10 @@ In some kinds of formal writing, as in geometrical proofs, it may be necessary t
 ### So（とても）
 {: lang="ja"}
 
-Avoid, in writing, the use of _so_ as an intensifier: "so good;" "so warm;" "so delightful."
+Avoid, in writing, the use of _so_ as an intensifier: “so good;” “so warm;” “so delightful.”
 {: lang="en"}
 
-ライティングでは、_so_を強調のために使うのは避けること："so good"（とても良い）；"so warm"（とても暖かい）；"so delightful"（とても喜ばしい）。
+ライティングでは、_so_を強調のために使うのは避けること：“so good”（とても良い）；“so warm”（とても暖かい）；“so delightful”（とても喜ばしい）。
 {: lang="ja"}
 
 On the use of _so_ to introduce clauses, see [Rule 4](usage.md#rule4).
@@ -956,10 +956,10 @@ See under [**Kind of**](#words22).
 ### State（述べる）
 {: lang="ja"}
 
-Not to be used as a mere substitute for _say_, _remark_. Restrict it to the sense of _express fully or clearly_, as, "He refused to state his objections."
+Not to be used as a mere substitute for _say_, _remark_. Restrict it to the sense of _express fully or clearly_, as, “He refused to state his objections.”
 {: lang="en"}
 
-単に_say_, _remark_の代わりとして使ってはならない。"He refused to state his objections."（彼は反対意見を述べることを拒否した）のように、_余すところなく完全に、または明らかに表現する_（express fully or clearly）という意味に限定すること。
+単に_say_, _remark_の代わりとして使ってはならない。“He refused to state his objections.”（彼は反対意見を述べることを拒否した）のように、_余すところなく完全に、または明らかに表現する_（express fully or clearly）という意味に限定すること。
 {: lang="ja"}
 
 {: #words40}
@@ -1069,10 +1069,10 @@ Frequently used without need.
 ### Thanking you in advance（先に感謝の言葉を述べておく）
 {: lang="ja"}
 
-This sounds as if the writer meant, "It will not be worth my while to write to you again." Simply write, "Thanking you," and if the favor which you have requested is granted, write a letter of acknowledgment.
+This sounds as if the writer meant, “It will not be worth my while to write to you again.” Simply write, “Thanking you,” and if the favor which you have requested is granted, write a letter of acknowledgment.
 {: lang="en"}
 
-これは書き手がこんなことを意図しているように読める："It will not be worth my while to write to you again."（私が時間を費してもう一度あなたに書くだけの価値はないだろう）。単にこう書けばよい："Thanking you,"（感謝する）。そしてあなたが求めた厚意が得られたなら、感謝状を送ればよい。
+これは書き手がこんなことを意図しているように読める：“It will not be worth my while to write to you again.”（私が時間を費してもう一度あなたに書くだけの価値はないだろう）。単にこう書けばよい：“Thanking you,”（感謝する）。そしてあなたが求めた厚意が得られたなら、感謝状を送ればよい。
 {: lang="ja"}
 
 {: #words43}
@@ -1082,10 +1082,10 @@ This sounds as if the writer meant, "It will not be worth my while to write to y
 ### They（彼ら）
 {: lang="ja"}
 
-A common inaccuracy is the use of the plural pronoun when the antecedent is a distributive expression such as _each_, _each one_, _everybody_, _every one_, _many a man_, which, though implying more than one person, requires the pronoun to be in the singular. Similar to this, but with even less justification, is the use of the plural pronoun with the antecedent _anybody_, _any one_, _somebody_, _some one_, the intention being either to avoid the awkward "he or she," or to avoid committing oneself to either. Some bashful speakers even say, "A friend of mine told me that they, etc."
+A common inaccuracy is the use of the plural pronoun when the antecedent is a distributive expression such as _each_, _each one_, _everybody_, _every one_, _many a man_, which, though implying more than one person, requires the pronoun to be in the singular. Similar to this, but with even less justification, is the use of the plural pronoun with the antecedent _anybody_, _any one_, _somebody_, _some one_, the intention being either to avoid the awkward “he or she,” or to avoid committing oneself to either. Some bashful speakers even say, “A friend of mine told me that they, etc.”
 {: lang="en"}
 
-よくある間違いは、先行詞が_each_, _each one_, _everybody_, _every one_, _many a man_のような配分詞表現であるときに、複数形の代名詞を使うことだ。これらは一人の人間以上の意味があるものの、代名詞は単数でなければならない。これと同様に、正当性はさらに低くなるが、_anybody_, _any one_, _somebody_, _some one_という先行詞について、不格好な"he or she"を避けるためか、またはどちらにも偏らないという意図を持って、複数形の代名詞を使うことが挙げられる。恥ずかしがりやの話し手は、"A friend of mine told me that they, etc."（私の友人が言うことには、彼らは云々）と言うことさえある。
+よくある間違いは、先行詞が_each_, _each one_, _everybody_, _every one_, _many a man_のような配分詞表現であるときに、複数形の代名詞を使うことだ。これらは一人の人間以上の意味があるものの、代名詞は単数でなければならない。これと同様に、正当性はさらに低くなるが、_anybody_, _any one_, _somebody_, _some one_という先行詞について、不格好な“he or she”を避けるためか、またはどちらにも偏らないという意図を持って、複数形の代名詞を使うことが挙げられる。恥ずかしがりやの話し手は、“A friend of mine told me that they, etc.”（私の友人が言うことには、彼らは云々）と言うことさえある。
 {: lang="ja"}
 
 Use _he_ with all the above words, unless the antecedent is or must be feminine.
@@ -1270,10 +1270,10 @@ _he said_やそれに似た表現の前にある_who_の代わりに誤って用
 ### Worth while（有意義な）
 {: lang="ja"}
 
-Overworked as a term of vague approval and (with _not_) of disapproval. Strictly applicable only to actions: "Is it worth while to telegraph?"
+Overworked as a term of vague approval and (with _not_) of disapproval. Strictly applicable only to actions: “Is it worth while to telegraph?”
 {: lang="en"}
 
-あいまいな賛成と（_not_をつけて）不賛成の言葉として、あまりに使われすぎている。行為に対してのみ適用可能："Is it worth while to telegraph?"（電報を打つ価値があるだろうか？）
+あいまいな賛成と（_not_をつけて）不賛成の言葉として、あまりに使われすぎている。行為に対してのみ適用可能：“Is it worth while to telegraph?”（電報を打つ価値があるだろうか？）
 {: lang="ja"}
 
 <div class="example" markdown="1">
@@ -1292,10 +1292,10 @@ Overworked as a term of vague approval and (with _not_) of disapproval. Strictly
 </div>
 </div>
 
-The use of _worth while_ before a noun ("a worth while story") is indefensible.
+The use of _worth while_ before a noun (“a worth while story”) is indefensible.
 {: lang="en"}
 
-_worth while_を名詞の前で使うこと（"a worth while story"）は、弁解の余地なく間違っている。
+_worth while_を名詞の前で使うこと（“a worth while story”）は、弁解の余地なく間違っている。
 {: lang="ja"}
 
 {: #words49}

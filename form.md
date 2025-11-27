@@ -103,7 +103,7 @@ Formal quotations, cited as documentary evidence, are introduced by a colon and 
 文書上の証拠として引用される正式な引用文は、コロンで導かれ引用符で囲まれる。
 {: lang="ja"}
 
-> The provision of the Constitution is: "No tax or duty shall be laid on articles exported from any state."
+> The provision of the Constitution is: “No tax or duty shall be laid on articles exported from any state.”
 >
 > （憲法にはこう定められている：「どの州から輸出される物品にも、租税や関税を課してはならない。」）
 > {: lang="ja"}
@@ -115,13 +115,13 @@ Quotations grammatically in apposition or the direct objects of verbs are preced
 文法上同格である引用文や、動詞の直接目的語である引用文は、直前にカンマが来て引用符で囲まれる。
 {: lang="ja"}
 
-> I recall the maxim of La Rochefoucauld, "[Gratitude is a lively sense of benefits to come](http://www.columbia.edu/~svl2/bartlett/513.html#25)."
+> I recall the maxim of La Rochefoucauld, “[Gratitude is a lively sense of benefits to come](http://www.columbia.edu/~svl2/bartlett/513.html#25).”
 >
 > （私はLa Rochefoucauldの、「感謝の念は、来たる利益の確かな感触である」という格言を思い出す。）
 > {: lang="ja"}
 {: .example}
 
-> Aristotle says, "Art is an imitation of nature."
+> Aristotle says, “Art is an imitation of nature.”
 >
 > （アリストテレスは「芸術は自然の模倣である」と言った。）
 > {: lang="ja"}
@@ -170,13 +170,13 @@ Proverbial expressions and familiar phrases of literary origin require no quotat
 
 > These are the times that try men's souls.
 >
-> （今こそ我々の魂が試されるときなのだ（訳注：Thomas Paine, "The Crisis", 1776-83））
+> （今こそ我々の魂が試されるときなのだ（訳注：Thomas Paine, “The Crisis”, 1776-83））
 > {: lang="ja"}
 {: .example}
 
 > He lives far from the madding crowd.
 >
-> （群集からはるかに離れて彼は生きる（訳注：Thomas Hardy, "Far From the Madding Crowd", 1874））
+> （群集からはるかに離れて彼は生きる（訳注：Thomas Hardy, “Far From the Madding Crowd”, 1874））
 > {: lang="ja"}
 {: .example}
 

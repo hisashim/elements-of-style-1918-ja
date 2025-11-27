@@ -459,7 +459,7 @@ If there is room at the end of a line for one or more syllables of a word, but n
    > know-ledge (not knowl-edge); Shake-speare (not Shakes-peare); de-scribe (not des-cribe); atmo-sphere (not atmos-phere);
    {: .example}
 
-2. Divide "on the vowel:"
+2. Divide “on the vowel:”
    {: lang="en"}
 
    「母音の上で」分割する：

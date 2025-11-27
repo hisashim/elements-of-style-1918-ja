@@ -1,10 +1,10 @@
 ---
-title: William Strunk, "The Elements of Style" (Japanese Translation)
+title: William Strunk, The Elements of Style (Japanese Translation)
 ---
 
-# William Strunk, "The Elements of Style" (Japanese Translation)
+# William Strunk, The Elements of Style (Japanese Translation)
 
-William Strunk, Jr., "The Elements of Style"は、ライティングの古典的テキストとして知られています。英語の文章が対象ではありますが、日本語のライティングにおいても参考になる部分があります。例えば「III 基本的な文章構成の原則」では、実用の文章や論文を書く際に役に立つパラグラフライティングの基本が解説されています。基礎の基礎しか書かれていないし、もういい加減古くなったという声もありますが、まだ有用な場面もあるでしょう。
+William Strunk, Jr., _The Elements of Style_は、ライティングの古典的テキストとして知られています。英語の文章が対象ではありますが、日本語のライティングにおいても参考になる部分があります。例えば「III 基本的な文章構成の原則」では、実用の文章や論文を書く際に役に立つパラグラフライティングの基本が解説されています。基礎の基礎しか書かれていないし、もういい加減古くなったという声もありますが、まだ有用な場面もあるでしょう。
 
 同書籍は改訂され、E. B. Whiteが共著者として加わり、[第4版](https://search.worldcat.org/title/48590607)（2000）ならびに[50周年記念版](https://search.worldcat.org/title/The-elements-of-style/oclc/233547782)（2009）まで版が進んでいますが、Strunkによる単著の第1版（1920）およびそれに先立つ[私家版](https://www.bartleby.com/141/)（1918）はパブリックドメインに置かれています。共著の第3版（1979）は日本語訳（松本安弘・松本アイリン訳『[英語文章読本](https://dl.ndl.go.jp/pid/12581397)』（1979）、荒竹三郎訳『[英語文章ルールブック](https://dl.ndl.go.jp/pid/12581407)』（1985））があったようですが、絶版の模様です。そこで、Project BartlebyがHTML化してくれた私家版を、拙いながら日本語に訳してみました。
 

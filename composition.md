@@ -248,7 +248,7 @@ According to the writer's purpose, he may, as indicated above, relate the body o
 > {: lang="ja"}
 {: .auth}
 
-> **3** The topic sentence repeated, in abridged form, and supported by three reasons; the meaning of the third ("you must have your own pace") made clearer by denying the converse.
+> **3** The topic sentence repeated, in abridged form, and supported by three reasons; the meaning of the third (“you must have your own pace”) made clearer by denying the converse.
 > {: lang="en"}
 >
 > **3** トピックセンテンスが手短に繰り返され、3つの理由で支持されている；3番目の理由（自分自身のペースを持たねばならない）の意味は、逆説を否定することにより、いっそう明らかになっている。
@@ -287,15 +287,15 @@ According to the writer's purpose, he may, as indicated above, relate the body o
 </div>
 
 <div class="set" markdown="1">
-> **6** "I cannot see the wit," says Hazlitt, "of walking and talking at the same time.
+> **6** “I cannot see the wit,” says Hazlitt, “of walking and talking at the same time.
 >
-> （"そんなことをして何がいいのか私には分からないよ、"とHazlittは言った, "歩きながら話をするなんて。）
+> （「そんなことをして何がいいのか私には分からないよ、」とHazlittは言った――「歩きながら話をするなんて。）
 > {: lang="ja"}
 {: .auth}
 
-> **7** When I am in the country, I wish to vegetate like the country," which is the gist of all that can be said upon the matter.
+> **7** When I am in the country, I wish to vegetate like the country,” which is the gist of all that can be said upon the matter.
 >
-> （田舎にいるときは、私は田舎らしくゆっくりと時間を過ごしたいね、" この件について一言で言えばそういうことだ。）
+> （田舎にいるときは、私は田舎らしくゆっくりと時間を過ごしたいね、」この件について一言で言えばそういうことだ。）
 > {: lang="ja"}
 {: .auth}
 
@@ -515,10 +515,10 @@ This is much better than
 > {: lang="ja"}
 {: .example}
 
-The latter sentence is less direct, less bold, and less concise. If the writer tries to make it more concise by omitting "by me,"
+The latter sentence is less direct, less bold, and less concise. If the writer tries to make it more concise by omitting “by me,”
 {: lang="en" .continued}
 
-後者の文は直接度がより低く、力強さがより低く、簡潔さもより低い。もし書き手が"by me"（私によって）を割愛することで文をより簡潔にしようとするならば、
+後者の文は直接度がより低く、力強さがより低く、簡潔さもより低い。もし書き手が“by me”（私によって）を割愛することで文をより簡潔にしようとするならば、
 {: lang="ja" .continued}
 
 > My first visit to Boston will always be remembered,
@@ -717,10 +717,10 @@ A common fault is to use as the subject of a passive construction a noun which e
 </div>
 </div>
 
-Compare the sentence, "The export of gold was prohibited," in which the predicate "was prohibited" expresses something not implied in "export."
+Compare the sentence, “The export of gold was prohibited,” in which the predicate “was prohibited” expresses something not implied in “export.”
 {: lang="en"}
 
-"The export of gold was prohibited"（金の輸出は禁じられていた）という文を検討してみよう。この文では"was prohibited"（禁じられていた）という述部が、"export"（輸出）が含意していない何かを表している。
+“The export of gold was prohibited”（金の輸出は禁じられていた）という文を検討してみよう。この文では“was prohibited”（禁じられていた）という述部が、“export”（輸出）が含意していない何かを表している。
 {: lang="ja"}
 
 {: #rule12}
@@ -1556,13 +1556,13 @@ Modifiers should come, if possible next to the word they modify. If several expr
 </div>
 
 <div class="set" markdown="1">
-> Major R. E. Joyce will give a lecture on Tuesday evening in Bailey Hall, to which the public is invited, on "My Experiences in Mesopotamia" at eight P.M.
+> Major R. E. Joyce will give a lecture on Tuesday evening in Bailey Hall, to which the public is invited, on “My Experiences in Mesopotamia” at eight P.M.
 >
 > （R. E. Joyce少佐が火曜日の晩にBailey Hallでレクチャーを行う。レクチャーは一般参加可能で、「メソポタミアにおける私の経験」というテーマで、午後8時開始）
 > {: lang="ja"}
 {: .auth}
 
-> On Tuesday evening at eight P.M., Major R. E. Joyce will give in Bailey Hall a lecture on "My Experiences in Mesopotamia." The public is invited.
+> On Tuesday evening at eight P.M., Major R. E. Joyce will give in Bailey Hall a lecture on “My Experiences in Mesopotamia.” The public is invited.
 >
 > （火曜日の晩、午後8時に、R. E. Joyce少佐がBailey Hallで、「メソポタミアにおける私の経験」というテーマでレクチャーを行う。レクチャーは一般参加可能）
 > {: lang="ja"}
@@ -1607,10 +1607,10 @@ Apart from the exceptions noted, whichever tense the writer chooses, he should u
 注記した例外を除けば、どの時制を書き手が選んだとしても、貫徹しなければならない。ある時制から別の時制へと移り変わると、不明確で優柔不断な見た目を与える（ルール[15](#rule15)と比較せよ）。
 {: lang="ja"}
 
-In presenting the statements or the thought of some one else, as in summarizing an essay or reporting a speech, the writer should avoid intercalating such expressions as "he said," "he stated," "the speaker added," "the speaker then went on to say," "the author also thinks," or the like. He should indicate clearly at the outset, once for all, that what follows is summary, and then waste no words in repeating the notification.
+In presenting the statements or the thought of some one else, as in summarizing an essay or reporting a speech, the writer should avoid intercalating such expressions as “he said,” “he stated,” “the speaker added,” “the speaker then went on to say,” “the author also thinks,” or the like. He should indicate clearly at the outset, once for all, that what follows is summary, and then waste no words in repeating the notification.
 {: lang="en"}
 
-エッセイを要約するときやスピーチを報告するときのように、誰か他の人の言説や考えを示すときには、書き手は"he said,"（彼は言った）、"he stated,"（彼は述べた）、"the speaker added,"（話し手は付け加えた）、"the speaker then went on to say,"（話し手はこう続けた）、"the author also thinks,"（筆者はまたこう考える）のような表現を差し挟んではならない。続くものが要約であることを、書き手は最初からきっぱりと明確に示さなければならず、そしてその注意を繰り返して無駄に言葉を費してはならない。
+エッセイを要約するときやスピーチを報告するときのように、誰か他の人の言説や考えを示すときには、書き手は“he said,”（彼は言った）、“he stated,”（彼は述べた）、“the speaker added,”（話し手は付け加えた）、“the speaker then went on to say,”（話し手はこう続けた）、“the author also thinks,”（筆者はまたこう考える）のような表現を差し挟んではならない。続くものが要約であることを、書き手は最初からきっぱりと明確に示さなければならず、そしてその注意を繰り返して無駄に言葉を費してはならない。
 {: lang="ja"}
 
 In notebooks, in newspapers, in handbooks of literature, summaries of one kind or another may be indispensable, and for children in primary schools it is a useful exercise to retell a story in their own words. But in the criticism or interpretation of literature the writer should be careful to avoid dropping into summary. He may find it necessary to devote one or two sentences to indicating the subject, or the opening situation, of the work he is discussing; he may cite numerous details to illustrate its qualities. But he should aim to write an orderly discussion supported by evidence, not a summary with occasional comment. Similarly, if the scope of his discussion includes a number of works, he will as a rule do better not to take them up singly in chronological order, but to aim from the beginning at establishing general conclusions.
