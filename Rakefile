@@ -3,7 +3,7 @@ require "rake/clean"
 YA_MULTILINGUAL_MARKDOWN = "ya_multilingual_markdown --template-file=html.erb"
 LANGS = ["en", "ja", "en,ja"]
 htmls = {}
-monolingual_docs = ["README.md", "index.md"].map { |md| [md, md.ext(".html")] }.to_h
+monolingual_docs = ["README.md", "README_ja.md", "index.md"].map { |md| [md, md.ext(".html")] }.to_h
 
 (Dir.glob("*.md") - monolingual_docs.keys).each { |md|
   LANGS.each { |lang|

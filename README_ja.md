@@ -1,11 +1,11 @@
-The Elements of Style (Japanese Translation)
+The Elements of Style 日本語試訳
 ========
 
-* English `|` [Japanese](README_ja.md)
+* [English](README.md) `|` Japanese
 
-Japanese translation of William Strunk, Jr., _The Elements of Style_, 1918.
+William Strunk, Jr., _The Elements of Style_, 1918の日本語試訳です。
 
-Build Instruction
+ビルド手順
 --------
 
 ```shell
@@ -15,24 +15,24 @@ $ bundle install
 $ rake
 ```
 
-Requirements
+必要なもの
 --------
 
-Build requirements:
+ビルドに必要なもの:
 
   * [Ruby](https://www.ruby-lang.org/)
   * [Bundler](https://bundler.io/)
   * [Rake](https://ruby.github.io/rake/)
   * [YAMultilingualMarkdown](https://github.com/hisashim/ya_multilingual_markdown)
 
-See Also
+参考
 --------
 
-Read the translation online at:
+ビルドされたHTMLをウェブ上で閲覧できます:
 
   * <https://hisashim.github.io/elements-of-style-1918-ja/>
 
-License
+ライセンス
 --------
 
 Public domain
