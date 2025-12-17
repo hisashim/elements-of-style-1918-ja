@@ -1,7 +1,7 @@
 The Elements of Style 日本語試訳
 ========
 
-* [English](README.md) `|` Japanese
+* [English](README.md) / Japanese
 
 William Strunk, Jr., _The Elements of Style_, 1918の日本語試訳です。
 

@@ -1,7 +1,7 @@
 The Elements of Style (Japanese Translation)
 ========
 
-* English `|` [Japanese](README_ja.md)
+* English / [Japanese](README_ja.md)
 
 Japanese translation of William Strunk, Jr., _The Elements of Style_, 1918.
 
