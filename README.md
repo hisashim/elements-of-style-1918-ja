@@ -1,4 +1,4 @@
-William Strunk, The Elements of Style (1918) (Japanese Translation)
+The Elements of Style (Japanese Translation)
 ========
 
 Build instruction

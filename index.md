@@ -1,8 +1,8 @@
 ---
-title: William Strunk, The Elements of Style (Japanese Translation)
+title: The Elements of Style 日本語試訳
 ---
 
-# William Strunk, The Elements of Style (Japanese Translation)
+# The Elements of Style 日本語試訳
 
 William Strunk, Jr., _The Elements of Style_は、ライティングの古典的テキストとして知られています。英語の文章が対象ではありますが、日本語のライティングにおいても参考になる部分があります。例えば「III 基本的な文章構成の原則」では、実用の文章や論文を書く際に役に立つパラグラフライティングの基本が解説されています。基礎の基礎しか書かれていないし、もういい加減古くなったという声もありますが、まだ有用な場面もあるでしょう。
 
