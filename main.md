@@ -36,7 +36,7 @@ By William Strunk, Jr.
    1. [Form the possessive singular of nouns with _’s_](usage.md#rule1){: lang="en"}
       [名詞の所有格単数を_’s_で作る](usage.md#rule1){: lang="ja"}
    2. [In a series of three or more terms with a single conjunction, use a comma after each term except the last](usage.md#rule2){: lang="en"}
-      [単独の接続詞の後に3つかそれ以上の語句が連続する場合、末尾を除く各語句の後にカンマを置く](usage.md#rule2){: lang="ja"}
+      [3つ以上の語句が単独の接続詞で結ばれている場合、末尾を除く各語句の後にカンマを置く](usage.md#rule2){: lang="ja"}
    3. [Enclose parenthetic expressions between commas](usage.md#rule3){: lang="en"}
       [カンマの間に説明的な表現を挿入する](usage.md#rule3){: lang="ja"}
    4. [Place a comma before _and_ or _but_ introducing an independent clause](usage.md#rule4){: lang="en"}

@@ -58,7 +58,7 @@ The pronominal possessives _hers_, _its_, _theirs_, _yours_, and _oneself_ have 
 ### 2. In a series of three or more terms with a single conjunction, use a comma after each term except the last
 {: lang="en"}
 
-### 2. 単独の接続詞の後に3つかそれ以上の語句が連続する場合、末尾を除く各語句の後にカンマを置く
+### 2. 3つ以上の語句が単独の接続詞で結ばれている場合、末尾を除く各語句の後にカンマを置く
 {: lang="ja"}
 
 Thus write,
