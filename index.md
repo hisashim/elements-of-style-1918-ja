@@ -4,9 +4,22 @@ title: The Elements of Style 日本語試訳
 
 # The Elements of Style 日本語試訳
 
-William Strunk, Jr., _The Elements of Style_は、ライティングの古典的テキストとして知られています。英語の文章が対象ではありますが、日本語のライティングにおいても参考になる部分があります。例えば「III 基本的な文章構成の原則」では、実用の文章や論文を書く際に役に立つパラグラフライティングの基本が解説されています。基礎の基礎しか書かれていないし、もういい加減古くなったという声もありますが、まだ有用な場面もあるでしょう。
+William Strunk, Jr., _The Elements of Style_は、ライティングの古典的テキストとして知られています。同書籍は改訂され、E. B. Whiteが共著者として加わり、[第4版](https://search.worldcat.org/title/48590607)（2000）ならびに[50周年記念版](https://search.worldcat.org/title/The-elements-of-style/oclc/233547782)（2009）まで版が進んでいます。
 
-同書籍は改訂され、E. B. Whiteが共著者として加わり、[第4版](https://search.worldcat.org/title/48590607)（2000）ならびに[50周年記念版](https://search.worldcat.org/title/The-elements-of-style/oclc/233547782)（2009）まで版が進んでいますが、Strunkによる単著の第1版（1920）およびそれに先立つ[私家版](https://www.bartleby.com/141/)（1918）はパブリックドメインに置かれています。共著の第3版（1979）は日本語訳（松本安弘・松本アイリン訳『[英語文章読本](https://dl.ndl.go.jp/pid/12581397)』（1979）、荒竹三郎訳『[英語文章ルールブック](https://dl.ndl.go.jp/pid/12581407)』（1985））があったようですが、絶版の模様です。そこで、Project BartlebyがHTML化してくれた私家版を、拙いながら日本語に訳してみました。
+英語の文章が対象ではありますが、日本語のライティングにおいても参考になる部分があるかと思います。例えば「III 基本的な文章構成の原則」では、実用の文章を書く際に役に立つパラグラフライティングの基本が解説されています。
+
+### 第3版日本語訳
+
+_The Elements of Style_第3版（1972）には日本語訳があり、国立国会図書館に所蔵されています。
+
+  * 松本安弘・松本アイリン訳『[英語文章読本](https://dl.ndl.go.jp/pid/12581397)』（1979）（リモート閲覧可能）
+  * 荒竹三郎訳『[英語文章ルールブック](https://dl.ndl.go.jp/pid/12581407)』（1985）
+
+（日本語訳を読みたい方は、まずこれらを参照されることをおすすめします。）
+
+### 1918年版試訳
+
+一方、Strunkによる単著の第1版（1920）およびそれに先立つ[私家版](https://www.bartleby.com/141/)（1918）はパブリックドメインに置かれています。そこで、Project BartlebyがHTML化してくれた私家版を、拙いながら日本語に訳してみました。
 
 * [The Elements of Style (ja)](main_ja.md)（日本語のみ）
 * [The Elements of Style (en)](main_en.md) (English only)
