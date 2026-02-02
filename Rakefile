@@ -1,6 +1,6 @@
 require "rake/clean"
 
-YA_MULTILINGUAL_MARKDOWN = "ya_multilingual_markdown --template-file=html.erb"
+YA_MULTILINGUAL_MARKDOWN = "ya_multilingual_markdown --html-template-file=html.erb"
 LANGS = ["en", "ja", "en,ja"]
 htmls = {}
 monolingual_docs = ["README.md", "README_ja.md", "index.md"].map { |md| [md, md.ext(".html")] }.to_h
@@ -18,7 +18,7 @@ monolingual_docs = ["README.md", "README_ja.md", "index.md"].map { |md| [md, md.
         if lang.nil? || lang.empty?
           ""
         else
-          "--langs=#{lang} --link-suffixes='.md:_#{lang.gsub(/,/, "_")}.html'"
+          "--langs=#{lang} --html-link-suffixes='.md:_#{lang.gsub(/,/, "_")}.html'"
         end
       sh "#{YA_MULTILINGUAL_MARKDOWN} #{options} #{t.source} > #{t.name}"
     end
